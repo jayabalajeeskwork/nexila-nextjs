@@ -19,3 +19,5 @@ Frontend-only migration from React + Vite to Next.js App Router + TypeScript.
 - `NEXT_PUBLIC_*` values are exposed to browsers. Keep private secrets on a future backend.
 - Legacy client-side SEO metadata behavior is retained temporarily; migrate each page's SEO into Next.js `metadata` / `generateMetadata` for complete server-rendered SEO.
 - Test form, payment, navigation, media and responsive flows before deployment.
+
+done
