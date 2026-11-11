@@ -21,3 +21,4 @@ Frontend-only migration from React + Vite to Next.js App Router + TypeScript.
 - Test form, payment, navigation, media and responsive flows before deployment.
 
 done
+done
