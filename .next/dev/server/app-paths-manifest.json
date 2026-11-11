@@ -1,0 +1,10 @@
+{
+  "/about-us/page": "app/about-us/page.js",
+  "/blogs/page": "app/blogs/page.js",
+  "/contact-us/page": "app/contact-us/page.js",
+  "/courses/[slug]/page": "app/courses/[slug]/page.js",
+  "/courses/page": "app/courses/page.js",
+  "/it-internship-for-students-tambaram-chennai/page": "app/it-internship-for-students-tambaram-chennai/page.js",
+  "/nexila-hackathon-2026/page": "app/nexila-hackathon-2026/page.js",
+  "/page": "app/page.js"
+}

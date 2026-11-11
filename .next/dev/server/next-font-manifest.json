@@ -1,0 +1,15 @@
+{
+  "app": {
+    "[project]/src/app/about-us/page": [],
+    "[project]/src/app/blogs/page": [],
+    "[project]/src/app/contact-us/page": [],
+    "[project]/src/app/courses/[slug]/page": [],
+    "[project]/src/app/courses/page": [],
+    "[project]/src/app/it-internship-for-students-tambaram-chennai/page": [],
+    "[project]/src/app/nexila-hackathon-2026/page": [],
+    "[project]/src/app/page": []
+  },
+  "appUsingSizeAdjust": false,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}

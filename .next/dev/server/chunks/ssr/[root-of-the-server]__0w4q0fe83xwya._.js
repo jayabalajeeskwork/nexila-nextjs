@@ -1,0 +1,615 @@
+module.exports = [
+"[externals]/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js [external] (next/dist/compiled/next-server/app-page-turbo.runtime.dev.js, cjs)", ((__turbopack_context__, module, exports) => {
+
+var mod = __turbopack_context__.x("next/dist/compiled/next-server/app-page-turbo.runtime.dev.js", () => require("next/dist/compiled/next-server/app-page-turbo.runtime.dev.js"));
+
+module.exports = mod;
+}),
+"[externals]/next/dist/server/app-render/action-async-storage.external.js [external] (next/dist/server/app-render/action-async-storage.external.js, cjs)", ((__turbopack_context__, module, exports) => {
+
+var mod = __turbopack_context__.x("next/dist/server/app-render/action-async-storage.external.js", () => require("next/dist/server/app-render/action-async-storage.external.js"));
+
+module.exports = mod;
+}),
+"[externals]/next/dist/server/app-render/after-task-async-storage.external.js [external] (next/dist/server/app-render/after-task-async-storage.external.js, cjs)", ((__turbopack_context__, module, exports) => {
+
+var mod = __turbopack_context__.x("next/dist/server/app-render/after-task-async-storage.external.js", () => require("next/dist/server/app-render/after-task-async-storage.external.js"));
+
+module.exports = mod;
+}),
+"[externals]/next/dist/server/app-render/dynamic-access-async-storage.external.js [external] (next/dist/server/app-render/dynamic-access-async-storage.external.js, cjs)", ((__turbopack_context__, module, exports) => {
+
+var mod = __turbopack_context__.x("next/dist/server/app-render/dynamic-access-async-storage.external.js", () => require("next/dist/server/app-render/dynamic-access-async-storage.external.js"));
+
+module.exports = mod;
+}),
+"[externals]/next/dist/server/app-render/work-async-storage.external.js [external] (next/dist/server/app-render/work-async-storage.external.js, cjs)", ((__turbopack_context__, module, exports) => {
+
+var mod = __turbopack_context__.x("next/dist/server/app-render/work-async-storage.external.js", () => require("next/dist/server/app-render/work-async-storage.external.js"));
+
+module.exports = mod;
+}),
+"[externals]/next/dist/server/app-render/work-unit-async-storage.external.js [external] (next/dist/server/app-render/work-unit-async-storage.external.js, cjs)", ((__turbopack_context__, module, exports) => {
+
+var mod = __turbopack_context__.x("next/dist/server/app-render/work-unit-async-storage.external.js", () => require("next/dist/server/app-render/work-unit-async-storage.external.js"));
+
+module.exports = mod;
+}),
+"[externals]/next/dist/server/runtime-reacts.external.js [external] (next/dist/server/runtime-reacts.external.js, cjs)", ((__turbopack_context__, module, exports) => {
+
+var mod = __turbopack_context__.x("next/dist/server/runtime-reacts.external.js", () => require("next/dist/server/runtime-reacts.external.js"));
+
+module.exports = mod;
+}),
+"[project]/src/app/Analytics.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>Analytics
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$script$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/script.js [app-ssr] (ecmascript)");
+"use client";
+;
+;
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
+function Analytics() {
+    if (!GA_ID) return null;
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$script$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                src: `https://www.googletagmanager.com/gtag/js?id=${GA_ID}`,
+                strategy: "afterInteractive"
+            }, void 0, false, {
+                fileName: "[project]/src/app/Analytics.tsx",
+                lineNumber: 12,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$script$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                id: "google-analytics-4",
+                strategy: "afterInteractive",
+                children: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          window.gtag = gtag;
+          gtag('js', new Date());
+          gtag('config', '${GA_ID}');
+        `
+            }, void 0, false, {
+                fileName: "[project]/src/app/Analytics.tsx",
+                lineNumber: 16,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/src/app/Analytics.tsx",
+        lineNumber: 11,
+        columnNumber: 5
+    }, this);
+}
+}),
+"[project]/src/app/SeoClient.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>SeoClient
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$seo$2f$SEOManager$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/seo/SEOManager.tsx [app-ssr] (ecmascript)");
+"use client";
+;
+;
+function SeoClient() {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$seo$2f$SEOManager$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+        fileName: "[project]/src/app/SeoClient.tsx",
+        lineNumber: 3,
+        columnNumber: 46
+    }, this);
+}
+}),
+"[project]/src/lib/router-compat.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Link",
+    ()=>Link,
+    "useLocation",
+    ()=>useLocation,
+    "useNavigate",
+    ()=>useNavigate,
+    "useParams",
+    ()=>useParams
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/navigation.js [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+function Link({ to, children, replace = false, ...props }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+        href: to,
+        replace: replace,
+        ...props,
+        children: children
+    }, void 0, false, {
+        fileName: "[project]/src/lib/router-compat.tsx",
+        lineNumber: 15,
+        columnNumber: 10
+    }, this);
+}
+function useNavigate() {
+    const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRouter"])();
+    return (href, options)=>{
+        if (options?.replace) router.replace(href);
+        else router.push(href);
+    };
+}
+function useParams() {
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useParams"])();
+}
+function useLocation() {
+    const pathname = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["usePathname"])();
+    return {
+        pathname,
+        search: "",
+        hash: "",
+        state: null,
+        key: "default"
+    };
+}
+}),
+"[project]/src/seo/SEOManager.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>SEOManager
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$router$2d$compat$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/router-compat.tsx [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$seo$2f$seoConfig$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/seo/seoConfig.ts [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+const SITE = "https://www.nexilatechnologies.com";
+function setMeta(attribute, key, content) {
+    if (!content) return;
+    let element = document.head.querySelector(`meta[${attribute}="${key}"]`);
+    if (!element) {
+        element = document.createElement("meta");
+        element.setAttribute(attribute, key);
+        document.head.appendChild(element);
+    }
+    element.setAttribute("content", content);
+}
+function SEOManager() {
+    const location = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$router$2d$compat$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useLocation"])();
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        const path = location.pathname === "/" ? "/" : location.pathname.replace(/\/+$/, "");
+        const page = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$seo$2f$seoConfig$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SEO_CONFIG"][path];
+        if (!page) {
+            console.warn("SEO metadata not configured for:", path);
+            return;
+        }
+        const canonical = `${SITE}${path === "/" ? "/" : `${path}/`}`;
+        document.title = page.title;
+        setMeta("name", "description", page.description);
+        setMeta("name", "keywords", page.keywords);
+        setMeta("name", "robots", "index, follow");
+        setMeta("property", "og:type", "website");
+        setMeta("property", "og:site_name", "Nexila Technologies");
+        setMeta("property", "og:title", page.ogTitle || page.title);
+        setMeta("property", "og:description", page.description);
+        setMeta("property", "og:url", canonical);
+        setMeta("name", "twitter:card", "summary_large_image");
+        setMeta("name", "twitter:title", page.ogTitle || page.title);
+        setMeta("name", "twitter:description", page.description);
+        let canonicalLink = document.head.querySelector('link[rel="canonical"]');
+        if (!canonicalLink) {
+            canonicalLink = document.createElement("link");
+            canonicalLink.rel = "canonical";
+            document.head.appendChild(canonicalLink);
+        }
+        canonicalLink.href = canonical;
+        const schema = {
+            "@context": "https://schema.org",
+            "@type": page.type || "WebPage",
+            name: page.title,
+            description: page.description,
+            url: canonical,
+            isPartOf: {
+                "@type": "WebSite",
+                name: "Nexila Technologies",
+                url: `${SITE}/`
+            }
+        };
+        let script = document.getElementById("dynamic-seo-schema");
+        if (!script) {
+            script = document.createElement("script");
+            script.id = "dynamic-seo-schema";
+            script.type = "application/ld+json";
+            document.head.appendChild(script);
+        }
+        script.textContent = JSON.stringify(schema);
+    }, [
+        location.pathname
+    ]);
+    return null;
+}
+}),
+"[project]/src/seo/seoConfig.ts [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "SEO_CONFIG",
+    ()=>SEO_CONFIG
+]);
+const SEO_CONFIG = {
+    "/": {
+        title: "Software Training Institute in Tambaram | Nexila Tech",
+        description: "Nexila Technologies: software training institute in Tambaram, Chennai. Job-focused IT courses, live projects, internships and career support. Book a free demo.",
+        keywords: "software training institute in Tambaram, IT training institute in Chennai, software courses in Tambaram, full stack training Tambaram, internship in Tambaram, placement training Chennai, free demo class",
+        ogTitle: "Learn. Build. Get Hired.",
+        type: "WebPage"
+    },
+    "/about-us": {
+        title: "About Nexila Technologies | IT Training Institute, Tambaram",
+        description: "About Nexila Technologies, a software training and development company in Tambaram, Chennai, building practical IT skills with live projects and mentoring.",
+        keywords: "IT training company Tambaram, software training and development company Chennai, practical IT training, trainers, live projects",
+        ogTitle: "About Nexila Technologies",
+        type: "AboutPage"
+    },
+    "/courses": {
+        title: "IT Courses in Tambaram, Chennai | Nexila Technologies",
+        description: "Explore 35 IT courses at Nexila Technologies, Tambaram: Full Stack, Cloud, Data, Testing, RPA, Mobile and more. Beginner to advanced, classroom and live online.",
+        keywords: "software courses in Chennai, full stack course Tambaram, cloud computing course, data science course Chennai, software testing course, RPA training, online IT courses",
+        ogTitle: "IT Courses in Tambaram, Chennai",
+        type: "CollectionPage"
+    },
+    "/it-internship-for-students-tambaram-chennai": {
+        title: "IT Internship for Students in Tambaram, Chennai | Nexila",
+        description: "Software internship for college students in Tambaram, Chennai. 2 to 8 weeks, live projects, mentor guidance, certificate and recommendation letter. Apply now.",
+        keywords: "IT internship in Tambaram, internship for students in Chennai, software development internship, internship for engineering students, full stack internship, python internship, AI ML internship Chennai, DevOps internship",
+        ogTitle: "IT Internship for Students in Chennai",
+        type: "WebPage"
+    },
+    "/nexila-hackathon-2026": {
+        title: "Nexila Hackathon 2026 | AI & Programming Hackathon",
+        description: "Nexila Hackathon 2026: AI and programming hackathon for college students in Tamil Nadu. Teams of 2 to 4, online rounds, offline finals, ₹50,000 prize pool.",
+        keywords: "hackathon 2026 Chennai, AI hackathon Tamil Nadu, college hackathon, programming competition for students, hackathon in Tambaram, student coding competition",
+        ogTitle: "Nexila Hackathon 2026",
+        type: "Event"
+    },
+    "/contact-us": {
+        title: "Contact Nexila Technologies | Software Training, Tambaram",
+        description: "Contact Nexila Technologies in West Tambaram, Chennai - 600045. Call +91 980 306 1234, email us or book a free consultation on courses and internships.",
+        keywords: "software training institute Tambaram address, Nexila Technologies phone number, free consultation, IT training Chennai contact, West Tambaram",
+        ogTitle: "Contact Us",
+        type: "ContactPage"
+    },
+    // Course SEO entries. Keep each course's exact SEO URL here.
+    "/courses/java": {
+        title: "Java Training in Tambaram, Chennai | Nexila",
+        description: "Java training in Tambaram, Chennai. Learn to code with hands-on practice, with expert trainers, projects and career support. Classroom and live online. Book a free demo.",
+        keywords: "Java course in Chennai, Java training institute Chennai, best Java training in Tambaram, Java online course, programming course",
+        ogTitle: "Java Training",
+        type: "Course"
+    },
+    "/courses/python-course": {
+        title: "Python Training in Tambaram, Chennai | Nexila",
+        description: "Python training in Tambaram, Chennai. Learn to code with hands-on practice, with expert trainers, projects and career support. Classroom and live online. Book a free demo.",
+        keywords: "Python course in Chennai, Python training institute Chennai, best Python training in Tambaram, Python online course, programming course",
+        ogTitle: "Python Training",
+        type: "Course"
+    },
+    "/courses/aws-certification-training": {
+        title: "AWS Training & Certification in Tambaram, Chennai | Nexila",
+        description: "AWS Training & Certification training in Tambaram, Chennai. Hands-on cloud skills for modern IT roles, with expert trainers, projects and career support.",
+        keywords: "AWS Training & Certification course in Chennai, AWS Training & Certification training institute Chennai, best AWS Training & Certification training in Tambaram, AWS Training & Certification online course, cloud computing course",
+        ogTitle: "AWS Training & Certification",
+        type: "Course"
+    },
+    "/courses/aws-devops": {
+        title: "AWS with DevOps Training in Tambaram, Chennai | Nexila",
+        description: "AWS with DevOps training in Tambaram, Chennai. Hands-on cloud skills for modern IT roles, with expert trainers, projects and career support. Classroom and live online.",
+        keywords: "AWS with DevOps course in Chennai, AWS with DevOps training institute Chennai, best AWS with DevOps training in Tambaram, AWS with DevOps online course, cloud computing course",
+        ogTitle: "AWS with DevOps Training",
+        type: "Course"
+    },
+    "/courses/azure": {
+        title: "Azure Training in Tambaram, Chennai | Nexila",
+        description: "Azure training in Tambaram, Chennai. Hands-on cloud skills for modern IT roles, with expert trainers, projects and career support. Classroom and live online.",
+        keywords: "Azure course in Chennai, Azure training institute Chennai, best Azure training in Tambaram, Azure online course, cloud computing course",
+        ogTitle: "Azure Training",
+        type: "Course"
+    },
+    "/courses/gcp": {
+        title: "Google Cloud Platform (GCP) Training in Tambaram | Nexila",
+        description: "Google Cloud Platform (GCP) training in Tambaram, Chennai. Hands-on cloud skills for modern IT roles, with expert trainers, projects and career support.",
+        keywords: "Google Cloud Platform (GCP) course in Chennai, Google Cloud Platform (GCP) training institute Chennai, best Google Cloud Platform (GCP) training in Tambaram, Google Cloud Platform (GCP) online course, cloud computing course",
+        ogTitle: "Google Cloud Platform (GCP) Training",
+        type: "Course"
+    },
+    "/courses/selenium": {
+        title: "Selenium Training in Tambaram, Chennai | Nexila",
+        description: "Selenium training in Tambaram, Chennai. Manual and automation testing skills, with expert trainers, projects and career support. Classroom and live online.",
+        keywords: "Selenium course in Chennai, Selenium training institute Chennai, best Selenium training in Tambaram, Selenium online course, software testing course",
+        ogTitle: "Selenium Training",
+        type: "Course"
+    },
+    "/courses/soapui": {
+        title: "SoapUI Training in Tambaram, Chennai | Nexila",
+        description: "SoapUI training in Tambaram, Chennai. Manual and automation testing skills, with expert trainers, projects and career support. Classroom and live online. Book a free demo.",
+        keywords: "SoapUI course in Chennai, SoapUI training institute Chennai, best SoapUI training in Tambaram, SoapUI online course, software testing course",
+        ogTitle: "SoapUI Training",
+        type: "Course"
+    },
+    "/courses/manual-testing": {
+        title: "Manual Testing Training in Tambaram, Chennai | Nexila",
+        description: "Manual Testing training in Tambaram, Chennai. Manual and automation testing skills, with expert trainers, projects and career support. Classroom and live online.",
+        keywords: "Manual Testing course in Chennai, Manual Testing training institute Chennai, best Manual Testing training in Tambaram, Manual Testing online course, software testing course",
+        ogTitle: "Manual Testing Training",
+        type: "Course"
+    },
+    "/courses/mobile-testing": {
+        title: "Mobile Application Testing Training in Tambaram | Nexila",
+        description: "Mobile Application Testing training in Tambaram, Chennai. Manual and automation testing skills, with expert trainers, projects and career support. Classroom and live online.",
+        keywords: "Mobile Application Testing course in Chennai, Mobile Application Testing training institute Chennai, best Mobile Application Testing training in Tambaram, Mobile Application Testing online course, software testing course",
+        ogTitle: "Mobile Application Testing Training",
+        type: "Course"
+    },
+    "/courses/oracle": {
+        title: "Oracle Training in Tambaram, Chennai | Nexila",
+        description: "Oracle training in Tambaram, Chennai. Practical database design and development skills, with expert trainers, projects and career support. Classroom and live online.",
+        keywords: "Oracle course in Chennai, Oracle training institute Chennai, best Oracle training in Tambaram, Oracle online course, database course",
+        ogTitle: "Oracle Training",
+        type: "Course"
+    },
+    "/courses/mysql": {
+        title: "MySQL Training in Tambaram, Chennai | Nexila",
+        description: "MySQL training in Tambaram, Chennai. Practical database design and development skills, with expert trainers, projects and career support. Classroom and live online.",
+        keywords: "MySQL course in Chennai, MySQL training institute Chennai, best MySQL training in Tambaram, MySQL online course, database course",
+        ogTitle: "MySQL Training",
+        type: "Course"
+    },
+    "/courses/mongodb": {
+        title: "MongoDB Training in Tambaram, Chennai | Nexila",
+        description: "MongoDB training in Tambaram, Chennai. Practical database design and development skills, with expert trainers, projects and career support. Classroom and live online.",
+        keywords: "MongoDB course in Chennai, MongoDB training institute Chennai, best MongoDB training in Tambaram, MongoDB online course, database course",
+        ogTitle: "MongoDB Training",
+        type: "Course"
+    },
+    "/courses/data-analytics-training": {
+        title: "Data Analytics Training in Tambaram, Chennai | Nexila",
+        description: "Data Analytics training in Tambaram, Chennai. Turn data into insights with practical projects, expert trainers and career support. Classroom and live online.",
+        keywords: "Data Analytics course in Chennai, Data Analytics training institute Chennai, best Data Analytics training in Tambaram, Data Analytics online course, data analytics course",
+        ogTitle: "Data Analytics Training",
+        type: "Course"
+    },
+    "/courses/data-science": {
+        title: "Data Science Training in Tambaram, Chennai | Nexila",
+        description: "Data Science training in Tambaram, Chennai. Turn data into insights with practical projects, expert trainers and career support. Classroom and live online.",
+        keywords: "Data Science course in Chennai, Data Science training institute Chennai, best Data Science training in Tambaram, Data Science online course, data analytics course",
+        ogTitle: "Data Science Training",
+        type: "Course"
+    },
+    "/courses/tableau": {
+        title: "Tableau Training in Tambaram, Chennai | Nexila",
+        description: "Tableau training in Tambaram, Chennai. Turn data into insights with practical projects, expert trainers and career support. Classroom and live online.",
+        keywords: "Tableau course in Chennai, Tableau training institute Chennai, best Tableau training in Tambaram, Tableau online course, data analytics course",
+        ogTitle: "Tableau Training",
+        type: "Course"
+    },
+    "/courses/power-bi": {
+        title: "Power BI Training in Tambaram, Chennai | Nexila",
+        description: "Power BI training in Tambaram, Chennai. Turn data into insights with practical projects, expert trainers and career support. Classroom and live online.",
+        keywords: "Power BI course in Chennai, Power BI training institute Chennai, best Power BI training in Tambaram, Power BI online course, data analytics course",
+        ogTitle: "Power BI Training",
+        type: "Course"
+    },
+    "/courses/android-os": {
+        title: "Android Training in Tambaram, Chennai | Nexila",
+        description: "Android training in Tambaram, Chennai. Build real mobile applications, with expert trainers, projects and career support. Classroom and live online.",
+        keywords: "Android course in Chennai, Android training institute Chennai, best Android training in Tambaram, Android online course, mobile app development course",
+        ogTitle: "Android Training",
+        type: "Course"
+    },
+    "/courses/ios": {
+        title: "iOS Training in Tambaram, Chennai | Nexila",
+        description: "iOS training in Tambaram, Chennai. Build real mobile applications, with expert trainers, projects and career support. Classroom and live online.",
+        keywords: "iOS course in Chennai, iOS training institute Chennai, best iOS training in Tambaram, iOS online course, mobile app development course",
+        ogTitle: "iOS Training",
+        type: "Course"
+    },
+    "/courses/mern-full-stack-training": {
+        title: "MERN Full Stack Training in Tambaram, Chennai | Nexila",
+        description: "MERN Full Stack training in Tambaram, Chennai: MongoDB, Express.js, React, Node.js. 120 days, 90 hours, real projects, completion certificate. Free demo.",
+        keywords: "MERN Full Stack course in Chennai, MERN Full Stack training institute Chennai, best MERN Full Stack training in Tambaram, MERN Full Stack online course, full stack developer course",
+        ogTitle: "MERN Full Stack Training",
+        type: "Course"
+    },
+    "/courses/mean-full-stack-training": {
+        title: "MEAN Full Stack Training in Tambaram, Chennai | Nexila",
+        description: "MEAN Full Stack training in Tambaram, Chennai. Build complete applications front to back, with expert trainers, projects and career support. Classroom and live online.",
+        keywords: "MEAN Full Stack course in Chennai, MEAN Full Stack training institute Chennai, best MEAN Full Stack training in Tambaram, MEAN Full Stack online course, full stack developer course",
+        ogTitle: "MEAN Full Stack Training",
+        type: "Course"
+    },
+    "/courses/java-full-stack": {
+        title: "Java Full Stack Training in Tambaram, Chennai | Nexila",
+        description: "Java Full Stack training in Tambaram, Chennai. Build complete applications front to back, with expert trainers, projects and career support. Classroom and live online.",
+        keywords: "Java Full Stack course in Chennai, Java Full Stack training institute Chennai, best Java Full Stack training in Tambaram, Java Full Stack online course, full stack developer course",
+        ogTitle: "Java Full Stack Training",
+        type: "Course"
+    },
+    "/courses/python-full-stack": {
+        title: "Python Full Stack Training in Tambaram, Chennai | Nexila",
+        description: "Python Full Stack training in Tambaram, Chennai. Build complete applications front to back, with expert trainers, projects and career support. Classroom and live online.",
+        keywords: "Python Full Stack course in Chennai, Python Full Stack training institute Chennai, best Python Full Stack training in Tambaram, Python Full Stack online course, full stack developer course",
+        ogTitle: "Python Full Stack Training",
+        type: "Course"
+    },
+    "/courses/ui-path-rpa": {
+        title: "UiPath Training in Tambaram, Chennai | Nexila",
+        description: "UiPath training in Tambaram, Chennai. Automate business processes with software robots, with expert trainers, projects and career support. Classroom and live online.",
+        keywords: "UiPath course in Chennai, UiPath training institute Chennai, best UiPath training in Tambaram, UiPath online course, RPA course",
+        ogTitle: "UiPath Training",
+        type: "Course"
+    },
+    "/courses/blue-prism-rpa": {
+        title: "Blue Prism Training in Tambaram, Chennai | Nexila",
+        description: "Blue Prism training in Tambaram, Chennai. Automate business processes with software robots, with expert trainers, projects and career support. Classroom and live online.",
+        keywords: "Blue Prism course in Chennai, Blue Prism training institute Chennai, best Blue Prism training in Tambaram, Blue Prism online course, RPA course",
+        ogTitle: "Blue Prism Training",
+        type: "Course"
+    },
+    "/courses/openspan": {
+        title: "OpenSpan Training in Tambaram, Chennai | Nexila",
+        description: "OpenSpan training in Tambaram, Chennai. Automate business processes with software robots, with expert trainers, projects and career support. Classroom and live online.",
+        keywords: "OpenSpan course in Chennai, OpenSpan training institute Chennai, best OpenSpan training in Tambaram, OpenSpan online course, RPA course",
+        ogTitle: "OpenSpan Training",
+        type: "Course"
+    },
+    "/courses/automation-anywhere-rpa": {
+        title: "Automation Anywhere Training in Tambaram, Chennai | Nexila",
+        description: "Automation Anywhere training in Tambaram, Chennai. Automate business processes with software robots, with expert trainers, projects and career support.",
+        keywords: "Automation Anywhere course in Chennai, Automation Anywhere training institute Chennai, best Automation Anywhere training in Tambaram, Automation Anywhere online course, RPA course",
+        ogTitle: "Automation Anywhere Training",
+        type: "Course"
+    },
+    "/courses/web-development": {
+        title: "Web Development Training in Tambaram, Chennai | Nexila",
+        description: "Web Development training in Tambaram, Chennai. Build modern, responsive websites, with expert trainers, projects and career support. Classroom and live online.",
+        keywords: "Web Development course in Chennai, Web Development training institute Chennai, best Web Development training in Tambaram, Web Development online course, web designing course",
+        ogTitle: "Web Development Training",
+        type: "Course"
+    },
+    "/courses/angular-js": {
+        title: "Angular JS Training in Tambaram, Chennai | Nexila",
+        description: "Angular JS training in Tambaram, Chennai. Build modern, responsive websites, with expert trainers, projects and career support. Classroom and live online.",
+        keywords: "Angular JS course in Chennai, Angular JS training institute Chennai, best Angular JS training in Tambaram, Angular JS online course, web designing course",
+        ogTitle: "Angular JS Training",
+        type: "Course"
+    },
+    "/courses/react-js": {
+        title: "React JS Training in Tambaram, Chennai | Nexila",
+        description: "React JS training in Tambaram, Chennai. Build modern, responsive websites, with expert trainers, projects and career support. Classroom and live online.",
+        keywords: "React JS course in Chennai, React JS training institute Chennai, best React JS training in Tambaram, React JS online course, web designing course",
+        ogTitle: "React JS Training",
+        type: "Course"
+    },
+    "/courses/frontend-development": {
+        title: "Front-End Development Training in Tambaram, Chennai | Nexila",
+        description: "Front-End Development training in Tambaram, Chennai. Build modern, responsive websites, with expert trainers, projects and career support. Classroom and live online.",
+        keywords: "Front-End Development course in Chennai, Front-End Development training institute Chennai, best Front-End Development training in Tambaram, Front-End Development online course, web designing course",
+        ogTitle: "Front-End Development Training",
+        type: "Course"
+    },
+    "/courses/artificial-intelligence": {
+        title: "Artificial Intelligence Training in Tambaram | Nexila",
+        description: "Artificial Intelligence training in Tambaram, Chennai. Practical, industry-relevant skills, with expert trainers, projects and career support. Classroom and live online.",
+        keywords: "Artificial Intelligence course in Chennai, Artificial Intelligence training institute Chennai, best Artificial Intelligence training in Tambaram, Artificial Intelligence online course, IT course",
+        ogTitle: "Artificial Intelligence Training",
+        type: "Course"
+    },
+    "/courses/matlab": {
+        title: "MATLAB Training in Tambaram, Chennai | Nexila",
+        description: "MATLAB training in Tambaram, Chennai. Practical, industry-relevant skills, with expert trainers, projects and career support. Classroom and live online.",
+        keywords: "MATLAB course in Chennai, MATLAB training institute Chennai, best MATLAB training in Tambaram, MATLAB online course, IT course",
+        ogTitle: "MATLAB Training",
+        type: "Course"
+    },
+    "/courses/informatica": {
+        title: "Informatica Training in Tambaram, Chennai | Nexila",
+        description: "Informatica training in Tambaram, Chennai. Practical, industry-relevant skills, with expert trainers, projects and career support. Classroom and live online.",
+        keywords: "Informatica course in Chennai, Informatica training institute Chennai, best Informatica training in Tambaram, Informatica online course, IT course",
+        ogTitle: "Informatica Training",
+        type: "Course"
+    },
+    "/courses/net-course": {
+        title: ".NET Training in Tambaram, Chennai | Nexila",
+        description: ".NET training in Tambaram, Chennai. Practical, industry-relevant skills, with expert trainers, projects and career support. Classroom and live online.",
+        keywords: ".NET course in Chennai, .NET training institute Chennai, best .NET training in Tambaram, .NET online course, IT course",
+        ogTitle: ".NET Training",
+        type: "Course"
+    },
+    "/blogs": {
+        title: "Nexila Blog: IT Courses, Career Tips & Tech Guides",
+        description: "Read Nexila's blog for IT course guides, career roadmaps, internship and interview tips, and tech updates from our Tambaram, Chennai training team.",
+        keywords: "IT training blog, IT career advice, software course guides, internship tips for students, programming roadmaps, interview preparation, tech updates Chennai",
+        ogTitle: "Nexila Blog: IT Courses, Career Tips & Tech Guides",
+        type: "website"
+    },
+    // Blog 1: AI in Software Testing
+    "/blogs/ai-in-software-testing-skills-testers-need": {
+        title: "How AI Is Changing Software Testing | Nexila Blog",
+        description: "See how AI is changing software testing, from self-healing scripts to test generation, and the skills testers should build to stay job-ready.",
+        keywords: "AI in software testing, self-healing test scripts, automation testing course in Chennai, AI testing tools, software testing skills",
+        ogTitle: "How AI Is Changing Software Testing | Nexila Blog",
+        type: "BlogPosting"
+    },
+    // Blog 2: AWS vs Azure vs GCP
+    "/blogs/aws-vs-azure-vs-gcp-which-cloud-course-to-start": {
+        title: "AWS vs Azure vs GCP: Which Course to Start | Nexila",
+        description: "Compare AWS, Azure and GCP for beginners, what each is known for, and how to choose your first cloud course based on your goals and background.",
+        keywords: "AWS vs Azure vs GCP, best cloud computing course, cloud course for beginners, AWS training in Chennai, cloud computing career",
+        ogTitle: "AWS vs Azure vs GCP: Which Course to Start | Nexila",
+        type: "BlogPosting"
+    },
+    // Blog 3: Choosing the Right IT Course
+    "/blogs/how-to-choose-the-right-it-course-after-graduation": {
+        title: "How to Choose the Right IT Course | Nexila Blog",
+        description: "Not sure which IT course to pick? Use this practical guide to match your interests, background and goals with the right software training path.",
+        keywords: "how to choose an IT course, best IT course after graduation, IT courses in Chennai, career guidance for graduates, software training institute Tambaram",
+        ogTitle: "How to Choose the Right IT Course | Nexila Blog",
+        type: "BlogPosting"
+    },
+    // Blog 4: College Hackathon
+    "/blogs/how-to-prepare-for-a-college-hackathon": {
+        title: "How to Prepare for a College Hackathon | Nexila Blog",
+        description: "Preparing for a hackathon? Learn how to form a team, pick an idea, divide work and present your project, with tips for AI and programming themes.",
+        keywords: "college hackathon tips, how to prepare for a hackathon, hackathon for students in Tamil Nadu, hackathon project ideas, AI hackathon",
+        ogTitle: "How to Prepare for a College Hackathon | Nexila Blog",
+        type: "BlogPosting"
+    },
+    // Blog 5: IT Internship
+    "/blogs/it-internship-in-chennai-tips-for-college-students": {
+        title: "IT Internship in Chennai for Students: Tips | Nexila",
+        description: "Planning an IT internship in Chennai? Learn how to choose one, what to expect and how to turn live project experience into a stronger resume.",
+        keywords: "IT internship in Chennai, internship for college students, software internship in Tambaram, internship projects for students, internship certificate",
+        ogTitle: "IT Internship in Chennai for Students: Tips | Nexila",
+        type: "BlogPosting"
+    },
+    // Blog 6: MERN Stack Roadmap
+    "/blogs/mern-stack-developer-roadmap-for-beginners": {
+        title: "MERN Stack Developer Roadmap for Beginners | Nexila",
+        description: "A step-by-step MERN stack roadmap for beginners: HTML, CSS, JavaScript, React, Node.js, Express and MongoDB, with projects to build along the way.",
+        keywords: "MERN stack roadmap, MERN stack developer for beginners, MERN full stack course in Chennai, learn React and Node.js, full stack developer roadmap",
+        ogTitle: "MERN Stack Developer Roadmap for Beginners | Nexila",
+        type: "BlogPosting"
+    },
+    // Blog 7: Python for Beginners
+    "/blogs/python-for-beginners-what-to-learn-first": {
+        title: "Python for Beginners: Where to Start | Nexila Blog",
+        description: "Starting Python? Learn what to study first, which projects to build and how to practise so you can move into automation, data or web development.",
+        keywords: "Python for beginners, learn Python, Python course in Tambaram, Python projects for beginners, Python career paths",
+        ogTitle: "Python for Beginners: Where to Start | Nexila Blog",
+        type: "BlogPosting"
+    },
+    "/enquiry-form": {
+        title: "Enquiry Form | Nexila Technologies",
+        description: "Get in touch with Nexila Technologies to explore IT courses, internships, project guidance and career-focused training programs.",
+        keywords: "Nexila Technologies enquiry form, IT course enquiry, internship enquiry, project guidance, IT training in Tambaram, Chennai",
+        ogTitle: "Enquiry Form | Nexila Technologies",
+        type: "WebPage"
+    }
+};
+}),
+];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__0w4q0fe83xwya._.js.map

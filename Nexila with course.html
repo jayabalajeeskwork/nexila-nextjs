@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nexila Technologies | Software Training & Placement in Tambaram</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap">
+<style>
+:root{--navy:#0B1B3A;--blue:#2563EB;--orange:#F97316;--bg:#fff;--alt:#F3F6FD;--card:#fff;--text:#0B1B3A;--muted:#5B6785;--line:#E3E9F5;
+--fh:'Plus Jakarta Sans',system-ui,sans-serif;--fb:'Inter',system-ui,sans-serif;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#081428;--alt:#0B1B3A;--card:#10254A;--text:#EAF0FF;--muted:#9FB0D3;--line:#1E3563}}
+:root[data-theme="dark"]{--bg:#081428;--alt:#0B1B3A;--card:#10254A;--text:#EAF0FF;--muted:#9FB0D3;--line:#1E3563}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{margin:0;background:var(--bg);color:var(--text);font-family:var(--fb);line-height:1.6}
+h1,h2,h3{font-family:var(--fh);margin:0;line-height:1.15}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1160px;margin:0 auto;padding:0 20px}
+.sec{padding:76px 0}.alt{background:var(--alt)}
+.tag{color:var(--blue);font:700 13px var(--fh);letter-spacing:.08em;text-transform:uppercase}
+.h2{font-size:clamp(26px,4vw,38px);margin:8px 0 12px}.sub{color:var(--muted);max-width:620px}
+.btn{display:inline-block;border:0;cursor:pointer;font:700 15px var(--fh);padding:13px 24px;border-radius:12px;transition:.2s}
+.cta{background:var(--orange);color:#fff}.cta:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(249,115,22,.35)}
+.ghost{border:1.5px solid #0B1B3A;color:#0B1B3A;background:transparent}.ghost:hover{background:rgba(11,27,58,.07)}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:#fff;color:#0B1B3A;border-bottom:1px solid #E3E9F5;box-shadow:0 4px 18px rgba(11,27,58,.06)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:68px}
+.logo{font:800 22px var(--fh)}.logo b{color:var(--orange)}
+.links{display:flex;gap:26px;align-items:center;font-weight:500;font-size:15px}
+.links a:hover{color:var(--orange)}
+.burger{display:none;background:none;border:0;color:#0B1B3A;font-size:26px;cursor:pointer}
+.hero{background:radial-gradient(760px 420px at 88% 0,#D6E4FF 0,transparent 65%),radial-gradient(520px 300px at 0 100%,#FFEBDD 0,transparent 65%),#F5F8FF;color:#0B1B3A;padding:72px 0 56px}
+.hgrid{display:grid;grid-template-columns:1.15fr 1fr;gap:40px;align-items:center}
+.hero h1{font-size:clamp(34px,6vw,58px);font-weight:800}.hero h1 span{color:var(--orange)}
+.hero p{color:#4A5878;font-size:18px;max-width:520px;margin:18px 0 28px}
+.row{display:flex;gap:12px;flex-wrap:wrap}
+.code{background:#0A1530;border:1px solid #23407F;border-radius:16px;padding:20px;font:14px/1.7 ui-monospace,Menlo,monospace;color:#9CC2FF;box-shadow:0 20px 50px rgba(11,27,58,.25)}
+.code i{color:#F97316;font-style:normal}.code em{color:#6EE7B7;font-style:normal}
+.dots span{display:inline-block;width:10px;height:10px;border-radius:50%;background:#F97316;margin-right:6px;opacity:.8}
+.stats{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:#E3E9F5;border:1px solid #E3E9F5;border-radius:16px;overflow:hidden;margin-top:56px;box-shadow:0 12px 32px rgba(37,99,235,.12)}
+.stat{background:#fff;padding:24px 16px;text-align:center}
+.stat b{display:block;font:800 clamp(26px,4vw,38px) var(--fh);color:#0B1B3A}.stat span{color:#5B6785;font-size:14px}
+.partners{display:flex;gap:14px;flex-wrap:wrap;justify-content:center;margin-top:24px}
+.pill{border:1px dashed var(--line);color:var(--muted);padding:10px 22px;border-radius:999px;font:600 14px var(--fh)}
+.grid{display:grid;gap:20px;margin-top:36px}.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px;transition:.25s}
+.card:hover{transform:translateY(-4px);border-color:var(--blue);box-shadow:0 12px 30px rgba(37,99,235,.15)}
+.ico{width:48px;height:48px;border-radius:12px;background:rgba(37,99,235,.12);display:grid;place-items:center;font-size:24px;margin-bottom:14px}
+.card h3{font-size:19px;margin-bottom:6px}.card p{margin:0;color:var(--muted);font-size:15px}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-top:24px}
+.tab{border:1px solid var(--line);background:var(--card);color:var(--text);padding:8px 16px;border-radius:999px;cursor:pointer;font:600 14px var(--fb)}
+.tab.on{background:var(--blue);color:#fff;border-color:var(--blue)}
+.meta{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
+.meta span{font-size:12px;background:var(--alt);padding:4px 10px;border-radius:8px;color:var(--muted)}
+.lnk{color:var(--blue);font-weight:600;font-size:14px}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:36px;counter-reset:s}
+.step{position:relative;padding-top:52px}
+.step:before{counter-increment:s;content:counter(s);position:absolute;top:0;left:0;width:40px;height:40px;border-radius:50%;background:var(--blue);color:#fff;display:grid;place-items:center;font:800 16px var(--fh)}
+.step:after{content:"";position:absolute;top:20px;left:50px;right:-10px;height:2px;background:var(--line)}.step:last-child:after{display:none}
+.step h3{font-size:18px}.step p{color:var(--muted);margin:6px 0 0;font-size:15px}
+.hack{background:linear-gradient(120deg,#1d3f94,var(--navy));color:#fff;border-radius:24px;padding:44px;display:grid;grid-template-columns:1.4fr 1fr;gap:24px;align-items:center}
+.hack h2{font-size:clamp(26px,4vw,38px)}.hack p{color:#C4D1EE}
+.prize{text-align:center;background:rgba(255,255,255,.08);border-radius:18px;padding:24px}
+.prize b{display:block;font:800 46px var(--fh);color:var(--orange)}
+.rev-head{display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap}
+.live{display:inline-flex;gap:8px;align-items:center;font-size:13px;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:6px 14px;background:var(--card)}
+.live:before{content:"";width:8px;height:8px;border-radius:50%;background:#22C55E}
+.star{color:#FBBC04;letter-spacing:2px}
+.rev p{margin:10px 0 16px;font-size:15px}.who{display:flex;gap:10px;align-items:center;font-size:14px}
+.av{width:38px;height:38px;border-radius:50%;background:var(--blue);color:#fff;display:grid;place-items:center;font-weight:700}
+.faq{max-width:780px;margin:32px auto 0}
+.q{border:1px solid var(--line);background:var(--card);border-radius:14px;margin-bottom:12px;overflow:hidden}
+.q button{width:100%;text-align:left;background:none;border:0;color:var(--text);font:600 16px var(--fb);padding:18px 20px;cursor:pointer;display:flex;justify-content:space-between}
+.q div{padding:0 20px 18px;color:var(--muted)}
+.lead{background:var(--navy);color:#fff;border-radius:24px;padding:44px;display:grid;grid-template-columns:1fr 1fr;gap:32px}
+.lead p{color:#C4D1EE}
+form{display:grid;gap:12px}
+input,select{width:100%;padding:13px 14px;border-radius:10px;border:1px solid #2C4A8C;background:#0E2249;color:#fff;font:15px var(--fb)}
+input::placeholder{color:#8DA0C9}
+footer{background:#060F22;color:#9FB0D3;padding:52px 0 24px;font-size:14px}
+.fg{display:grid;grid-template-columns:1.5fr 1fr 1fr 1.2fr;gap:28px}
+footer h3{color:#fff;font-size:15px;margin-bottom:12px}footer a{display:block;margin-bottom:8px}footer a:hover{color:var(--orange)}
+.copy{border-top:1px solid #1B2C50;margin-top:32px;padding-top:18px;text-align:center}
+.wa{position:fixed;right:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:60;background:#25D366;color:#fff;padding:13px 20px;border-radius:999px;font:700 14px var(--fh);box-shadow:0 8px 24px rgba(0,0,0,.3)}
+
+.whyg{display:grid;grid-template-columns:1fr 1.15fr;gap:24px;margin-top:36px;align-items:stretch}
+.wl{display:flex;flex-direction:column;gap:8px}
+.wi{position:relative;overflow:hidden;display:flex;gap:14px;align-items:center;text-align:left;width:100%;background:var(--card);border:1px solid var(--line);color:var(--text);border-radius:14px;padding:13px 16px;cursor:pointer;font:600 15px var(--fb);transition:.25s}
+.wi:hover{border-color:var(--blue);transform:translateX(4px)}
+.wi .e{width:38px;height:38px;flex:none;border-radius:10px;background:rgba(37,99,235,.12);display:grid;place-items:center;font-size:19px}
+.wi.on{background:var(--navy);color:#fff;border-color:var(--navy);transform:translateX(8px)}
+.wi.on .e{background:var(--orange)}
+.wi i{position:absolute;left:0;bottom:0;height:3px;background:var(--orange);width:0;animation:fill 5.5s linear forwards}
+.pz i{animation-play-state:paused}
+@keyframes fill{to{width:100%}}
+.wp{position:relative;overflow:hidden;background:radial-gradient(500px 300px at 90% 0,#1d3f94,transparent 65%),var(--navy);color:#fff;border-radius:24px;padding:40px;display:flex;flex-direction:column;justify-content:center;min-height:400px}
+.wp .num{position:absolute;right:24px;top:8px;font:800 96px var(--fh);color:rgba(255,255,255,.07)}
+.wp .big{width:76px;height:76px;border-radius:20px;background:var(--orange);display:grid;place-items:center;font-size:38px;margin-bottom:22px;box-shadow:0 12px 30px rgba(249,115,22,.4)}
+.wp h3{font-size:clamp(24px,3vw,32px);margin-bottom:12px}
+.wp p{color:#C4D1EE;font-size:17px;margin:0 0 24px;max-width:440px}
+.wp .anim{animation:pop .5s ease}
+@keyframes pop{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+.chips{display:flex;gap:10px;flex-wrap:wrap}
+.chips span{border:1px solid #3358A8;background:rgba(255,255,255,.07);padding:7px 14px;border-radius:999px;font-size:13px;font-weight:500}
+.wn{display:flex;gap:10px;margin-top:28px;align-items:center}
+.wn button{width:40px;height:40px;border-radius:50%;border:1px solid #3358A8;background:transparent;color:#fff;cursor:pointer;font-size:16px}
+.wn button:hover{background:var(--orange);border-color:var(--orange)}
+.wn small{color:#9FB0D3;margin-left:auto}
+@media(max-width:900px){.whyg{grid-template-columns:1fr}.wl{flex-direction:row;overflow-x:auto;padding-bottom:6px}.wi{width:auto;flex:none}.wi:hover,.wi.on{transform:none}.wp{min-height:340px;padding:28px}}
+
+.vz{display:flex;gap:12px;align-items:center;margin:0 0 22px;flex-wrap:wrap;min-height:88px}
+.rd{gap:0;width:100%;max-width:420px}
+.rn{display:flex;flex-direction:column;align-items:center;gap:6px;position:relative;flex:1;font-size:13px;opacity:0;animation:pop .5s forwards}
+.rn b{width:36px;height:36px;border-radius:50%;background:var(--blue);display:grid;place-items:center;font:800 15px var(--fh);border:2px solid #7FB0FF}
+.rn:not(:last-child):after{content:"";position:absolute;top:18px;left:calc(50% + 24px);right:calc(-50% + 24px);height:2px;background:#3358A8}
+.term{background:#0A1530;border:1px solid #23407F;border-radius:12px;padding:12px 14px;font:13px/1.65 ui-monospace,Menlo,monospace;color:#9CC2FF;min-width:210px}
+.term div{opacity:0;animation:pop .4s forwards}.term em{color:#6EE7B7;font-style:normal}.term .cur{color:var(--orange);animation:blink 1s infinite}
+@keyframes blink{50%{opacity:0}}
+.bub{background:rgba(255,255,255,.1);border-radius:14px 14px 14px 4px;padding:9px 13px;font-size:13px;opacity:0;animation:pop .5s .8s forwards}
+.ck{display:flex;gap:10px;align-items:center;background:rgba(255,255,255,.07);border:1px solid #3358A8;border-radius:10px;padding:8px 14px;font-size:14px;opacity:0;animation:pop .5s forwards}
+.ck b{color:#4ADE80}.ck b.o{color:var(--orange)}
+.col{display:flex;flex-direction:column;gap:8px;width:100%;max-width:300px}
+.avs{display:flex}.a2{width:36px;height:36px;border-radius:50%;background:#3B6BE0;border:2px solid var(--navy);margin-left:-8px;display:grid;place-items:center;font-size:16px}
+.a2:first-child{margin-left:0}.a2.hl{background:var(--orange);animation:bob 1.6s infinite}
+@keyframes bob{50%{transform:translateY(-5px)}}
+.kb{display:flex;gap:8px;width:100%;max-width:380px}
+.kc{flex:1;background:rgba(255,255,255,.06);border-radius:10px;padding:8px 8px 10px}
+.kc small{font-size:11px;color:#9FB0D3;font-weight:600;text-transform:uppercase;letter-spacing:.05em}
+.kd{height:16px;border-radius:5px;background:#3B6BE0;margin-top:7px;opacity:0;animation:pop .5s forwards}.kc.dn .kd{background:#22C55E}
+.tg{display:inline-flex;background:rgba(255,255,255,.1);border-radius:999px;padding:4px}
+.tg button{border:0;background:transparent;color:#fff;padding:8px 16px;border-radius:999px;cursor:pointer;font:600 13px var(--fb)}.tg .on{background:var(--orange)}
+.fl{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.pill2{background:rgba(255,255,255,.1);border:1px solid #3358A8;border-radius:12px;padding:9px 14px;font-size:13px;opacity:0;animation:pop .5s forwards}
+.ar{color:var(--orange);font-weight:800}
+
+.pc{text-align:left;background:var(--card);border:1px solid var(--line);color:var(--text);border-radius:18px;padding:22px;cursor:pointer;font-family:var(--fb);transition:.25s}
+.pc:hover{transform:translateY(-4px);border-color:var(--blue)}
+.pc.on{border-color:var(--blue);box-shadow:0 0 0 2px var(--blue),0 12px 30px rgba(37,99,235,.18)}
+.pc h3{font-size:18px;margin-bottom:6px}.pc p{margin:0;color:var(--muted);font-size:14px}
+.pd{margin-top:22px;display:grid;grid-template-columns:1.5fr 1fr;gap:28px;background:radial-gradient(500px 300px at 95% 0,#1d3f94,transparent 65%),var(--navy);color:#fff;border-radius:24px;padding:32px;animation:pop .5s}
+.ps{display:flex;margin-top:20px;flex-wrap:wrap;row-gap:16px}
+.pst{flex:1;min-width:110px;position:relative;text-align:center;font-size:14px;padding:0 6px}
+.pst b{width:38px;height:38px;border-radius:50%;background:var(--orange);display:grid;place-items:center;margin:0 auto 8px;font:800 15px var(--fh)}
+.pst:not(:last-child):after{content:"";position:absolute;top:19px;left:calc(50% + 26px);right:calc(-50% + 26px);height:2px;background:#3358A8}
+.cc{display:inline-block;margin:12px 8px 12px 0;border:1px solid #3358A8;background:rgba(255,255,255,.07);padding:7px 14px;border-radius:999px;font-size:13px}
+@media(max-width:900px){.pd{grid-template-columns:1fr}}
+@media(max-width:640px){.pst:after{display:none!important}.pd{padding:24px}}
+
+.lpw{display:flex;gap:12px;height:540px;margin-top:36px}
+.lp{position:relative;flex:1;min-width:0;border-radius:22px;overflow:hidden;cursor:pointer;transition:flex .6s cubic-bezier(.3,.7,.2,1),height .5s;background:var(--g);background-size:cover;background-position:center;color:#fff}
+.lp.on{flex:5.2}
+.lp:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,27,58,.05) 0%,rgba(11,27,58,.55) 55%,rgba(11,27,58,.95) 100%);z-index:1}
+.lp:focus-visible{outline:3px solid var(--orange)}
+.lp .sc{position:absolute;top:22%;left:50%;transform:translateX(-50%);font-size:64px;opacity:.85;z-index:0;transition:.5s;filter:drop-shadow(0 8px 20px rgba(0,0,0,.35))}
+.lp.on .sc{font-size:110px;top:12%;left:72%}
+.lp .n{position:absolute;top:16px;left:18px;z-index:2;font:800 14px var(--fh);background:rgba(255,255,255,.18);backdrop-filter:blur(6px);border-radius:999px;padding:4px 12px}
+.lp .vt{position:absolute;bottom:22px;left:50%;z-index:2;writing-mode:vertical-rl;transform:translateX(-50%) rotate(180deg);font:700 19px var(--fh);white-space:nowrap;transition:opacity .3s}
+.lp.on .vt{opacity:0;pointer-events:none}
+.lp .dt{position:absolute;left:0;right:0;bottom:0;padding:26px;z-index:2;opacity:0;transform:translateY(20px);transition:.4s;pointer-events:none}
+.lp.on .dt{opacity:1;transform:none;transition-delay:.3s;pointer-events:auto}
+.dt h3{font-size:clamp(26px,3.4vw,36px);margin-bottom:8px}
+.dt p{color:#D5DEF3;margin:0 0 16px;max-width:520px;font-size:15px}
+.stp{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:14px}
+.stp span{font-size:13px;background:rgba(255,255,255,.14);backdrop-filter:blur(6px);border-radius:10px;padding:6px 12px}
+.stp em{font-style:normal;color:var(--orange);font-weight:800}
+.dt .row2{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.dt .cc{margin:0}
+@media(max-width:900px){.lpw{flex-direction:column;height:auto}.lp{flex:none;height:84px}.lp.on{flex:none;height:560px}
+.lp .vt{writing-mode:horizontal-tb;transform:none;left:76px;bottom:auto;top:28px}.lp .sc,.lp.on .sc{top:12px;left:auto;right:18px;transform:none;font-size:44px}.lp.on .sc{top:60px;font-size:80px}.lp .n{top:26px}.lp .vt{left:72px}}
+
+.chs{display:flex;gap:10px;flex-wrap:wrap;margin-top:28px}
+.ch{border:1.5px solid var(--line);background:var(--card);color:var(--text);padding:10px 18px;border-radius:999px;cursor:pointer;font:600 14px var(--fb);transition:.2s;display:inline-flex;gap:8px;align-items:center}
+.ch:hover{border-color:var(--blue)}.ch.on{background:var(--blue);border-color:var(--blue);color:#fff}
+.mg{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:30px}
+.mc{position:relative;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px;transition:.35s}
+.mc h3{font-size:17px;margin-bottom:6px}.mc p{margin:0;color:var(--muted);font-size:14px}
+.mc.dim{opacity:.38;transform:scale(.97)}
+.mc.hit{border-color:var(--blue);box-shadow:0 10px 28px rgba(37,99,235,.18)}
+.mc.top{border-color:var(--orange);box-shadow:0 10px 30px rgba(249,115,22,.28);transform:translateY(-4px)}
+.bd{position:absolute;top:-11px;right:14px;background:var(--orange);color:#fff;font:700 11px var(--fh);padding:4px 11px;border-radius:999px}
+.mt{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px;min-height:22px}
+.mt span{font-size:11px;background:rgba(37,99,235,.12);color:var(--blue);padding:3px 9px;border-radius:8px;font-weight:600}
+.sum{margin-top:26px;background:var(--navy);color:#fff;border-radius:16px;padding:18px 24px;text-align:center;font-weight:500}
+.sum b{color:var(--orange)}
+.note{text-align:center;color:var(--muted);max-width:660px;margin:28px auto 18px}
+.outl{border:1.5px solid var(--text);color:var(--text);background:transparent}.outl:hover{background:var(--navy);color:#fff}
+@media(max-width:900px){.mg{grid-template-columns:1fr 1fr}}
+@media(max-width:640px){.mg{grid-template-columns:1fr}}
+
+.pop{position:fixed;inset:0;z-index:100;background:rgba(6,15,34,.72);backdrop-filter:blur(4px);display:grid;place-items:center;padding:16px;animation:fin .3s}
+@keyframes fin{from{opacity:0}to{opacity:1}}
+.pm{position:relative;background:var(--navy);color:#fff;border-radius:24px;max-width:860px;width:100%;display:grid;grid-template-columns:1fr 1fr;overflow:hidden;max-height:calc(100% - 8px);overflow-y:auto;animation:pop .45s;box-shadow:0 30px 80px rgba(0,0,0,.5)}
+.pl{padding:40px 32px;background:radial-gradient(400px 300px at 0 0,#2452c9,transparent 70%),#0E2249}
+.pl h2{font-size:30px;margin:8px 0 14px}.pl p{color:#C4D1EE;margin:0 0 18px}
+.pl li{list-style:none;margin-bottom:10px;font-size:15px}.pl ul{padding:0;margin:0}.pl li:before{content:"✓";color:#4ADE80;font-weight:800;margin-right:10px}
+.pr{padding:40px 32px;align-self:center}
+.px{position:absolute;top:12px;right:14px;width:36px;height:36px;border-radius:50%;border:0;background:rgba(255,255,255,.12);color:#fff;font-size:18px;cursor:pointer;z-index:2}
+.px:hover{background:var(--orange)}
+.pr small{display:block;color:#8DA0C9;margin-top:10px;font-size:12px}
+@media(max-width:700px){.pm{grid-template-columns:1fr}.pl{padding:26px 24px 8px}.pl ul,.pl p{display:none}.pl h2{font-size:24px;margin:6px 0 0}.pr{padding:18px 24px calc(26px + env(safe-area-inset-bottom,0px))}}
+
+.faq2{display:grid;grid-template-columns:1fr 1fr;gap:0 22px;align-items:start;margin-top:32px}
+.faq2 .q button{align-items:flex-start;gap:12px}.faq2 .q button span{color:var(--blue);font-size:20px;line-height:1;flex:none}
+@media(max-width:800px){.faq2{grid-template-columns:1fr}}
+
+.tb{background:#fff;color:#0B1B3A;font-size:13px;border-bottom:1px solid #E3E9F5}
+.tb .wrap{display:flex;justify-content:space-between;align-items:center;gap:8px 24px;min-height:38px;flex-wrap:wrap;padding-top:6px;padding-bottom:6px}
+.tb a{display:inline-flex;gap:8px;align-items:center;transition:.2s}.tb a:hover{color:var(--orange)}
+.tb .l{display:flex;gap:8px 24px;flex-wrap:wrap}
+.tb .r{color:#5B6785}
+@media(max-width:900px){.burger{display:block}.links{display:none;position:absolute;top:68px;left:0;right:0;background:#fff;flex-direction:column;padding:20px;align-items:flex-start;box-shadow:0 20px 30px rgba(0,0,0,.3)}.links.open{display:flex}}
+@media(max-width:640px){.tb .r{display:none}.tb .wrap{justify-content:center}.tb{font-size:12px}}
+
+.stat b{white-space:nowrap}.stat span{display:block;line-height:1.35}
+@media(max-width:900px){.stats{grid-template-columns:repeat(6,1fr)}.stat{grid-column:span 2}.stat:nth-child(n+4){grid-column:span 3}}
+@media(max-width:640px){.stat,.stat:nth-child(n+4){grid-column:auto}.stat:last-child{grid-column:1/-1}}
+
+.links a.act{color:var(--orange)}
+.bc{font-size:14px;color:#5B6785;margin-bottom:14px}.bc a{color:var(--blue);font-weight:600}
+.abv{position:relative;min-height:340px;border-radius:24px;background:radial-gradient(400px 260px at 80% 0,#3b6be0,transparent 70%),linear-gradient(150deg,#1d4ed8,#0B1B3A);overflow:hidden;display:grid;place-items:center;font-size:110px;box-shadow:0 24px 60px rgba(11,27,58,.3)}
+.fc{position:absolute;background:#fff;color:#0B1B3A;border-radius:12px;padding:8px 14px;font:600 13px var(--fb);box-shadow:0 8px 24px rgba(0,0,0,.25)}
+.fc.a{top:22px;left:22px}.fc.b{bottom:76px;right:22px}.fc.c{bottom:24px;left:22px}
+.abg{display:grid;grid-template-columns:1.1fr 1fr;gap:40px;align-items:start;margin-top:8px}
+.abg p{color:var(--muted);margin:0 0 16px}
+.mv{display:grid;gap:14px}.mv .card{display:flex;gap:16px;align-items:flex-start;padding:20px}.mv .ico{margin:0;flex:none}
+.g5{grid-template-columns:repeat(5,1fr)}.g5 .card{padding:20px}.g5 h3{font-size:16px}.g5 p{font-size:13px}
+.areas{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.areas span{border:1px solid var(--line);background:var(--card);padding:8px 16px;border-radius:999px;font-size:14px;color:var(--muted)}
+.soc{display:flex;gap:10px;margin-top:16px}
+.soc a{width:40px;height:40px;border-radius:50%;background:rgba(255,255,255,.08);display:grid;place-items:center;color:#fff;margin:0;transition:.2s}
+.soc a:hover{background:var(--orange);color:#fff;transform:translateY(-3px)}
+.soc svg{width:18px;height:18px;fill:currentColor}
+@media(max-width:900px){.abg{grid-template-columns:1fr}.g5{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:640px){.g5{grid-template-columns:1fr 1fr}.abv{min-height:280px;font-size:88px}}
+.wrap[style*="text-align: center"] .sub,.wrap[style*="text-align:center"] .sub{margin-left:auto;margin-right:auto}
+
+.tv{display:grid;grid-template-columns:1.7fr 1fr;gap:20px;margin-top:32px;align-items:stretch}
+.tmain{position:relative;aspect-ratio:16/9;border-radius:22px;overflow:hidden;background:var(--g);display:grid;place-items:center;color:#fff;box-shadow:0 20px 50px rgba(11,27,58,.25)}
+.tmain:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,rgba(11,27,58,.85))}
+.tmain iframe{position:absolute;inset:0;width:100%;height:100%;border:0;z-index:3}
+.tmain .sc{font-size:clamp(64px,10vw,110px);opacity:.85;position:relative;top:-14px}
+.play{position:absolute;width:76px;height:76px;border-radius:50%;border:0;background:var(--orange);color:#fff;font-size:26px;cursor:pointer;z-index:2;padding-left:5px;box-shadow:0 0 0 10px rgba(249,115,22,.25);animation:pulse 2s infinite}
+@keyframes pulse{50%{box-shadow:0 0 0 20px rgba(249,115,22,.08)}}
+.cap{position:absolute;left:22px;bottom:18px;z-index:2;display:flex;flex-direction:column}
+.cap b{font:700 20px var(--fh)}.cap span{font-size:14px;color:#D5DEF3}
+.soon{position:absolute;top:16px;right:16px;z-index:2;background:rgba(0,0,0,.55);padding:6px 14px;border-radius:999px;font-size:13px}
+.tl{display:flex;flex-direction:column;gap:10px}
+.tt{display:flex;gap:12px;align-items:center;text-align:left;background:var(--card);border:1px solid var(--line);color:var(--text);border-radius:14px;padding:10px;cursor:pointer;transition:.2s;font-family:var(--fb)}
+.tt:hover{border-color:var(--blue)}.tt.on{border-color:var(--orange);box-shadow:0 0 0 2px var(--orange) inset}
+.tt .th{position:relative;flex:none;width:96px;height:60px;border-radius:10px;background:var(--g);display:grid;place-items:center;font-size:28px;overflow:hidden}
+.tt .th i{position:absolute;right:6px;bottom:4px;font-style:normal;font-size:10px;background:rgba(0,0,0,.55);color:#fff;border-radius:6px;padding:2px 6px}
+.tt b{display:block;font-size:15px}.tt small{color:var(--muted);font-size:13px}
+@media(max-width:900px){.tv{grid-template-columns:1fr}.tl{flex-direction:row;overflow-x:auto;padding-bottom:6px}.tt{flex:none;min-width:230px}}
+.abv img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}.abv .ph{text-align:center;font:600 15px var(--fb);color:#C4D1EE}.abv .ph span{display:block;font-size:64px;margin-bottom:6px}
+
+.phero{background:radial-gradient(760px 420px at 88% 0,#D6E4FF 0,transparent 65%),radial-gradient(520px 300px at 0 100%,#FFEBDD 0,transparent 65%),#F5F8FF;color:#0B1B3A;padding:52px 0 44px}
+.phero h1{font-size:clamp(32px,5vw,48px);font-weight:800}.phero p{color:#4A5878;font-size:18px;max-width:640px;margin:12px 0 24px}
+.srch{display:flex;align-items:center;gap:10px;background:#fff;border:1.5px solid #D5DEF3;border-radius:14px;padding:2px 16px;max-width:560px;box-shadow:0 8px 24px rgba(37,99,235,.1)}
+.srch input{border:0;background:transparent;color:#0B1B3A;font:16px var(--fb);padding:13px 4px;outline:none;flex:1;width:auto}.srch input::placeholder{color:#8DA0C9}
+.cc2{display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;transition:.25s;color:var(--text)}
+.cc2:hover{transform:translateY(-5px);border-color:var(--blue);box-shadow:0 14px 34px rgba(37,99,235,.18)}
+.cc2 .top{position:relative;height:92px;background:var(--g);display:grid;place-items:center;font-size:40px}
+.cc2 .bd2{position:absolute;top:10px;left:12px;font:700 11px var(--fh);background:rgba(255,255,255,.2);padding:3px 10px;border-radius:999px;color:#fff}
+.cc2 .b{padding:16px 18px 18px;display:flex;flex-direction:column;gap:6px;flex:1}.cc2 h3{font-size:17px}.cc2 .meta{margin:4px 0 8px}
+.tabbar{position:sticky;top:calc(68px + env(safe-area-inset-top,0px));z-index:40;background:var(--bg);border-bottom:1px solid var(--line)}
+.tabbar .wrap{display:flex;gap:4px;overflow-x:auto}
+.ct{padding:16px 18px;font:600 15px var(--fb);color:var(--muted);border:0;border-bottom:3px solid transparent;white-space:nowrap;cursor:pointer;background:none}
+.ct.on{color:var(--blue);border-bottom-color:var(--orange)}
+.cdg{display:grid;grid-template-columns:1fr 340px;gap:40px;align-items:start}
+.side{position:sticky;top:150px}
+.snap{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:24px;box-shadow:0 14px 36px rgba(37,99,235,.1)}
+.snap h3{font-size:19px;margin-bottom:8px}
+.fr{display:flex;justify-content:space-between;gap:12px;padding:10px 0;border-bottom:1px dashed var(--line);font-size:14px}.fr span{color:var(--muted)}.fr b{text-align:right}
+.sx{scroll-margin-top:140px;margin-bottom:52px}.sx h2{font-size:clamp(24px,3vw,30px);margin-bottom:14px}.sx>p{color:var(--muted);margin:0 0 14px}
+.lst{padding:0;margin:14px 0 0;list-style:none;display:grid;gap:10px}.lst li{padding-left:28px;position:relative;color:var(--muted)}.lst li:before{content:"✓";position:absolute;left:0;color:var(--blue);font-weight:800}
+.stk{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:18px 0}
+.stk .card{padding:18px}.stk h3{font-size:17px;color:var(--blue)}
+.sy{border:1px solid var(--line);border-radius:14px;margin-bottom:10px;background:var(--card);overflow:hidden}
+.sy button{width:100%;display:flex;justify-content:space-between;align-items:center;padding:16px 18px;background:none;border:0;color:var(--text);font:700 16px var(--fh);cursor:pointer;text-align:left}
+.sy button span:first-child{display:flex;gap:12px;align-items:center}
+.sy .n{font-style:normal;width:30px;height:30px;border-radius:50%;background:rgba(37,99,235,.12);color:var(--blue);display:grid;place-items:center;font-size:13px;flex:none}
+.sy .bd3{padding:0 18px 18px}.gh{font:700 14px var(--fh);color:var(--blue);margin:14px 0 8px}
+.tp span{display:inline-block;background:var(--alt);border-radius:8px;padding:5px 11px;margin:0 6px 6px 0;font-size:13px;color:var(--muted)}
+.tr{display:grid;grid-template-columns:200px 1fr;gap:24px;align-items:start;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:24px}
+.tph{aspect-ratio:1;border-radius:16px;background:linear-gradient(150deg,#1d4ed8,#0B1B3A);display:grid;place-items:center;font-size:64px}
+.tr p{color:var(--muted);margin:0}
+.band{background:var(--navy);color:#fff;border-radius:24px;padding:36px;display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+.band h2{font-size:clamp(22px,3vw,30px)}.band p{color:#C4D1EE;margin:6px 0 0}
+@media(max-width:900px){.cdg{grid-template-columns:1fr}.side{position:static}.tr{grid-template-columns:1fr}.tph{max-width:180px}}
+@media(max-width:640px){.stk{grid-template-columns:1fr}.band{padding:26px}}
+
+.jt-sec{background:radial-gradient(700px 300px at 85% 0,#1d3f94,transparent 65%),var(--navy);color:#fff}
+.jt-sec .sub{color:#C4D1EE}
+.jt{position:relative;display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:56px}
+.jt:before{content:"";position:absolute;top:34px;left:12.5%;right:12.5%;height:4px;border-radius:4px;background:rgba(255,255,255,.15)}
+.jt i.fl{position:absolute;top:34px;left:12.5%;height:4px;border-radius:4px;background:linear-gradient(90deg,var(--blue),var(--orange));width:0}
+.jt.run i.fl{animation:jfill 2.4s .2s ease forwards}
+@keyframes jfill{to{width:75%}}
+.js{position:relative;text-align:center;background:none;border:0;color:#fff;cursor:pointer;font-family:var(--fb);padding:0 8px;opacity:0}
+.jt.run .js{animation:pop .6s forwards}
+.js .nd{width:68px;height:68px;border-radius:50%;margin:0 auto 16px;display:grid;place-items:center;font-size:28px;background:#0E2249;border:3px solid #3358A8;position:relative;z-index:2;transition:.35s}
+.js.on .nd{background:var(--orange);border-color:#FDBA74;box-shadow:0 0 0 8px rgba(249,115,22,.18)}
+.js:hover .nd{transform:scale(1.08)}
+.js small{display:block;color:#7FB0FF;font:700 12px var(--fh);letter-spacing:.08em;text-transform:uppercase;margin-bottom:4px}
+.js h3{font-size:20px;margin-bottom:6px}.js p{margin:0 auto;color:#C4D1EE;font-size:14px;max-width:210px}
+@media(max-width:700px){.jt{grid-template-columns:1fr;gap:30px;margin-top:36px}
+.jt:before{left:33px;right:auto;top:34px;bottom:34px;width:4px;height:auto}
+.jt i.fl{left:33px;top:34px;width:4px;height:0}.jt.run i.fl{animation:jfillv 2.4s .2s ease forwards}
+@keyframes jfillv{to{height:calc(100% - 68px)}}
+.js{display:grid;grid-template-columns:68px 1fr;gap:16px;text-align:left;align-items:start;padding:0}.js .nd{margin:0}.js p{margin:0;max-width:none}}
+.fade{opacity:0;transform:translateY(24px);transition:.7s}.fade.in{opacity:1;transform:none}
+@media(max-width:900px){.hgrid,.hack,.lead{grid-template-columns:1fr}.g3{grid-template-columns:1fr 1fr}.g4,.steps{grid-template-columns:1fr 1fr}.fg{grid-template-columns:1fr 1fr}.step:after{display:none}.code{display:none}}
+@media(max-width:640px){.burger{display:block}.links{display:none;position:absolute;top:68px;left:0;right:0;background:#fff;flex-direction:column;padding:20px;align-items:flex-start}.links.open{display:flex}
+.g3,.g4,.steps,.fg{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}.sec{padding:56px 0}.hack,.lead{padding:28px}}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/htm@3.1.1/dist/htm.umd.js"></script>
+<script>
+const {useState,useEffect,useRef}=React;const html=htm.bind(React.createElement);
+const STATS=[[1000,'+','Students Trained',0],[200,'+','Guided Through Career Prep',0],[10,'+','Technical Mentors',0],[15,'+','Job-Oriented IT Courses',0],[4.9,'★','Rated on Google',1]];
+const parseHash=()=>{const h=location.hash||'';if(h.startsWith('#/courses/'))return{r:'course',slug:h.slice(10)};if(h.startsWith('#/courses'))return{r:'courses'};if(h.startsWith('#/about'))return{r:'about'};return{r:'home'}};
+function go(e,r,sec,slug){if(e&&e.preventDefault)e.preventDefault();
+ const path=r==='about'?'#/about':r==='courses'?'#/courses':r==='course'?'#/courses/'+slug:'#';
+ try{history.pushState(null,'',path)}catch(x){}
+ window.dispatchEvent(new CustomEvent('nx-route',{detail:{r,sec,slug}}));
+ if(sec)setTimeout(()=>{const el=document.getElementById(sec);el&&el.scrollIntoView({behavior:'smooth'})},150)}
+function openDemo(e,kind){if(e&&e.preventDefault)e.preventDefault();window.dispatchEvent(new CustomEvent('nx-open',{detail:kind||'demo'}))}
+
+const COURSES=[
+ {c:'Full Stack',i:'🧩',t:'MERN Full Stack',d:'6 months',l:'Beginner',m:'Classroom / Online',x:'React, Node, MongoDB with live projects.'},
+ {c:'Full Stack',i:'☕',t:'Java Full Stack',d:'6 months',l:'Beginner',m:'Classroom / Online',x:'Java, Spring Boot, React and SQL.'},
+ {c:'Cloud & DevOps',i:'☁️',t:'AWS with DevOps',d:'4 months',l:'Intermediate',m:'Classroom / Online',x:'AWS, Docker, Kubernetes, CI/CD pipelines.'},
+ {c:'Cloud & DevOps',i:'🔷',t:'Azure Training',d:'3 months',l:'Beginner',m:'Online',x:'Azure fundamentals to certification prep.'},
+ {c:'Data & AI',i:'🤖',t:'Data Science & AI',d:'6 months',l:'Beginner',m:'Classroom / Online',x:'Python, ML and real-world AI projects.'},
+ {c:'Data & AI',i:'📊',t:'Power BI & Tableau',d:'2 months',l:'Beginner',m:'Classroom / Online',x:'Dashboards and business analytics.'},
+ {c:'Testing',i:'🧪',t:'Selenium Testing',d:'3 months',l:'Beginner',m:'Classroom / Online',x:'Manual and automation testing skills.'},
+ {c:'Programming',i:'🐍',t:'Python Programming',d:'2 months',l:'Beginner',m:'Classroom / Online',x:'From basics to automation and APIs.'}];
+const CATS=['All',...new Set(COURSES.map(c=>c.c))];
+const REVIEWS=[
+ {n:'Student name',s:5,t:'Sample review. Live Google reviews will appear here once the Google Places API is connected.'},
+ {n:'Student name',s:5,t:'Sample review. Each card will show the real reviewer name, rating, date and text from Google.'},
+ {n:'Student name',s:5,t:'Sample review. The list refreshes automatically, so new reviews show up without editing the site.'}];
+const FAQ=[
+ ["Do you provide placement support?","Yes. Structured career assistance includes resume preparation, LinkedIn guidance, mock interviews and interview readiness, and we work with 100+ hiring partners. Results depend on your effort and performance, and our team will guide you throughout."],
+ ["Can I attend a free demo class before enrolling?","Yes. You can book a free demo class, experience how our trainers teach and ask your questions before you decide to join."],
+ ["Do I need coding knowledge to join?","No. Our beginner-friendly tracks start from the basics, so freshers and non-IT learners can join without prior coding experience."],
+ ["How do I choose the right course?","Use the interest matcher on this page or talk to our career counsellor. We look at your education, current skills, interests and target role, and explain course suitability, duration and career paths before you enrol."],
+ ["Are online classes available?","Yes. Most courses are offered in both classroom mode at our Tambaram centre and live online mode. Choose whichever suits your schedule and location."],
+ ["How big are the batches?","We keep batches small and focused so you can ask questions, get trainer feedback and take an active part in every session."],
+ ["Will I work on real projects?","Yes. Selected courses include guided real-time projects and role-relevant assignments so you can apply what you learn. Ask the counsellor which projects are part of your course."],
+ ["What are the course fees and duration?","Fees and duration differ from course to course. Our team shares the complete details, including syllabus and duration, before you enrol, so there are no surprises."],
+ ["Can working professionals join?","Yes. Working professionals can choose flexible classroom or live online options. Contact us to discuss timings that fit around your job."],
+ ["Do you offer internships?","Yes. Our Internship Program lets students work on practical, live-style projects, including AI and ML tracks. Contact us for the current intake and eligibility."],
+ ["What is Nexila Hackathon 2026?","It is our tech challenge for college students, with teams of 2 to 4 building projects in AI and programming, and a prize pool of ₹50K. Use the register button on this page to apply."],
+ ["Do you offer corporate training for teams?","Yes. We offer corporate training for organisations. Write to info@nexilatechnologies.com or call +91 980 306 1234 to discuss your requirements."]];
+
+function useReveal(){const r=useRef();useEffect(()=>{const o=new IntersectionObserver(e=>e.forEach(x=>x.isIntersecting&&x.target.classList.add('in')),{threshold:.12});r.current&&o.observe(r.current);return()=>o.disconnect()},[]);return r}
+function Fade({children}){const r=useReveal();return html`<div ref=${r} className="fade">${children}</div>`}
+function Counter({to,suffix,dec=0}){const [v,setV]=useState(0);const r=useRef();
+ useEffect(()=>{const o=new IntersectionObserver(([e])=>{if(!e.isIntersecting)return;o.disconnect();const t0=performance.now();const f=t=>{const p=Math.min((t-t0)/1400,1);setV(to*p);p<1&&requestAnimationFrame(f)};requestAnimationFrame(f)});o.observe(r.current);return()=>o.disconnect()},[]);
+ return html`<b ref=${r}>${dec?v.toFixed(dec):Math.round(v).toLocaleString('en-US')}${suffix}</b>`}
+function Head({tag,title,sub}){return html`<div><div className="tag">${tag}</div><h2 className="h2">${title}</h2>${sub&&html`<p className="sub">${sub}</p>`}</div>`}
+
+function Topbar(){return html`<div className="tb"><div className="wrap"><div className="l">
+ <a href="tel:+919803061234">📞 +91 980 306 1234</a><a href="mailto:info@nexilatechnologies.com">✉️ info@nexilatechnologies.com</a></div>
+ <div className="r">📍 Tambaram, Chennai</div></div></div>`}
+function Header({route}){const [o,setO]=useState(false);
+ const L=[['Home','#'],['About','#/about'],['Courses','#/courses'],['Placements','#placements'],['Internship','#hackathon'],['Blog','https://www.nexilatechnologies.com/author/admin_nexila/'],['Contact','#contact']];
+ const click=(e,n,h)=>{setO(false);if(n==='Home')go(e,'home');else if(n==='About')go(e,'about');else if(n==='Courses')go(e,'courses');else if(h[0]==='#'&&route!=='home'&&n!=='Contact')go(e,'home',h.slice(1))};
+ const act=n=>(n==='Home'&&route==='home')||(n==='About'&&route==='about')||(n==='Courses'&&(route==='courses'||route==='course'));
+ return html`<header><div className="wrap nav"><a href="#" className="logo" onClick=${e=>go(e,'home')}>Nexila<b>.</b>Tech</a>
+ <button className="burger" onClick=${()=>setO(!o)} aria-label="Menu">${o?'✕':'☰'}</button>
+ <nav className=${'links'+(o?' open':'')}>${L.map(([n,h])=>html`<a key=${n} href=${h} className=${act(n)?'act':''} target=${h[0]==='h'?'_blank':null} rel=${h[0]==='h'?'noopener':null} onClick=${e=>click(e,n,h)}>${n}</a>`)}
+ <a href="#contact" onClick=${e=>{setO(false);openDemo(e)}} className="btn cta" style=${{padding:'9px 18px'}}>Enroll Now!</a></nav></div></header>`}
+
+function Hero(){return html`<section className="hero"><div className="wrap">
+ <div className="hgrid"><div>
+  <div className="tag">Software Training Institute · Tambaram, Chennai</div>
+  <h1 style=${{marginTop:12}}>Learn. Build. <span>Get Hired.</span></h1>
+  <p>Job-focused software training with live projects, internships and dedicated placement support, taught by working industry mentors.</p>
+  <div className="row"><a href="#contact" onClick=${openDemo} className="btn cta">Book Free Demo</a><a href="#courses" className="btn ghost">Explore Courses</a></div></div>
+  <div className="code"><div className="dots"><span></span><span></span><span></span></div>
+  <div><i>const</i> career = <i>await</i> nexila.<em>train</em>({'{'}</div>
+  <div>  &nbsp;skills: [<em>"React"</em>, <em>"Cloud"</em>, <em>"AI"</em>],</div>
+  <div>  &nbsp;projects: <em>"live"</em>, mentors: <em>"industry"</em></div>
+  <div>{'}'});</div><div style=${{marginTop:8}}><i>if</i> (career.ready) <em>getHired</em>();</div></div></div>
+ <div className="stats">
+  ${STATS.map(([n,x,l,d])=>html`<div className="stat" key=${l}><${Counter} to=${n} suffix=${x} dec=${d}/><span>${l}</span></div>`)}</div></div></section>`}
+
+function Partners(){return html`<section className="sec" id="placements" style=${{paddingBottom:0}}><div className="wrap" style=${{textAlign:'center'}}>
+ <div className="tag">Trusted by 100+ hiring partners</div>
+ <div className="partners">${['Partner logo','Partner logo','Partner logo','Partner logo','Partner logo'].map((p,i)=>html`<span key=${i} className="pill">${p}</span>`)}</div></div></section>`}
+
+const SLUG={'MERN Full Stack':'mern','Java Full Stack':'java-full-stack','AWS with DevOps':'aws-devops','Azure Training':'azure','Data Science & AI':'data-science','Power BI & Tableau':'power-bi','Selenium Testing':'selenium','Python Programming':'python'};
+function Courses(){const [c,setC]=useState('All');const list=COURSES.filter(x=>c==='All'||x.c===c);
+ return html`<section className="sec" id="courses"><div className="wrap"><${Head} tag="Courses" title="Pick a career track" sub="Beginner-friendly programs that end with projects, interview prep and placement support."/>
+ <div className="tabs">${CATS.map(x=>html`<button key=${x} className=${'tab'+(c===x?' on':'')} onClick=${()=>setC(x)}>${x}</button>`)}</div>
+ <div className="grid g4">${list.map(x=>html`<div className="card" key=${x.t}><div className="ico">${x.i}</div><h3>${x.t}</h3><p>${x.x}</p>
+ <div className="meta"><span>${x.d}</span><span>${x.l}</span><span>${x.m}</span></div><a href=${'#/courses/'+SLUG[x.t]} className="lnk" onClick=${e=>go(e,'course',null,SLUG[x.t])}>View course →</a></div>`)}</div><div style=${{textAlign:'center',marginTop:32}}><a href="#/courses" className="btn outl" onClick=${e=>go(e,'courses')}>View all courses →</a></div></div></section>`}
+
+function Viz({i}){const [m,setM]=useState(0);const d=k=>({style:{animationDelay:k*.35+'s'}});
+ if(i===0)return html`<div className="vz rd">${['Tools','Concepts','Workflows'].map((t,k)=>html`<div className="rn" key=${t} ...${d(k)}><b>${k+1}</b><span>${t}</span></div>`)}</div>`;
+ if(i===1)return html`<div className="vz"><div className="term"><div ...${d(0)}><em>trainer</em>$ demo --live</div><div ...${d(1)}>› explain(concept)</div><div ...${d(2)}>› show(example)</div><div ...${d(3)} className="cur">▍</div></div><div className="bub">👨‍🏫 “Let’s try it together.”</div></div>`;
+ if(i===2)return html`<div className="vz"><div className="col">${[['✓','Exercise completed'],['✓','Guided activity done'],['▶','Your turn: practise it']].map(([c,t],k)=>html`<div className="ck" key=${t} ...${d(k)}><b className=${k===2?'o':''}>${c}</b>${t}</div>`)}</div></div>`;
+ if(i===3)return html`<div className="vz"><div className="avs">${['🧑‍💻','👩‍💻','🙋','👨‍💻','👩‍💻'].map((a,k)=>html`<div key=${k} className=${'a2'+(k===2?' hl':'')}>${a}</div>`)}</div><div className="bub">🙋 “Can you explain this again?”</div><div className="bub" style=${{animationDelay:'1.6s'}}>👨‍🏫 “Sure, here’s feedback.”</div></div>`;
+ if(i===4)return html`<div className="vz"><div className="kb">${[['To do',1,''],['In progress',2,''],['Done',2,' dn']].map(([h,n,c],k)=>html`<div key=${h} className=${'kc'+c}><small>${h}</small>${Array.from({length:n}).map((_,j)=>html`<div key=${j} className="kd" ...${d(k+j)}></div>`)}</div>`)}</div></div>`;
+ if(i===5)return html`<div className="vz"><div className="col" style=${{maxWidth:'none',flexDirection:'row',flexWrap:'wrap'}}>${['Resume','LinkedIn','Mock interview','Interview ready'].map((t,k)=>html`<div className="ck" key=${t} ...${d(k)}><b>✓</b>${t}</div>`)}</div></div>`;
+ if(i===6)return html`<div className="vz" style=${{flexDirection:'column',alignItems:'flex-start'}}><div className="tg">${['Classroom','Live online'].map((t,k)=>html`<button key=${t} className=${m===k?'on':''} onClick=${()=>setM(k)}>${t}</button>`)}</div>
+  <div className="pill2" key=${m} style=${{animationDelay:'0s'}}>${m===0?'📍 Learn in person at our Tambaram centre':'💻 Join live sessions from anywhere'}</div></div>`;
+ return html`<div className="vz fl">${['You','Right course','Career path'].map((t,k)=>html`<${React.Fragment} key=${t}>${k>0&&html`<span className="ar">→</span>`}<div className="pill2" ...${d(k)}>${t}</div><//>`)}</div>`}
+
+function Why(){const [a,setA]=useState(0);const [pause,setPause]=useState(false);
+ useEffect(()=>{if(pause)return;const t=setTimeout(()=>setA(x=>(x+1)%8),5500);return()=>clearTimeout(t)},[a,pause]);
+ const W=[['📚','Industry-Relevant Curriculum','Learn tools, concepts and workflows aligned with the skills used in relevant IT roles.',['Tools','Concepts','Workflows']],['👨‍🏫','Experienced Technical Trainers','Learn through instructor-led sessions with practical explanations, demonstrations and guidance.',['Explanations','Demonstrations','Guidance']],['🛠️','Hands-On Practical Training','Practise tools and concepts through exercises and guided activities, not just theory.',['Exercises','Guided activities','Practice']],['👥','Small-Batch Learning','Ask questions, receive trainer feedback and participate actively with focused batch sizes.',['Ask questions','Trainer feedback','Active participation']],['🚀','Guided Real-Time Projects','Apply your learning through practical assignments and role-relevant projects in selected courses.',['Assignments','Role-relevant projects','Applied learning']],['💼','Structured Career Assistance','Get support with resume preparation, LinkedIn guidance, mock interviews and interview readiness.',['Resume','LinkedIn','Mock interviews']],['🔀','Flexible Learning Options','Choose classroom or live online training based on your schedule, location and learning preference.',['Classroom','Live online','Your schedule']],['🧭','Transparent Career Counselling','Understand course suitability, skills covered, duration and career paths before you enrol.',['Course suitability','Duration','Career paths']]];
+ const n=W.length,cur=W[a];
+ return html`<section className="sec alt"><div className="wrap"><${Head} tag="Why Nexila" title="Training built around real, job-ready skills" sub="Select a point to explore it, or let it play."/>
+ <div className="whyg"><div className=${'wl'+(pause?' pz':'')} onMouseEnter=${()=>setPause(true)} onMouseLeave=${()=>setPause(false)}>
+ ${W.map((w,i)=>html`<button key=${w[1]} className=${'wi'+(i===a?' on':'')} onClick=${()=>setA(i)}><span className="e">${w[0]}</span>${w[1]}${i===a&&html`<i key=${'p'+a}></i>`}</button>`)}</div>
+ <div className="wp" onMouseEnter=${()=>setPause(true)} onMouseLeave=${()=>setPause(false)}><div className="num">${String(a+1).padStart(2,'0')}</div>
+ <div className="anim" key=${a}><div className="big">${cur[0]}</div><h3>${cur[1]}</h3><p>${cur[2]}</p><${Viz} i=${a}/><div className="chips">${cur[3].map(c=>html`<span key=${c}>${c}</span>`)}</div></div>
+ <div className="wn"><button onClick=${()=>setA((a+n-1)%n)} aria-label="Previous">←</button><button onClick=${()=>setA((a+1)%n)} aria-label="Next">→</button><small>${a+1} / ${n}</small></div></div></div>
+ <div className="steps">${[['Learn','Master fundamentals with expert-led sessions.'],['Practice','Solve assignments and build projects.'],['Intern','Work on live projects in our internship program.'],['Get Placed','Interview with our hiring partners.']].map(([t,d])=>html`<div className="step" key=${t}><h3>${t}</h3><p>${d}</p></div>`)}</div></div></section>`}
+
+const PATHS=[
+ {i:'🌱',t:'Freshers',d:'Starting your IT journey? Begin with the fundamentals and build confidence one step at a time.',s:['Programming basics','Core course','Mini projects','Interview prep'],c:['Python Programming','Java Full Stack','MERN Full Stack']},
+ {i:'💼',t:'Working Professionals',d:'Upskill alongside your job with flexible classroom or live online learning focused on your role.',s:['Skill-gap discussion','Flexible batch','Hands-on labs','Role-ready projects'],c:['AWS with DevOps','Data Science & AI','Azure Training']},
+ {i:'🎓',t:'Graduates',d:'Turn your degree into practical, job-ready skills with guided training and project work.',s:['Choose a track','Learn the tools','Build projects','Career assistance'],c:['Java Full Stack','MERN Full Stack','Data Science & AI']},
+ {i:'🌐',t:'Non-IT Learners',d:'Coming from commerce, arts or another stream? Start from the basics, with no prior coding required.',s:['Career counselling','Beginner foundation','Guided practice','Portfolio projects'],c:['Selenium Testing','Power BI & Tableau','Python Programming']},
+ {i:'📚',t:'Final-Year Students',d:'Get ahead before graduation with practical training, internships and hackathons.',s:['Pick a skill','Learn with practice','Internship or hackathon','Placement readiness'],c:['Internship Program','Hackathon 2026','MERN Full Stack']},
+ {i:'🚀',t:'Career Switchers',d:'Moving into IT from another field? Get a clear roadmap, focused skills and support through the change.',s:['Goal and skills review','Targeted course','Real-time projects','Resume and interviews'],c:['Selenium Testing','Power BI & Tableau','AWS with DevOps']}];
+const LPBG=['#1d4ed8','#0f766e','#7c3aed','#c2410c','#0369a1','#be185d'];
+const LPSC=['🧑‍💻','👩‍💼','👨‍🎓','🧭','🎓','🔁'];
+function Paths(){const [a,setA]=useState(0);
+ return html`<section className="sec" id="paths"><div className="wrap"><${Head} tag="Learning Paths" title="A learning path for every background" sub="Whether you are starting out, moving up or changing direction, Nexila helps you choose a course and pace that fit where you are today and where you want to go."/>
+ <div className="lpw">${PATHS.map((x,i)=>html`<div key=${x.t} role="button" tabIndex="0" aria-expanded=${i===a} className=${'lp'+(i===a?' on':'')}
+  style=${{'--g':`linear-gradient(150deg,${LPBG[i]},#0B1B3A)`,...(x.img?{backgroundImage:`url(${x.img})`}:{})}}
+  onClick=${()=>setA(i)} onKeyDown=${e=>(e.key==='Enter'||e.key===' ')&&(e.preventDefault(),setA(i))}>
+  ${!x.img&&html`<div className="sc">${LPSC[i]}</div>`}<div className="n">0${i+1}</div><div className="vt">${x.t}</div>
+  <div className="dt"><h3>${x.t}</h3><p>${x.d}</p>
+  <div className="stp">${x.s.map((t,k)=>html`<${React.Fragment} key=${t}>${k>0&&html`<em>→</em>`}<span>${t}</span><//>`)}</div>
+  <div className="row2">${x.c.map(c=>html`<span className="cc" key=${c}>${c}</span>`)}<a href="#contact" onClick=${openDemo} className="btn cta" style=${{padding:'10px 20px'}}>Get guidance →</a></div></div></div>`)}</div></div></section>`}
+
+const IN={d:['📊','Data & numbers'],c:['💻','Coding & logic'],b:['🎨','Building what people see'],t:['🔍','Spotting bugs & details'],s:['☁️','Servers & automation'],a:['🤖','AI & new tech'],m:['📱','Mobile apps']};
+const MC=[
+ {i:'🧩',t:'Full Stack Development',x:'Build complete web applications, front to back.',k:['c','b']},
+ {i:'🐍',t:'Python Programming',x:'Learn to code and automate everyday tasks with Python.',k:['c','d']},
+ {i:'📈',t:'Data Analytics',x:'Turn raw numbers into dashboards and decisions.',k:['d']},
+ {i:'🧠',t:'Data Science',x:'Find patterns in data and build predictive models.',k:['d','a','c']},
+ {i:'✨',t:'Artificial Intelligence',x:'Work with AI tools and build intelligent applications.',k:['a','c']},
+ {i:'☁️',t:'AWS with DevOps',x:'Deploy, run and automate applications on the cloud.',k:['s','c']},
+ {i:'🧪',t:'Software Testing',x:'Keep software reliable with manual and automated testing.',k:['t','c']},
+ {i:'📱',t:'Mobile App Development',x:'Create Android and iOS apps people use every day.',k:['m','b','c']}];
+function Match(){const [sel,setSel]=useState([]);
+ const tog=k=>setSel(v=>v.includes(k)?v.filter(x=>x!==k):[...v,k]);
+ const rows=MC.map((c,idx)=>({...c,idx,hits:c.k.filter(k=>sel.includes(k))})).sort((a,b)=>sel.length?(b.hits.length-a.hits.length||a.idx-b.idx):a.idx-b.idx);
+ const best=sel.length&&rows[0].hits.length?rows[0]:null;
+ return html`<section className="sec alt" id="match"><div className="wrap"><${Head} tag="Not sure which course to choose?" title="Pick what you enjoy, we will point you to a course" sub="Select the things you like doing. We will highlight the courses that fit your interests and strengths best."/>
+ <div className="chs">${Object.entries(IN).map(([k,[e,l]])=>html`<button key=${k} className=${'ch'+(sel.includes(k)?' on':'')} onClick=${()=>tog(k)}>${e} ${l}</button>`)}</div>
+ <div className="mg">${rows.map(r=>{const top=best&&r.idx===best.idx;const hit=r.hits.length>0;
+  return html`<div key=${r.t} className=${'mc'+(top?' top':hit?' hit':sel.length?' dim':'')}>${top&&html`<span className="bd">Best match</span>`}
+  <div className="ico">${r.i}</div><h3>${r.t}</h3><p>${r.x}</p><div className="mt">${r.hits.map(k=>html`<span key=${k}>✓ ${IN[k][1]}</span>`)}</div></div>`})}</div>
+ <div className="sum">${best?html`Top pick for you: <b>${best.t}</b> · matches ${best.hits.length} of your ${sel.length} ${sel.length>1?'picks':'pick'}`:'Choose one or more interests above to see your matches.'}</div>
+ <p className="note">The right course depends on your education, current skills, interests and the role you are aiming for. Talk to a counsellor before you enrol to understand course suitability, duration and career paths.</p>
+ <div style=${{textAlign:'center'}}><a href="#contact" onClick=${openDemo} className="btn outl">Talk to a Career Counsellor</a></div></div></section>`}
+
+function Hackathon(){return html`<section className="sec" id="hackathon"><div className="wrap"><div className="hack"><div>
+ <div className="tag" style=${{color:'#7FB0FF'}}>Nexila Hackathon 2026</div><h2 style=${{margin:'8px 0 12px'}}>Build. Innovate. Compete.</h2>
+ <p>Open to college students in teams of 2 to 4. Turn your idea into a real project and win.</p><a href="#contact" onClick=${e=>openDemo(e,'hack')} className="btn cta" style=${{marginTop:8}}>Register Now →</a></div>
+ <div className="prize"><span>Prize pool</span><b>₹50K</b><span>AI and programming tracks</span></div></div></div></section>`}
+
+function Reviews(){return html`<section className="sec alt" id="reviews"><div className="wrap"><div className="rev-head"><${Head} tag="Student Reviews" title="What our students say on Google"/>
+ <span className="live">Live from Google Reviews · preview data</span></div>
+ <div className="grid g3">${REVIEWS.map((r,i)=>html`<div className="card rev" key=${i}><div className="star">${'★'.repeat(r.s)}</div><p>${r.t}</p>
+ <div className="who"><div className="av">${r.n[0]}</div><div><b>${r.n}</b><div style=${{color:'var(--muted)',fontSize:12}}>Google review</div></div></div></div>`)}</div></div></section>`}
+
+function Faq(){const [o,setO]=useState(0);const half=Math.ceil(FAQ.length/2);
+ const item=(f,i)=>html`<div className="q" key=${i}><button onClick=${()=>setO(o===i?-1:i)} aria-expanded=${o===i}>${f[0]}<span>${o===i?'−':'+'}</span></button>${o===i&&html`<div>${f[1]}</div>`}</div>`;
+ return html`<section className="sec"><div className="wrap"><${Head} tag="FAQ" title="Common questions"/>
+ <div className="faq2"><div>${FAQ.slice(0,half).map((f,i)=>item(f,i))}</div><div>${FAQ.slice(half).map((f,i)=>item(f,i+half))}</div></div>
+ <div style=${{textAlign:'center',marginTop:28}}><p style=${{color:'var(--muted)',margin:'0 0 14px'}}>Still have questions? Our team is happy to help.</p><a href="#contact" onClick=${openDemo} className="btn cta">Talk to a Counsellor</a></div></div></section>`}
+
+function Lead(){const [ok,setOk]=useState(false);
+ return html`<section className="sec" id="contact" style=${{paddingTop:0}}><div className="wrap"><div className="lead"><div>
+ <div className="tag" style=${{color:'#7FB0FF'}}>Free consultation</div><h2 style=${{margin:'8px 0 12px',fontSize:34}}>Book your free demo class</h2>
+ <p>Tell us what you want to learn and our team will call you back. You can also reach us on +91 980 306 1234.</p></div>
+ ${ok?html`<div style=${{alignSelf:'center'}}><h3>Thank you! ✅</h3><p>We will contact you shortly.</p></div>`:
+ html`<form onSubmit=${e=>{e.preventDefault();setOk(true)}}><input required placeholder="Full name"/><input required type="tel" placeholder="Mobile number"/><input type="email" placeholder="Email"/>
+ <select defaultValue=""><option value="" disabled>Interested course</option>${COURSES.map(c=>html`<option key=${c.t}>${c.t}</option>`)}</select>
+ <button className="btn cta" type="submit">Request Callback</button></form>`}</div></div></section>`}
+
+const SOC=[['X (Twitter)','https://x.com/NexilaTech','<path d="M17.8 3h3.1l-6.8 7.7L22 21h-6.2l-4.9-6.4L5.3 21H2.2l7.3-8.3L2 3h6.4l4.4 5.8L17.8 3zm-1.1 16.2h1.7L7.3 4.7H5.5l11.2 14.5z"/>'],['Facebook','https://www.facebook.com/profile.php?id=61562570624917','<path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.3v7A10 10 0 0 0 22 12z"/>'],['Instagram','https://www.instagram.com/nexila_technologies/','<path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM17.3 5.8a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2z"/>'],['LinkedIn','https://www.linkedin.com/in/nexila-technologies-050ab131a/','<path d="M6.5 8.7H3.3V20h3.2V8.7zM4.9 3.5a1.9 1.9 0 1 0 0 3.8 1.9 1.9 0 0 0 0-3.8zM20.7 13.3c0-3-1.6-4.8-4.2-4.8-1.4 0-2.4.8-2.9 1.5V8.7h-3.1V20h3.2v-5.9c0-1.5.7-2.5 2-2.5 1.3 0 1.9.9 1.9 2.5V20h3.1v-6.7z"/>']];
+function Footer(){const nav=id=>e=>go(e,'home',id);
+ return html`<footer><div className="wrap"><div className="fg">
+ <div><div className="logo" style=${{color:'#fff',marginBottom:10}}>Nexila<b>.</b>Tech</div><p>Software training and placement institute in Tambaram, Chennai.</p>
+  <div className="soc">${SOC.map(([n,u,d])=>html`<a key=${n} href=${u} target="_blank" rel="noopener" aria-label=${n} title=${n}><svg viewBox="0 0 24 24" aria-hidden="true" dangerouslySetInnerHTML=${{__html:d}}></svg></a>`)}</div></div>
+ <div><h3>Company</h3><a href="#/about" onClick=${e=>go(e,'about')}>About</a><a href="#/courses" onClick=${e=>go(e,'courses')}>Courses</a><a href="#reviews" onClick=${nav('reviews')}>Reviews</a><a href="https://www.nexilatechnologies.com/author/admin_nexila/" target="_blank" rel="noopener">Blog</a></div>
+ <div><h3>Programs</h3><a href="#/courses/mern" onClick=${e=>go(e,'course',null,'mern')}>Full Stack</a><a href="#hackathon" onClick=${nav('hackathon')}>Internship</a><a href="#hackathon" onClick=${nav('hackathon')}>Hackathon 2026</a><a href="https://www.nexilatechnologies.com/corporate-training/" target="_blank" rel="noopener">Corporate Training</a></div>
+ <div><h3>Get in touch</h3><a href="mailto:info@nexilatechnologies.com">info@nexilatechnologies.com</a><a href="tel:+919803061234">+91 980 306 1234</a><a href="tel:+919629173443">+91 96 29 173 443</a></div></div>
+ <div className="copy">© 2026 Nexila Technologies. All rights reserved.</div></div></footer>`}
+
+function DemoPopup(){const [open,setOpen]=useState(false);const [ok,setOk]=useState(false);const [kind,setKind]=useState('demo');const seen=useRef(false);
+ useEffect(()=>{try{seen.current=sessionStorage.getItem('nx_demo')==='1'}catch(e){}
+  const mark=()=>{seen.current=true;try{sessionStorage.setItem('nx_demo','1')}catch(e){}};
+  const f=()=>{if(!seen.current&&window.scrollY>window.innerHeight*3){mark();setKind('demo');setOk(false);setOpen(true)}};
+  const o=e=>{mark();setKind(e.detail||'demo');setOk(false);setOpen(true)};
+  window.addEventListener('scroll',f,{passive:true});window.addEventListener('nx-open',o);
+  return()=>{window.removeEventListener('scroll',f);window.removeEventListener('nx-open',o)}},[]);
+ useEffect(()=>{if(!open)return;const k=e=>e.key==='Escape'&&setOpen(false);document.addEventListener('keydown',k);const o=document.body.style.overflow;document.body.style.overflow='hidden';return()=>{document.removeEventListener('keydown',k);document.body.style.overflow=o}},[open]);
+ if(!open)return null;
+ const H=kind==='hack';
+ const pts=H?['Teams of 2 to 4 college students','AI and programming tracks','₹50K prize pool']:['Experience a live class','Ask the trainer your questions','Get course and career guidance'];
+ return html`<div className="pop" onClick=${e=>e.target===e.currentTarget&&setOpen(false)}><div className="pm" role="dialog" aria-modal="true" aria-label=${H?'Register for Nexila Hackathon 2026':'Book your free demo class'}>
+  <button className="px" onClick=${()=>setOpen(false)} aria-label="Close">✕</button>
+  <div className="pl"><div className="tag" style=${{color:'#7FB0FF'}}>${H?'Nexila Hackathon 2026':'Free demo class'}</div><h2>${H?'Register for the hackathon':'Book your free demo class'}</h2>
+   <p>${H?'Build. Innovate. Compete.':'See how we teach before you enrol.'}</p><ul>${pts.map(t=>html`<li key=${t}>${t}</li>`)}</ul></div>
+  <div className="pr">${ok?html`<div style=${{textAlign:'center',padding:'30px 0'}}><h3 style=${{fontSize:26}}>${H?'You are registered! ✅':'Thank you! ✅'}</h3><p style=${{color:'#C4D1EE'}}>${H?'Our team will contact you with the next steps.':'Our team will call you shortly to confirm your demo slot.'}</p><button className="btn cta" onClick=${()=>setOpen(false)}>Continue browsing</button></div>`:
+  html`<form onSubmit=${e=>{e.preventDefault();setOk(true)}}><input required placeholder=${H?'Team leader name':'Full name'}/><input required type="tel" placeholder="Mobile number"/><input type="email" placeholder=${H?'Email':'Email (optional)'}/>
+   ${H?html`<input required placeholder="College name"/><select required defaultValue=""><option value="" disabled>Team size</option><option>2 members</option><option>3 members</option><option>4 members</option></select>`:
+   html`<select required defaultValue=""><option value="" disabled>Interested course</option>${COURSES.map(c=>html`<option key=${c.t}>${c.t}</option>`)}</select>
+   <select required defaultValue=""><option value="" disabled>Preferred mode</option><option>Classroom (Tambaram)</option><option>Live online</option></select>`}
+   <button className="btn cta" type="submit">${H?'Register Now':'Book My Free Demo'}</button><small>You can also call us on +91 980 306 1234.</small></form>`}</div></div></div>`}
+
+const VIDS=[
+ {e:'🧑‍💻',n:'Student name',c:'Full Stack Development',g:'#1d4ed8',yt:''},
+ {e:'📊',n:'Student name',c:'Data Analytics',g:'#0f766e',yt:''},
+ {e:'☁️',n:'Student name',c:'AWS with DevOps',g:'#7c3aed',yt:''},
+ {e:'🧪',n:'Student name',c:'Software Testing',g:'#c2410c',yt:''}];
+function Testi(){const [a,setA]=useState(0);const [pl,setPl]=useState(false);const v=VIDS[a];const bg=x=>({'--g':`linear-gradient(150deg,${x.g},#0B1B3A)`});
+ return html`<section className="sec alt"><div className="wrap"><${Head} tag="Student stories" title="What Our Students Say" sub="Watch real testimonials from our successful graduates."/>
+ <div className="tv"><div className="tmain" style=${bg(v)} key=${a}>
+  ${pl&&v.yt?html`<iframe src=${'https://www.youtube-nocookie.com/embed/'+v.yt+'?autoplay=1&rel=0'} title=${'Testimonial: '+v.n} allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowFullScreen></iframe>`:
+  html`<${React.Fragment}><div className="sc">${v.e}</div><button className="play" onClick=${()=>setPl(true)} aria-label=${'Play testimonial by '+v.n}>▶</button><div className="cap"><b>${v.n}</b><span>${v.c}</span></div>${pl&&html`<div className="soon">Video coming soon</div>`}<//>`}</div>
+ <div className="tl">${VIDS.map((x,i)=>html`<button key=${i} className=${'tt'+(i===a?' on':'')} style=${bg(x)} onClick=${()=>{setA(i);setPl(false)}}><span className="th">${x.e}<i>▶ Watch</i></span><span><b>${x.n}</b><small>${x.c}</small></span></button>`)}</div></div>
+ <div style=${{textAlign:'center',marginTop:28}}><a href="#reviews" className="btn outl" onClick=${e=>go(e,'home','reviews')}>Read our Google reviews →</a></div></div></section>`}
+
+const ABOUT_PHOTO='';
+const CATS2=[['💻','Programming','Java, Python'],['☁️','Cloud Computing','AWS, Azure, GCP'],['🧪','Software Testing','Selenium, SoapUI'],['🗄️','Databases','Oracle, MySQL, MongoDB'],['📊','Data & Analytics','Data Science, Power BI, Tableau'],['📱','Mobile Apps','Android, iOS'],['🧩','Full Stack','MERN, MEAN'],['🤖','RPA','UiPath, Blue Prism'],['🌐','Web Design','React, Angular, Front-End'],['✨','AI & More','AI, MATLAB, Informatica, .NET']];
+const AREAS=['Tambaram','Chromepet','Pallavaram','Velachery','Guindy','Adyar','T. Nagar','Anna Nagar','OMR','Sholinganallur','Porur','Medavakkam','Madipakkam','Nanganallur','Perungudi','Siruseri'];
+function About(){
+ return html`<${React.Fragment}>
+ <section className="hero"><div className="wrap"><div className="hgrid"><div>
+  <div className="bc"><a href="#" onClick=${e=>go(e,'home')}>Home</a> / About us</div>
+  <h1 style=${{marginTop:4}}>About <span>Nexila</span> Technologies</h1>
+  <p>A software training and development company in Tambaram, Chennai, helping learners and organisations build the skills for a fast-moving digital world.</p>
+  <div className="row"><a href="#contact" onClick=${openDemo} className="btn cta">Enroll Now!</a><a href="#courses" onClick=${e=>go(e,'courses')} className="btn ghost">Explore Courses</a></div></div>
+  <div className="abv">${ABOUT_PHOTO?html`<img src=${ABOUT_PHOTO} alt="Nexila Technologies training centre"/>`:html`<div className="ph"><span>📷</span>Nexila photo</div>`}</div></div></div></section>
+
+ <section className="sec"><div className="wrap"><${Head} tag="Who we are" title="Where learning meets real-world skills"/>
+ <div className="abg"><div>
+  <p>Nexila Technologies is a software training and development company based in Tambaram, Chennai. We help students, graduates and working professionals build the skills the IT industry looks for, and we support organisations through training and software solutions.</p>
+  <p>Our aim is simple: bridge the gap between learning and practical application. That is why our classes lean on hands-on practice, guided projects and trainers who explain concepts clearly, so you can keep pace with a rapidly changing technology landscape.</p>
+  <p>Whether you want to upskill, move ahead in your career or start one, we are here to support you at every step, from choosing the right course to getting interview-ready.</p>
+  <div className="row"><a href="#contact" onClick=${openDemo} className="btn cta">Book a Free Demo</a></div></div>
+  <div className="mv">${[['🎯','Our mission','To empower individuals and organisations with the skills and solutions needed to succeed in the digital age.'],['🛠️','What we do','Job-focused IT training, internships, hackathons and corporate training, plus software solutions.'],['🤝','How we teach','Practical sessions, guided projects, small batches and structured career assistance.']].map(([i,t,d])=>html`<${Fade} key=${t}><div className="card"><div className="ico">${i}</div><div><h3>${t}</h3><p>${d}</p></div></div><//>`)}</div></div></div></section>
+
+ <section className="sec alt"><div className="wrap"><div className="stats" style=${{marginTop:0}}>${STATS.map(([n,x,l,d])=>html`<div className="stat" key=${l}><${Counter} to=${n} suffix=${x} dec=${d}/><span>${l}</span></div>`)}</div></div></section>
+
+ <section className="sec"><div className="wrap"><${Head} tag="What we teach" title="Training across the IT skills that matter" sub="From programming and cloud to data, testing and AI, choose the track that fits your goals."/>
+ <div className="grid g5">${CATS2.map(([i,t,d])=>html`<${Fade} key=${t}><div className="card"><div className="ico">${i}</div><h3>${t}</h3><p>${d}</p></div><//>`)}</div></div></section>
+
+ <${Testi}/>
+
+ <section className="sec"><div className="wrap"><${Head} tag="Beyond the classroom" title="Programs that build real experience"/>
+ <div className="grid g3">${[['🚀','Internship Program','Work on practical, live-style projects, including AI and ML tracks.','Apply now',e=>openDemo(e)],['🏆','Nexila Hackathon 2026','A tech challenge for college students. Teams of 2 to 4, AI and programming tracks, ₹50K prize pool.','Register now',e=>openDemo(e,'hack')],['🏢','Corporate Training','Skill-building programs for teams and organisations.','Enquire',e=>openDemo(e)]].map(([i,t,d,b,f])=>html`<${Fade} key=${t}><div className="card"><div className="ico">${i}</div><h3>${t}</h3><p style=${{marginBottom:14}}>${d}</p><a href="#contact" className="lnk" onClick=${f}>${b} →</a></div><//>`)}</div></div></section>
+
+ <section className="sec alt"><div className="wrap" style=${{textAlign:'center'}}><${Head} tag="Where our learners come from" title="Serving learners across Chennai" sub="Our centre is in Tambaram, and learners join us from across the city, or online from anywhere."/>
+ <div className="areas" style=${{justifyContent:'center'}}>${AREAS.map(a=>html`<span key=${a}>${a}</span>`)}</div></div></section>
+
+ <${Lead}/><//>`}
+
+const CCATS=[['Programming Languages','💻','#1d4ed8'],['Cloud Computing','☁️','#0369a1'],['Software Testing','🧪','#c2410c'],['Database Developer','🗄️','#0f766e'],['Data Analytics & Science','📊','#7c3aed'],['Mobile App Development','📱','#be185d'],['Full Stack','🧩','#2563EB'],['RPA','🤖','#0e7490'],['Web Designing','🌐','#b45309'],['Others','✨','#4f46e5']];
+const CBLURB=['The foundation of software development. Learning more than one language boosts your versatility and employability.','On-demand servers, storage, databases and networking: flexible, scalable and central to modern software.','Check software with manual and automated tools to find errors and gaps against the requirements.','Learn to design, build and maintain databases.','Extract insights from data to support decisions, using statistics, programming and domain knowledge.','Build apps for the devices everyone carries, from communication to business services.','Learn the front end, back end and databases to build complete applications.','Use software robots to automate repetitive, rule-based tasks.','Design, build and maintain websites, from layouts to interactive front ends.','Artificial Intelligence, MATLAB, Informatica and .NET training.'];
+const COURSELIST=[[0,'java','Java'],[0,'python','Python'],[1,'aws-certification','AWS Training & Certification'],[1,'aws-devops','AWS with DevOps'],[1,'azure','Azure'],[1,'gcp','Google Cloud Platform (GCP)'],[2,'selenium','Selenium'],[2,'soapui','SoapUI'],[2,'manual-testing','Manual Testing'],[2,'mobile-testing','Mobile Application Testing'],[3,'oracle','Oracle'],[3,'mysql','MySQL'],[3,'mongodb','MongoDB'],[4,'data-analytics','Data Analytics'],[4,'data-science','Data Science'],[4,'tableau','Tableau'],[4,'power-bi','Power BI'],[5,'android','Android'],[5,'ios','iOS'],[6,'mern','MERN Full Stack'],[6,'mean','MEAN Full Stack'],[6,'java-full-stack','Java Full Stack'],[6,'python-full-stack','Python Full Stack'],[7,'uipath','UiPath'],[7,'blue-prism','Blue Prism'],[7,'openspan','OpenSpan'],[7,'automation-anywhere','Automation Anywhere'],[8,'web-development','Web Development'],[8,'angular','Angular JS'],[8,'react','React JS'],[8,'frontend','Front-End Development'],[9,'ai','Artificial Intelligence'],[9,'matlab','MATLAB'],[9,'informatica','Informatica'],[9,'dotnet','.NET']].map(([cat,slug,name])=>({cat,slug,name}));
+const T=(...a)=>a;
+const DET={mern:{
+ desc:'Learn to build complete web applications with the MERN stack: MongoDB, Express.js, React and Node.js. You will cover JavaScript fundamentals, RESTful API development, front-end interfaces and database management, and gain hands-on experience connecting every layer and deploying a full application.',
+ stack:[['MongoDB','NoSQL database that stores your application data.'],['Express.js','Web framework for Node.js that makes servers and APIs simpler to build.'],['React','JavaScript library for building user interfaces and single-page apps.'],['Node.js','Runtime that lets you run JavaScript on the server.']],
+ comps:['JavaScript fundamentals: core concepts including ES6 features','Node.js basics: environment setup, event-driven architecture and npm packages','Express.js: RESTful APIs, middleware, routing, requests and responses','MongoDB: databases, collections, documents and CRUD operations','React: components, state with hooks and routing with React Router','Full stack integration: connecting front end and back end, API calls and data flow','Deployment: publishing apps on platforms such as Heroku, AWS or Vercel'],
+ facts:[['Duration','120 days'],['Class time','90 hours'],['Mode','Classroom + Live online'],['Level','Beginners to experienced'],['Projects','Real-world application'],['Certificate','Completion certificate']],
+ mods:[
+  {t:'HTML',g:[['Basics',['Elements','Tags','Text formatting','Attributes','Links','Lists','Images','Tables','Colors & backgrounds']],['Web forms',['Input','Text fields','Password','Checkboxes','Radio','Select','Upload','Textarea','Hidden fields','Submit & reset']],['Special tags',['Body','Meta','Style','Div','Layouts','Frames']],['Semantic elements',['Article','Aside','Figure','Footer','Header','Mark','Nav','Progress','Section','Summary','Time']],['HTML5 forms',['Datalist','Output','Color','Date','Datetime-local','Email','Month','Number','Range','Search','Tel','URL','Week','Autocomplete','Autofocus','Pattern (regexp)','Min & max']]]},
+  {t:'CSS',g:[['Fundamentals',['Syntax','Selectors (ID, class, tag, attribute)','Backgrounds','Text','Fonts','Links','Lists','Tables']],['Box model & layout',['Border','Outline','Margin','Padding','Dimension','Display','Positioning','Floating','Navigation bar','Image gallery','Image opacity','Alignment']],['CSS3',['Border-radius','Border images','Background size & origin','Text effects & shadow','Box-shadow','Text-overflow','Word-wrap & word-break','Fonts']],['Transforms & transitions',['2D transforms','3D transforms','Transition delay','Transition duration','Transition property','Timing function']]]},
+  {t:'JavaScript',g:[['Getting started',['What is JavaScript?','What is AJAX?','Development workflow','Tools','Objects','Variables','Comparisons','Events','Your first script','Internal vs external scripts','Comments']],['Core language',['Alerts, confirms and prompts','Conditional statements','Functions & return values','Switch/case','Error handling','Loops','Arrays','do & while loops','Detecting objects']],['Interactivity',['Image rollovers','Slideshows','Random images','Jump & dynamic menus','Form validation','Email verification','Window, mouse, keyboard & focus events']],['Browser & data',['Cookies: write, read, delete','The DOM: add, delete, insert, replace nodes','Dates & times','Countdowns']],['Real-world uses',['Sliding menus','Pop-up menus','Slideshows with captions','Stylesheet switcher']]]},
+  {t:'ReactJS',i:['Introduction to ReactJS','Library & directory structure','React components','Types of components','Building a simple component','Component composition','Component styling','Inter-component communication','Passing data between components','Routing & single-page apps','Hooks & states','Hooks vs states','Types of hooks','Redux as a state container','React Bootstrap','Deploying a ReactJS app']},
+  {t:'Node JS',i:['Introduction to Node.js','Application architecture','Synchronous & asynchronous programming','Callback functions','Promises','MongoDB with Node.js','Designing the schema','Designing REST APIs (GET, POST, PUT, DELETE)','JSON Web Token authentication','Building an auth app','E-commerce backend','Payment gateway integration']},
+  {t:'ExpressJS: building RESTful APIs',i:['Express & RESTful services','Your first web server','Nodemon','Environment variables','Route parameters','Handling GET requests','Handling POST requests','Calling endpoints with Postman','Input validation','Handling PUT requests','Handling DELETE requests','Project: build the Genres API']},
+  {t:'Express: advanced topics',i:['Middleware','Custom middleware','Built-in middleware','Environments & configuration','Debugging','Templating engines','Database engines & integration','Authentication','Structuring Express applications']},
+  {t:'MongoDB',i:['Introduction to MongoDB (NoSQL)','Collections','Documents','MySQL vs NoSQL','Inserting data','Filter queries','Schema validation','Indexing','Aggregation','Embedded documents']}],
+ trainer:['10+ years of experience','Has trained hundreds of students','Strong theoretical and practical knowledge','Certified professionals with high grades','Well connected with hiring HRs in multinational companies','Real-time project and application experience in MNCs','Currently working in top-level multinational companies'],
+ faqs:[['What is the MERN stack?','MERN stands for MongoDB (database), Express.js (web framework for Node.js), React (front-end library) and Node.js (runtime). Together they let you build full stack web applications using JavaScript.'],['Who is this course for?','Beginners who want to start a career in web development, and developers who want to add full stack skills.'],['What prerequisites do I need?','Familiarity with HTML, CSS and basic JavaScript is recommended. Knowing REST APIs and asynchronous programming helps but is not mandatory.'],['What will I learn?','You will set up a MERN application, manage a MongoDB database, build a server with Express.js, develop a front end with React and connect everything into a complete application.'],['What tools or software do I need?','A code editor such as VS Code, Node.js installed and access to MongoDB (locally or through a cloud service). Familiarity with Git also helps.'],['How is the course structured?','Lectures, hands-on coding exercises and projects, with access to additional learning resources.'],['Is there hands-on practice?','Yes. The course includes hands-on exercises and projects so you can apply what you learn in real-world scenarios.'],['Is it available online or in person?','Both. You can learn in our Tambaram classroom or join live online sessions.'],['How long is the course?','120 days, with 90 hours of class time in total. Our team will share the exact schedule when you enrol.'],['Will I get a certificate?','Yes. On successful completion you receive a certificate of completion that you can add to your resume or LinkedIn profile.'],['What jobs can I apply for?','Roles such as Full Stack Developer, Front-End Developer, Back-End Developer or Software Engineer.'],['Will I work on real-world projects?','Yes. You will build a complete application with the MERN stack, which reinforces your learning and gives you practical experience.']]}};
+
+ const GEN_FAQ=c=>[['What will I learn in '+c+'?','You will learn the tools and concepts used in real projects, with trainer demonstrations, hands-on practice and guided assignments. Our counsellor can share the detailed syllabus.'],['Do I need prior experience?','Our beginner-friendly tracks start from the basics. Ask our counsellor about prerequisites for this course.'],['Is it available online or in person?','Yes. Most courses run in our Tambaram classroom and as live online batches.'],['Can I attend a demo class first?','Yes. You can book a free demo class and ask the trainer your questions before you enrol.'],['What are the fees and duration?','These vary by course. Our team shares complete details, including the syllabus, before you enrol.']];
+function Acc({items}){const [o,setO]=useState(0);return html`<div>${items.map((f,i)=>html`<div className="q" key=${i}><button onClick=${()=>setO(o===i?-1:i)} aria-expanded=${o===i}>${f[0]}<span style=${{color:'var(--blue)'}}>${o===i?'−':'+'}</span></button>${o===i&&html`<div>${f[1]}</div>`}</div>`)}</div>`}
+function CourseCard({c}){const cc=CCATS[c.cat];
+ return html`<a href=${'#/courses/'+c.slug} onClick=${e=>go(e,'course',null,c.slug)} className="cc2" style=${{'--g':'linear-gradient(150deg,'+cc[2]+',#0B1B3A)'}}><div className="top"><span className="bd2">${cc[0]}</span>${cc[1]}</div><div className="b"><h3>${c.name}</h3><div className="meta"><span>Classroom + Live online</span><span>Free demo</span></div><span className="lnk">View details →</span></div></a>`}
+function CoursesPage(){const [cat,setCat]=useState(-1);const [q,setQ]=useState('');
+ const list=COURSELIST.filter(c=>(cat<0||c.cat===cat)&&c.name.toLowerCase().includes(q.trim().toLowerCase()));
+ return html`<${React.Fragment}>
+ <section className="phero"><div className="wrap"><div className="bc"><a href="#" onClick=${e=>go(e,'home')}>Home</a> / Courses</div>
+ <h1>Our <span style=${{color:'var(--orange)'}}>Courses</span></h1>
+ <p>Courses for every level, from beginners to advanced learners. Pick a track, attend a free demo and start learning.</p>
+ <div className="srch"><span>🔍</span><input value=${q} onChange=${e=>setQ(e.target.value)} placeholder="Search courses, e.g. Python, AWS, React" aria-label="Search courses"/></div></div></section>
+ <section className="sec" style=${{paddingTop:36}}><div className="wrap">
+ <div className="tabs" style=${{marginTop:0}}><button className=${'tab'+(cat<0?' on':'')} onClick=${()=>setCat(-1)}>All (${COURSELIST.length})</button>${CCATS.map((c,i)=>html`<button key=${c[0]} className=${'tab'+(cat===i?' on':'')} onClick=${()=>setCat(i)}>${c[1]} ${c[0]}</button>`)}</div>
+ ${cat>=0&&html`<p className="sub" style=${{marginTop:18}}>${CBLURB[cat]}</p>`}
+ <div className="grid g4">${list.map(c=>html`<${CourseCard} key=${c.slug} c=${c}/>`)}</div>
+ ${!list.length&&html`<p style=${{textAlign:'center',color:'var(--muted)',marginTop:40}}>No courses match your search. <a href="#contact" className="lnk" onClick=${openDemo}>Ask our counsellor</a></p>`}</div></section>
+ <section className="sec alt" style=${{padding:'48px 0'}}><div className="wrap"><div className="band"><div><h2>Not sure which course to choose?</h2><p>Tell us your background and goals. We will suggest a path and explain duration and career options.</p></div>
+ <div className="row"><a href="#" className="btn ghost" onClick=${e=>go(e,'home','match')}>Try the interest matcher</a><a href="#contact" className="btn cta" onClick=${openDemo}>Talk to a Counsellor</a></div></div></div></section>
+ <${Lead}/><//>`}
+const CHN=['Tambaram','Velachery','T Nagar','Thoraipakkam','Anna Nagar','Porur','Medavakkam','Vadapalani','Guindy','Nungambakkam','Chromepet','Pallavaram','Saidapet'];
+function JourneyTrack(){const [run,setRun]=useState(false);const [a,setA]=useState(-1);const r=useRef();
+ const S=[['📚','Learn','Master fundamentals with expert-led sessions.'],['🛠️','Practice','Solve assignments and build projects.'],['🚀','Intern','Work on live projects in our internship program.'],['🎯','Get Placed','Interview with our hiring partners.']];
+ useEffect(()=>{const o=new IntersectionObserver(([e])=>{if(e.isIntersecting){o.disconnect();setRun(true);S.forEach((_,k)=>setTimeout(()=>setA(x=>Math.max(x,k)),300+k*750))}},{threshold:.3});r.current&&o.observe(r.current);return()=>o.disconnect()},[]);
+ return html`<section className="sec jt-sec"><div className="wrap" ref=${r}><${Head} tag="Your journey" title="Your journey with Nexila" sub="Four stages that take you from fundamentals to the interview room."/>
+ <div className=${'jt'+(run?' run':'')}><i className="fl"></i>${S.map(([i,t,d],k)=>html`<button key=${t} className=${'js'+(k<=a?' on':'')} style=${{animationDelay:(0.2+k*0.7)+'s'}} onClick=${()=>setA(k)}><span className="nd">${i}</span><div><small>Stage ${k+1}</small><h3>${t}</h3><p>${d}</p></div></button>`)}</div>
+ <div style=${{textAlign:'center',marginTop:44}}><a href="#contact" className="btn cta" onClick=${openDemo}>Start Your Journey</a></div></div></section>`}
+
+function CourseDetail({slug}){const c=COURSELIST.find(x=>x.slug===slug);const [open,setOpen]=useState(0);const [tab,setTab]=useState('about');
+ useEffect(()=>{const ids=['about','syllabus','trainer','faqs'];const o=new IntersectionObserver(es=>es.forEach(e=>e.isIntersecting&&setTab(e.target.id)),{rootMargin:'-35% 0px -60% 0px'});ids.forEach(i=>{const el=document.getElementById(i);el&&o.observe(el)});return()=>o.disconnect()},[slug]);
+ if(!c)return html`<section className="sec"><div className="wrap" style=${{textAlign:'center'}}><h2 className="h2">Course not found</h2><a href="#/courses" className="btn cta" onClick=${e=>go(e,'courses')}>Browse all courses</a></div></section>`;
+ const d=DET[slug],cc=CCATS[c.cat];
+ const desc=d?d.desc:CBLURB[c.cat]+' Nexila\'s '+c.name+' training is led by experienced trainers, with hands-on practice and guided projects, in classroom or live online mode.';
+ const facts=d?d.facts:[['Mode','Classroom + Live online'],['Free demo','Available'],['Batches','Small, focused batches'],['Duration','Shared by our counsellor']];
+ const faqs=d?d.faqs:GEN_FAQ(c.name);
+ const rel=[...COURSELIST.filter(x=>x.cat===c.cat&&x.slug!==slug),...COURSELIST.filter(x=>x.cat!==c.cat&&['mern','python','aws-devops','data-science','selenium'].includes(x.slug))].slice(0,4);
+ const jump=id=>{setTab(id);const el=document.getElementById(id);el&&el.scrollIntoView({behavior:'smooth'})};
+ return html`<${React.Fragment}>
+ <section className="hero" style=${{paddingBottom:48}}><div className="wrap"><div className="hgrid"><div>
+  <div className="bc"><a href="#" onClick=${e=>go(e,'home')}>Home</a> / <a href="#/courses" onClick=${e=>go(e,'courses')}>Courses</a> / ${c.name}</div>
+  <div className="tag">${cc[0]}</div><h1 style=${{marginTop:8,fontSize:'clamp(30px,5vw,48px)'}}>${c.name} <span>Training</span></h1>
+  <p style=${{fontSize:17}}>${desc}</p>
+  <div className="row"><a href="#contact" className="btn cta" onClick=${openDemo}>Enroll Now!</a><a href="#contact" className="btn ghost" onClick=${openDemo}>Request Syllabus</a></div></div>
+  <div className="abv" style=${{background:'linear-gradient(150deg,'+cc[2]+',#0B1B3A)'}}>${cc[1]}</div></div></div></section>
+ <div className="tabbar"><div className="wrap">${[['about','About Course'],['syllabus','Syllabus'],['trainer','Trainer Profile'],['faqs','FAQs']].map(([i,l])=>html`<button key=${i} className=${'ct'+(tab===i?' on':'')} onClick=${()=>jump(i)}>${l}</button>`)}</div></div>
+ <section className="sec" style=${{paddingTop:44}}><div className="wrap"><div className="cdg"><div>
+  <div className="sx" id="about"><h2>About the course</h2><p>${desc}</p>
+   ${d?html`<div className="stk">${d.stack.map(([t,x])=>html`<div className="card" key=${t}><h3>${t}</h3><p>${x}</p></div>`)}</div><h3 style=${{fontSize:19}}>What the course covers</h3><ul className="lst">${d.comps.map(t=>html`<li key=${t}>${t}</li>`)}</ul>`:
+   html`<h3 style=${{fontSize:19}}>What you will get</h3><ul className="lst"><li>Trainer-led sessions with practical explanations and demonstrations</li><li>Hands-on exercises and guided assignments</li><li>Role-relevant projects in selected courses</li><li>Resume, LinkedIn and mock interview support</li><li>Classroom or live online learning</li></ul>`}</div>
+  <div className="sx" id="syllabus"><h2>Syllabus</h2>
+   ${d?d.mods.map((m,i)=>html`<div className="sy" key=${m.t}><button onClick=${()=>setOpen(open===i?-1:i)} aria-expanded=${open===i}><span><i className="n">${i+1}</i>${m.t}</span><span style=${{color:'var(--blue)'}}>${open===i?'−':'+'}</span></button>${open===i&&html`<div className="bd3">${m.g?m.g.map(([h,it])=>html`<div key=${h}><div className="gh">${h}</div><div className="tp">${it.map(t=>html`<span key=${t}>${t}</span>`)}</div></div>`):html`<div className="tp" style=${{marginTop:4}}>${m.i.map(t=>html`<span key=${t}>${t}</span>`)}</div>`}</div>`}</div>`):
+   html`<div className="card"><h3>Detailed ${c.name} syllabus</h3><p style=${{margin:'8px 0 16px'}}>Our counsellor will share the module-wise syllabus, duration and schedule for this course.</p><a href="#contact" className="btn cta" onClick=${openDemo}>Request Syllabus</a></div>`}</div>
+  <div className="sx" id="trainer"><h2>Trainer profile</h2><div className="tr"><div className="tph">👨‍🏫</div><div>
+   <p>Our trainers give you the freedom to explore the subject through real-time examples. They help you complete your projects, prepare you for interview questions and welcome your questions at any time.</p>
+   <ul className="lst">${(d?d.trainer:['Experienced technical trainers','Instructor-led sessions with practical demonstrations','Help with projects and interview preparation','Questions welcome at any time']).map(t=>html`<li key=${t}>${t}</li>`)}</ul>
+   <a href="#contact" className="btn cta" onClick=${openDemo} style=${{marginTop:18}}>Let's Get Started</a></div></div></div>
+  <div className="sx" id="faqs"><h2>Frequently asked questions</h2><${Acc} items=${faqs}/></div></div>
+  <aside className="side"><div className="snap"><h3>Course snapshot</h3>${facts.map(([k,v])=>html`<div className="fr" key=${k}><span>${k}</span><b>${v}</b></div>`)}
+   <a href="#contact" className="btn cta" onClick=${openDemo} style=${{display:'block',textAlign:'center',marginTop:18}}>Enroll Now!</a>
+   <a href="#contact" className="btn outl" onClick=${openDemo} style=${{display:'block',textAlign:'center',marginTop:10}}>Book a Free Demo</a>
+   <p style=${{textAlign:'center',fontSize:14,color:'var(--muted)',margin:'14px 0 0'}}>Or call <a href="tel:+919803061234" className="lnk">+91 980 306 1234</a></p></div></aside></div></div></section>
+ <${JourneyTrack}/>
+ <section className="sec alt"><div className="wrap"><${Head} tag="Trending courses" title="You may also like"/><div className="grid g4">${rel.map(x=>html`<${CourseCard} key=${x.slug} c=${x}/>`)}</div></div></section>
+ <section className="sec"><div className="wrap"><${Head} tag="Available in Chennai" title=${c.name+' training near you'}/><div className="areas">${CHN.map(a=>html`<span key=${a}>${c.name} course in ${a}</span>`)}</div></div></section>
+ <${Lead}/><//>`}
+
+function App(){const [rt,setRt]=useState(parseHash);
+ useEffect(()=>{const h=()=>setRt(parseHash());const n=e=>{setRt({r:e.detail.r,slug:e.detail.slug});if(!e.detail.sec)window.scrollTo(0,0)};
+  window.addEventListener('hashchange',h);window.addEventListener('popstate',h);window.addEventListener('nx-route',n);
+  return()=>{window.removeEventListener('hashchange',h);window.removeEventListener('popstate',h);window.removeEventListener('nx-route',n)}},[]);
+ useEffect(()=>{const c=COURSELIST.find(x=>x.slug===rt.slug);document.title=rt.r==='about'?'About Us | Nexila Technologies':rt.r==='courses'?'Courses in Tambaram, Chennai | Nexila Technologies':rt.r==='course'&&c?c.name+' Training in Tambaram, Chennai | Nexila Technologies':'Nexila Technologies | Software Training & Placement in Tambaram'},[rt]);
+ return html`<${React.Fragment}><${Topbar}/><${Header} route=${rt.r}/>
+ ${rt.r==='about'?html`<${About}/>`:rt.r==='courses'?html`<${CoursesPage}/>`:rt.r==='course'?html`<${CourseDetail} slug=${rt.slug} key=${rt.slug}/>`:html`<${React.Fragment}><${Hero}/><${Partners}/><${Courses}/><${Why}/><${Paths}/><${Match}/><${Hackathon}/><${Reviews}/><${Faq}/><${Lead}/><//>`}
+ <${Footer}/><a className="wa" href="https://wa.me/919803061234" target="_blank" rel="noopener">💬 WhatsApp</a><${DemoPopup}/><//>`}
+ReactDOM.createRoot(document.getElementById('root')).render(html`<${App}/>`);
+</script>
+</body>
+</html>
