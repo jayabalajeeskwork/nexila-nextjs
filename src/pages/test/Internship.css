@@ -1515,3 +1515,20 @@ footer h3{color:#fff;font-size:15px;margin-bottom:12px}footer a{display:block;ma
   max-width: none;
   text-align: justify;
 }
+
+.lead#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 30px;
+  width: 100%;
+}
+
+.lead#contact > div:first-child {
+  width: 100%;
+}
+
+.internship-form-container {
+  width: 100%;
+  max-width: 100%;
+}

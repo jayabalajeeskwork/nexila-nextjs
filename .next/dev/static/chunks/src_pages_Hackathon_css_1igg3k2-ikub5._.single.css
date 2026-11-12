@@ -2425,8 +2425,8 @@ footer a:hover {
 }
 
 .tr {
-  background: var(--card);
   border: 1px solid var(--line);
+  background-color: #0b1b3a;
   border-radius: 20px;
   grid-template-columns: 200px 1fr;
   align-items: start;

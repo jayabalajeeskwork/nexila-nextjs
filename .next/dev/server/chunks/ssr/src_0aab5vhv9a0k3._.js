@@ -1837,6 +1837,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$images$2f$n
 ;
 ;
 ;
+;
 const HK = {
     close: "2026-10-13",
     r1: "2026-10-19",

@@ -4494,4 +4494,21 @@ footer a:hover {
   max-width: none;
 }
 
+.lead#contact {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 30px;
+  width: 100%;
+  display: flex;
+}
+
+.lead#contact > div:first-child {
+  width: 100%;
+}
+
+.internship-form-container {
+  width: 100%;
+  max-width: 100%;
+}
+
 /*# sourceMappingURL=src_pages_test_Internship_css_1igg3k2-ikub5._.single.css.map*/

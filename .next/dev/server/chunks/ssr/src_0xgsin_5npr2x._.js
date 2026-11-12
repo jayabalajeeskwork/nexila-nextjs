@@ -1858,7 +1858,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$internshipOpt
 ;
 ;
 ;
-const API_BASE_URL = (process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:5000/api").replace(/\/$/, "");
+const API_BASE_URL = (("TURBOPACK compile-time value", "http://localhost:5000/api") || "http://localhost:5000/api").replace(/\/$/, "");
 const DURATIONS = [
     "15",
     "30",
@@ -12081,7 +12081,7 @@ function InternForm() {
         }
         // Set this in .env for local development or production.
         // Example: NEXT_PUBLIC_API_BASE_URL=http://localhost:5000/api
-        const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL// ||
+        const API_BASE_URL = ("TURBOPACK compile-time value", "http://localhost:5000/api")// ||
         // "https://crm.nexilatechnologies.com/api"
         .replace(/\/$/, "");
         let leadSaved = false;
@@ -12184,7 +12184,7 @@ function InternForm() {
             }
             // ---------------- STEP 4: OPEN CHECKOUT ----------------
             const options = {
-                key: process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID,
+                key: ("TURBOPACK compile-time value", "your_razorpay_key_id"),
                 amount: order.amount,
                 currency: order.currency || "INR",
                 name: "Nexila Technologies",

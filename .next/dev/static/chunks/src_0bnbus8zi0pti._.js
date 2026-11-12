@@ -1896,6 +1896,7 @@ var _s = __turbopack_context__.k.signature(), _s1 = __turbopack_context__.k.sign
 "use client";
 ;
 ;
+;
 const HK = {
     close: "2026-10-13",
     r1: "2026-10-19",

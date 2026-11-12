@@ -24,7 +24,14 @@ export const metadata: Metadata = {
   title: { default: "Software Training Institute in Tambaram | Nexila Tech", template: "%s | Nexila Technologies" },
   description: "Nexila Technologies, software training institute in Tambaram, Chennai. Job-focused IT courses, internships, live projects and career support.",
   alternates: { canonical: "/" },
-  openGraph: { type: "website", siteName: "Nexila Technologies", title: "Learn. Build. Get Hired.", description: "Job-focused IT courses, internships, live projects and career support in Tambaram, Chennai.", url: "https://www.nexilatechnologies.com/", images: ["/logo.png"] },
+  openGraph: {
+  type: "website",
+  siteName: "Nexila Technologies",
+  title: "Learn. Build. Get Hired.",
+  description: "Job-focused IT courses, internships, live projects and career support in Tambaram, Chennai.",
+  url: "https://www.nexilatechnologies.com/",
+  images: ["/nexila_n_logo"],
+},
   twitter: { card: "summary_large_image" },
   verification: process.env.NEXT_PUBLIC_GSC_VERIFICATION
     ? { google: process.env.NEXT_PUBLIC_GSC_VERIFICATION }

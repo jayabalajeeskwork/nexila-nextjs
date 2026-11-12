@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from "react";
 import { Header, Footer, Topbar } from "./Home";
 import { DemoPopup } from "../components/courses/CourseData";
-import aboutstudentsimg2 from "../assets/images/about/aboutstudentsimg2.jpeg";
+const aboutstudentsimg2 = "/images/about/aboutstudentsimg2.jpeg";
 import "./About.css"
 /* =========================
    DATA
@@ -50,16 +50,16 @@ const AREAS = [
 ];
 
 // Videos
-const rw1 = "/assets/images/about/rw1.mp4";
-const rw2 = "/assets/images/about/rw2.mp4";
-const rw3 = "/assets/images/about/rw5.mp4";
-const rw4 = "/assets/images/about/rw4.mp4";
+const rw1 = "/images/about/rw1.mp4";
+const rw2 = "/images/about/rw2.mp4";
+const rw3 = "/images/about/rw5.mp4";
+const rw4 = "/images/about/rw4.mp4";
 
 // Images
-const rt1 = "/assets/images/about/rt1.jpeg";
-const rt2 = "/assets/images/about/rt2.jpeg";
-const rt5 = "/assets/images/about/rt5.jpeg";
-const rt4 = "/assets/images/about/rt4.jpeg";
+const rt1 = "/images/about/rt1.jpeg";
+const rt2 = "/images/about/rt2.jpeg";
+const rt5 = "/images/about/rt5.jpeg";
+const rt4 = "/images/about/rt4.jpeg";
 const VIDS = [
   {
     video: rw1,

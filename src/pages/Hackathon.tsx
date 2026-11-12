@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-
+import "./Hackathon.css";
 /* ================= HACKATHON DATA ================= */
 import { Header, Footer, Topbar } from "./Home";
 const HK = {
@@ -122,8 +122,8 @@ const HFAQ = [
   ],
 ];
 
-import hackathonAbout1 from "../assets/images/Hackathon-About-image.png";
-import hackathonAbout2 from "../assets/images/nexhack-about2.webp";
+const hackathonAbout1 = "/images/Hackathon-About-image.png";
+const hackathonAbout2 = "/images/nexhack-about2.webp";
 
 const HPH = [
   {
@@ -926,7 +926,17 @@ function HackathonPage() {
 
             <div className="tiers">
               {TIERS.map(([m, l, v, p, c]) => (
-                <div className="tr" key={l}>
+              <div
+  className="tr"
+  key={l}
+  style={{
+    backgroundColor: "#0B1B3A",
+    display: "grid",
+    gridTemplateColumns: "200px 1fr",
+    gap: "24px",
+    alignItems: "start",
+  }}
+>
                   <span className="md">{m}</span>
 
                   <div>

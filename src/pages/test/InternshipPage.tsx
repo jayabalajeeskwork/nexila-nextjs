@@ -1,7 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import React, { useState } from "react";
+import "./Internship.css";
 import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
 const loadRazorpayScript = () => {
   return new Promise((resolve) => {
     if (window.Razorpay) {
@@ -55,8 +57,8 @@ export function InternForm() {
       days: "30 days",
       fee: 3333,
       discount: 25,
-      discountAmount: 833,
-      amount: 2500,
+      discountAmount: 834,
+      amount: 2499,
       programme: "Internship",
     },
     60: {
@@ -64,7 +66,7 @@ export function InternForm() {
       fee: 6666,
       discount: 25,
       discountAmount: 1667,
-      amount: 5000,
+      amount: 4999,
       programme: "Internship",
     },
     90: {
@@ -450,6 +452,7 @@ export function InternForm() {
     "Azure",
     "Data Analytics",
     "Data Science",
+    "Digital Marketing",
     "Tableau",
     "Power BI",
     "MERN - Full Stack",
@@ -457,6 +460,7 @@ export function InternForm() {
     "Java - Full Stack",
     "React JS",
 
+    "Finance",
     "Front-End Development",
 
     "Java",
@@ -575,8 +579,8 @@ export function InternForm() {
     }
 
     // Set this in .env for local development or production.
-    // Example: NEXT_PUBLIC_API_BASE_URL=http://localhost:5000/api
-    const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL
+    // Example: VITE_API_BASE_URL=http://localhost:5000/api
+    const API_BASE_URL = import.meta.env.VITE_API_BASE_URL
       // ||
       // "https://crm.nexilatechnologies.com/api"
       .replace(/\/$/, "");
@@ -736,7 +740,7 @@ export function InternForm() {
       // ---------------- STEP 4: OPEN CHECKOUT ----------------
 
       const options = {
-        key: process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID,
+        key: import.meta.env.VITE_RAZORPAY_KEY_ID,
         amount: order.amount,
         currency: order.currency || "INR",
         name: "Nexila Technologies",
@@ -818,7 +822,7 @@ export function InternForm() {
 
       if (!options.key) {
         throw new Error(
-          "Razorpay Key ID is missing. Please configure NEXT_PUBLIC_RAZORPAY_KEY_ID.",
+          "Razorpay Key ID is missing. Please configure VITE_RAZORPAY_KEY_ID.",
         );
       }
 
@@ -953,64 +957,64 @@ export function InternForm() {
         />
 
         {/* College Name - Searchable + Custom College */}
-       {/* College Name */}
-<div className="form-field">
-  <input
-    type="text"
-    name="college"
-    list="college-list"
-    placeholder="Select or enter your college name"
-    value={college}
-    onChange={(e) => setCollege(e.target.value)}
-    required
-  />
+        {/* College Name */}
+        <div className="form-field">
+          <input
+            type="text"
+            name="college"
+            list="college-list"
+            placeholder="Select or enter your college name"
+            value={college}
+            onChange={(e) => setCollege(e.target.value)}
+            required
+          />
 
-  <datalist id="college-list">
-    {COLLEGES.map((x) => (
-      <option key={x} value={x} />
-    ))}
-  </datalist>
+          <datalist id="college-list">
+            {COLLEGES.map((x) => (
+              <option key={x} value={x} />
+            ))}
+          </datalist>
 
-  <small className="field-hint">
-    If your college is not listed, type your college name.
-  </small>
-</div>
+          <small className="field-hint">
+            If your college is not listed, type your college name.
+          </small>
+        </div>
 
-{/* College Register ID */}
-<input
-  type="text"
-  name="collegeRegisterId"
-  placeholder="Enter your college register ID"
-  value={collegeRegisterId}
-  onChange={(e) => setCollegeRegisterId(e.target.value)}
-  required
-/>
+        {/* College Register ID */}
+        <input
+          type="text"
+          name="collegeRegisterId"
+          placeholder="Enter your college register ID"
+          value={collegeRegisterId}
+          onChange={(e) => setCollegeRegisterId(e.target.value)}
+          required
+        />
 
-{/* District */}
-<div className="form-field">
-  <input
-    type="text"
-    name="location"
-    list="district-list"
-    placeholder="Select or type your district"
-    value={location}
-    onChange={(e) => {
-      const value = e.target.value;
-      setLocation(value.replace(/\b\w/g, (char) => char.toUpperCase()));
-    }}
-    required
-  />
+        {/* District */}
+        <div className="form-field">
+          <input
+            type="text"
+            name="location"
+            list="district-list"
+            placeholder="Select or type your district"
+            value={location}
+            onChange={(e) => {
+              const value = e.target.value;
+              setLocation(value.replace(/\b\w/g, (char) => char.toUpperCase()));
+            }}
+            required
+          />
 
-  <datalist id="district-list">
-    {TAMIL_NADU_DISTRICTS.map((district) => (
-      <option key={district} value={district} />
-    ))}
-  </datalist>
+          <datalist id="district-list">
+            {TAMIL_NADU_DISTRICTS.map((district) => (
+              <option key={district} value={district} />
+            ))}
+          </datalist>
 
-  <small className="field-hint">
-    If your district is not listed, type your district name.
-  </small>
-</div>
+          <small className="field-hint">
+            If your district is not listed, type your district name.
+          </small>
+        </div>
 
         {/* Graduate - Searchable but must select from list */}
         <select
@@ -1103,61 +1107,61 @@ export function InternForm() {
         </div> */}
 
           <div className="pricing-plans">
-  {Object.entries(PRICING).map(([key, plan]) => {
-    const isRecommended = key === "90";
-    const isBestValue = key === "120";
+            {Object.entries(PRICING).map(([key, plan]) => {
+              const isRecommended = key === "90";
+              const isBestValue = key === "120";
 
-    return (
-      <button
-        key={key}
-        type="button"
-        className={`pricing-card ${
-          duration === key ? "active" : ""
-        } ${isRecommended ? "recommended" : ""} ${
-          isBestValue ? "best-value" : ""
-        } ${
-          isRecommended || isBestValue ? "pricing-card-bottom" : ""
-        }`}
-        onClick={() => setDuration(key)}
-      >
-        {(isRecommended || isBestValue) && (
-          <span className="plan-ribbon">
-            {isBestValue ? "✦ CAREER-READY PROGRAM" : "RECOMMENDED"}
-          </span>
-        )}
+              return (
+                <button
+                  key={key}
+                  type="button"
+                  className={`pricing-card ${
+                    duration === key ? "active" : ""
+                  } ${isRecommended ? "recommended" : ""} ${
+                    isBestValue ? "best-value" : ""
+                  } ${
+                    isRecommended || isBestValue ? "pricing-card-bottom" : ""
+                  }`}
+                  onClick={() => setDuration(key)}
+                >
+                  {(isRecommended || isBestValue) && (
+                    <span className="plan-ribbon">
+                      {isBestValue ? "✦ CAREER-READY PROGRAM" : "RECOMMENDED"}
+                    </span>
+                  )}
 
-        {(isRecommended || isBestValue) && (
-          <span className="plan-glow"></span>
-        )}
+                  {(isRecommended || isBestValue) && (
+                    <span className="plan-glow"></span>
+                  )}
 
-        <span className="plan-days">{plan.days}</span>
+                  <span className="plan-days">{plan.days}</span>
 
-        <span className="plan-original">
-          ₹{plan.fee.toLocaleString("en-IN")}
-        </span>
+                  <span className="plan-original">
+                    ₹{plan.fee.toLocaleString("en-IN")}
+                  </span>
 
-        <span className="plan-price">
-          ₹{plan.amount.toLocaleString("en-IN")}
-        </span>
+                  <span className="plan-price">
+                    ₹{plan.amount.toLocaleString("en-IN")}
+                  </span>
 
-        <span className="plan-discount">{plan.discount}% OFF</span>
+                  <span className="plan-discount">{plan.discount}% OFF</span>
 
-        <span className="plan-programme">{plan.programme}</span>
+                  <span className="plan-programme">{plan.programme}</span>
 
-        {isRecommended && (
-          <span className="career-highlight">
-            Chosen by Many College Students <br />
-            Great Value for Money
-          </span>
-        )}
+                  {isRecommended && (
+                    <span className="career-highlight">
+                      Chosen by Many College Students <br />
+                      Great Value for Money
+                    </span>
+                  )}
 
-        <span className="plan-select">
-          {duration === key ? "✓ Selected" : "Choose Plan"}
-        </span>
-      </button>
-    );
-  })}
-</div>
+                  <span className="plan-select">
+                    {duration === key ? "✓ Selected" : "Choose Plan"}
+                  </span>
+                </button>
+              );
+            })}
+          </div>
 
           {selectedPlan && (
             <div className="price-summary">

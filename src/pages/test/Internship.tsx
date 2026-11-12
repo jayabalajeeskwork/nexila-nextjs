@@ -2,12 +2,14 @@
 
 import React, { useEffect, useState } from "react";
 import { Header, Footer, Topbar } from "../Home";
+import "./Internship.css";
+
 import { InternForm } from "./InternshipPage";
-import its1 from "../../assets/images/internship/its1.jpg";
-import its2 from "../../assets/images/internship/its2.jpg";
-import its5 from "../../assets/images/internship/its5.jpg";
 import GroupInternForm from "../../components/internship/GroupInternForm";
-import "./Internship.css"
+
+const its1 = "/images/internship/its1.jpg";
+const its2 = "/images/internship/its2.jpg";
+const its5 = "/images/internship/its5.jpg";
 
 /* ================= INTERNSHIP DATA ================= */
 
@@ -152,6 +154,7 @@ const IDOM = [
   "DevOps",
   "Full Stack Development",
   "Machine Learning & AI",
+  "Digital Marketing",
   "Finance",
   "Other",
 ];
@@ -189,7 +192,7 @@ const IFAQ = [
     "Do I need prior coding experience?",
     "You need a basic understanding of software development concepts and methodologies, along with strong problem-solving skills and a willingness to learn.",
   ],
-  ["How long is the internship?", "The internship runs for 2 to 8 weeks."],
+  ["How long is the internship?", "The internship runs for minimum 2 weeks."],
   [
     "When can I start?",
     "Start dates are flexible, and you can choose weekdays or weekends. Our team will confirm the available batches when you apply.",
@@ -362,9 +365,9 @@ function PhotoSlider({ items, ms = 10000 }) {
   );
 }
 
-function Head({ tag, title, sub, className }: { tag: string; title: string; sub?: string; className?: string }) {
+function Head({ tag, title, sub }) {
   return (
-    <div className={className}>
+    <div>
       <div className="tag">{tag}</div>
 
       <h2 className="h2">{title}</h2>
@@ -548,7 +551,7 @@ function InternshipPage() {
                 <span>Duration</span>
 
                 <div>
-                  <b>2 – 8</b> weeks
+                  <b>Two</b> weeks
                 </div>
 
                 <div className="wk">
@@ -653,7 +656,7 @@ function InternshipPage() {
                         marginBottom: 6,
                       }}
                     >
-                      Eligibility criteria
+                      <b>Eligibility criteria</b>
                     </h3>
 
                     <ul className="ck2">
@@ -669,7 +672,7 @@ function InternshipPage() {
                         marginBottom: 6,
                       }}
                     >
-                      Open to
+                      <b>Open to</b>
                     </h3>
 
                     <ul className="ck2">
@@ -703,7 +706,7 @@ function InternshipPage() {
                 <div className="grid g2">
                   {/* Duration & Mode */}
                   <div className="card">
-                    <h3>Duration</h3>
+                    <h3><b>Duration</b></h3>
                     <ul className="ck2">
                       <li>15 Days</li>
                       <li>30 Days</li>
@@ -711,22 +714,22 @@ function InternshipPage() {
                       <li>90 Days</li>
                     </ul>
 
-                    <h3>Mode</h3>
+                    <h3><b>Mode</b></h3>
                     <p>Offline / Online</p>
 
-                    <h3>Batch Starts</h3>
+                    <h3><b>Batch Starts</b></h3>
                     <p>Every Wednesday</p>
                   </div>
 
                   {/* Classes & Timing */}
                   <div className="card">
-                    <h3>Classes</h3>
+                    <h3><b>Classes</b></h3>
                     <ul className="ck2">
                       <li>Weekdays (Monday–Friday): 1 hour per day</li>
                       <li>Weekend (Saturday): 3 hours</li>
                     </ul>
 
-                    <h3>Timing</h3>
+                    <h3><b>Timing</b></h3>
                     <ul className="ck2">
                       <li>Weekdays: 9:30 AM–7:30 PM (choose a 1-hour slot)</li>
                       <li>Saturday: 9:30 AM–12:30 PM</li>
