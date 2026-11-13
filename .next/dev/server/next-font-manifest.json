@@ -1,8 +1,6 @@
 {
   "app": {
-    "[project]/src/app/contact-us/page": [],
-    "[project]/src/app/it-internship-for-students-tambaram-chennai/page": [],
-    "[project]/src/app/nexila-hackathon-2026/page": []
+    "[project]/src/app/page": []
   },
   "appUsingSizeAdjust": false,
   "pages": {},
