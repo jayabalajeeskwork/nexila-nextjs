@@ -975,7 +975,7 @@ footer h3{color:#fff;font-size:15px;margin-bottom:12px}footer a{display:block;ma
   align-items: center;
   justify-content: center;
   padding: 20px;
-  background: rgba(5, 12, 28, 0.82);
+  background: rgba(5, 12, 28, 0.82) !important;
   backdrop-filter: blur(6px);
 }
 
@@ -1531,4 +1531,76 @@ footer h3{color:#fff;font-size:15px;margin-bottom:12px}footer a{display:block;ma
 .internship-form-container {
   width: 100%;
   max-width: 100%;
+}
+
+
+/* new */
+.nex-success-overlay {
+  position: fixed !important;
+  inset: 0 !important;
+  z-index: 99999 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 20px !important;
+  background-color: rgba(5, 12, 28, 0.92) !important;
+  backdrop-filter: blur(6px);
+}
+
+.nex-success-overlay .nex-success-card {
+  width: 100%;
+  max-width: 460px;
+  box-sizing: border-box;
+  padding: 32px 26px;
+  border: 1px solid #34466a !important;
+  border-radius: 18px;
+  background-color: #111d35 !important;
+  color: #ffffff !important;
+  text-align: center;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
+  animation: nexPopupIn 0.25s ease-out;
+}
+
+.nex-success-overlay .nex-success-card h2 {
+  color: #ffffff !important;
+}
+
+.nex-success-overlay .nex-success-card p {
+  color: #c4d1ee !important;
+}
+
+.nex-success-overlay .nex-success-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 18px;
+  border-radius: 50%;
+  background-color: rgba(70, 210, 145, 0.15) !important;
+  color: #46d291 !important;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.nex-success-overlay .nex-enquiry-eyebrow {
+  color: #7fb0ff !important;
+}
+
+.nex-success-overlay .nex-success-reference {
+  border: 1px solid #34466a;
+  background-color: rgba(127, 176, 255, 0.07) !important;
+}
+
+.nex-success-overlay .nex-success-reference span {
+  color: #9eb2d8 !important;
+}
+
+.nex-success-overlay .nex-success-reference strong {
+  color: #7fb0ff !important;
+}
+
+.nex-success-overlay .nex-enquiry-submit {
+  background-color: #7fb0ff !important;
+  color: #101a30 !important;
 }

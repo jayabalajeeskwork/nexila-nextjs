@@ -19,23 +19,50 @@ import "../components/enquiry/EnquiryForm.css";
 import "../components/internship/GroupInternship.css";
 import "react-datepicker/dist/react-datepicker.css";
 
+
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.nexilatechnologies.com"),
-  title: { default: "Software Training Institute in Tambaram | Nexila Tech", template: "%s | Nexila Technologies" },
-  description: "Nexila Technologies, software training institute in Tambaram, Chennai. Job-focused IT courses, internships, live projects and career support.",
-  alternates: { canonical: "/" },
+  icons: {
+    icon: "/nexila_n_logo.jpeg",
+    shortcut: "/nexila_n_logo.jpeg",
+    apple: "/nexila_n_logo.jpeg",
+  },
+  title: {
+    default: "Software Training Institute in Tambaram | Nexila Tech",
+    template: "%s | Nexila Technologies",
+  },
+
+  description:
+    "Nexila Technologies, software training institute in Tambaram, Chennai. Job-focused IT courses, internships, live projects and career support.",
+
+  alternates: {
+    canonical: "/",
+  },
+
   openGraph: {
-  type: "website",
-  siteName: "Nexila Technologies",
-  title: "Learn. Build. Get Hired.",
-  description: "Job-focused IT courses, internships, live projects and career support in Tambaram, Chennai.",
-  url: "https://www.nexilatechnologies.com/",
-  images: ["/nexila_n_logo"],
-},
-  twitter: { card: "summary_large_image" },
-  verification: process.env.NEXT_PUBLIC_GSC_VERIFICATION
-    ? { google: process.env.NEXT_PUBLIC_GSC_VERIFICATION }
-    : undefined,
+    type: "website",
+    siteName: "Nexila Technologies",
+    title: "Learn. Build. Get Hired.",
+    description:
+      "Job-focused IT courses, internships, live projects and career support in Tambaram, Chennai.",
+    url: "https://www.nexilatechnologies.com/",
+    images: [
+      {
+        url: "/nexila_n_logo.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Nexila Technologies",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Learn. Build. Get Hired.",
+    description:
+      "Job-focused IT courses, internships, live projects and career support.",
+    images: ["/nexila_n_logo.jpeg"],
+  },
 };
 export const viewport: Viewport = { width: "device-width", initialScale: 1 };
 

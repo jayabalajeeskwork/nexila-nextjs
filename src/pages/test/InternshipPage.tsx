@@ -578,22 +578,24 @@ export function InternForm() {
       return;
     }
 
-    // Set this in .env for local development or production.
-    // Example: VITE_API_BASE_URL=http://localhost:5000/api
-    const API_BASE_URL = import.meta.env.VITE_API_BASE_URL
-      // ||
-      // "https://crm.nexilatechnologies.com/api"
-      .replace(/\/$/, "");
+  // API base URL
+const API_BASE_URL = (
+  process.env.NEXT_PUBLIC_API_BASE_URL ||
+  "https://crm.nexilatechnologies.com/api"
+).replace(/\/$/, "");
 
-    let leadSaved = false;
-    let applicationDetails = null;
+// Razorpay key
 
-    setLoading(true);
-    setPaymentLoading(false);
-    setPaymentStatus("PENDING");
-    setShowSuccess(false);
 
-    try {
+let leadSaved = false;
+let applicationDetails = null;
+
+setLoading(true);
+setPaymentLoading(false);
+setPaymentStatus("PENDING");
+setShowSuccess(false);
+
+try {
       // ---------------- STEP 1: SAVE LEAD ----------------
 
       const crmData = {
@@ -738,21 +740,22 @@ export function InternForm() {
       }
 
       // ---------------- STEP 4: OPEN CHECKOUT ----------------
+const RAZORPAY_KEY_ID =
+  process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID;
 
-      const options = {
-        key: import.meta.env.VITE_RAZORPAY_KEY_ID,
-        amount: order.amount,
-        currency: order.currency || "INR",
-        name: "Nexila Technologies",
-        description: `${selectedPlan.days} Programme`,
-        order_id: order.id,
+const options = {
+  key: RAZORPAY_KEY_ID,
+  amount: order.amount,
+  currency: order.currency || "INR",
+  name: "Nexila Technologies",
+  description: `${selectedPlan.days} Programme`,
+  order_id: order.id,
 
-        prefill: {
-          name: finalName,
-          email: finalEmail,
-          contact: finalPhone,
-        },
-
+  prefill: {
+    name: finalName,
+    email: finalEmail,
+    contact: finalPhone,
+  },
         theme: {
           color: "#F97316",
         },

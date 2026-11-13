@@ -81,6 +81,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Analytics$2e$t
 ;
 const metadata = {
     metadataBase: new URL("https://www.nexilatechnologies.com"),
+    icons: {
+        icon: "/nexila_n_logo.jpeg",
+        shortcut: "/nexila_n_logo.jpeg",
+        apple: "/nexila_n_logo.jpeg"
+    },
     title: {
         default: "Software Training Institute in Tambaram | Nexila Tech",
         template: "%s | Nexila Technologies"
@@ -96,15 +101,22 @@ const metadata = {
         description: "Job-focused IT courses, internships, live projects and career support in Tambaram, Chennai.",
         url: "https://www.nexilatechnologies.com/",
         images: [
-            "/nexila_n_logo"
+            {
+                url: "/nexila_n_logo.jpeg",
+                width: 1200,
+                height: 630,
+                alt: "Nexila Technologies"
+            }
         ]
     },
     twitter: {
-        card: "summary_large_image"
-    },
-    verification: ("TURBOPACK compile-time truthy", 1) ? {
-        google: ("TURBOPACK compile-time value", "your_google_search_console_verification_token")
-    } : "TURBOPACK unreachable"
+        card: "summary_large_image",
+        title: "Learn. Build. Get Hired.",
+        description: "Job-focused IT courses, internships, live projects and career support.",
+        images: [
+            "/nexila_n_logo.jpeg"
+        ]
+    }
 };
 const viewport = {
     width: "device-width",
@@ -117,24 +129,24 @@ function RootLayout({ children }) {
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$SeoClient$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/src/app/layout.tsx",
-                    lineNumber: 43,
+                    lineNumber: 70,
                     columnNumber: 32
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Analytics$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/src/app/layout.tsx",
-                    lineNumber: 43,
+                    lineNumber: 70,
                     columnNumber: 45
                 }, this),
                 children
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/layout.tsx",
-            lineNumber: 43,
+            lineNumber: 70,
             columnNumber: 26
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/layout.tsx",
-        lineNumber: 43,
+        lineNumber: 70,
         columnNumber: 10
     }, this);
 }
