@@ -124,6 +124,8 @@ const FAQ = [
   [
     "Will I work on real projects?",
     "Yes. Selected courses include guided real-time projects and role-relevant assignments so you can apply what you learn. Ask the counsellor which projects are part of your course.",
+
+    
   ],
   [
     "What are the course fees and duration?",
