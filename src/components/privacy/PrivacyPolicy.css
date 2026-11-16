@@ -1,0 +1,265 @@
+
+.privacy-page {
+  background: #f7f9fc;
+  color: #0b1b3a;
+}
+
+.privacy-wrap {
+  width: min(1160px, calc(100% - 40px));
+  margin: 0 auto;
+}
+
+.privacy-hero {
+  padding: 65px 0 75px;
+  background: linear-gradient(135deg, #0b1b3a, #142f5c);
+  color: #fff;
+}
+
+.privacy-breadcrumb {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  color: #b9c9e4;
+  font-size: 13px;
+  margin-bottom: 35px;
+}
+
+.privacy-breadcrumb a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.privacy-tag,
+.privacy-small-tag {
+  color: #ff9d45;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+}
+
+.privacy-hero h1 {
+  font-size: clamp(34px, 5vw, 52px);
+  line-height: 1.15;
+  margin: 15px 0;
+  font-weight: 800;
+}
+
+.privacy-hero h1 span {
+  color: #ff963c;
+}
+
+.privacy-hero p {
+  max-width: 650px;
+  color: #c4d1e9;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.privacy-content-section {
+  padding: 65px 0 80px;
+}
+
+.privacy-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 290px;
+  gap: 35px;
+  align-items: start;
+}
+
+.privacy-document {
+  padding: 42px;
+  background: #fff;
+  border: 1px solid #e8edf5;
+  border-radius: 18px;
+  box-shadow: 0 12px 40px rgba(11, 27, 58, 0.045);
+}
+
+.privacy-intro {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #e9edf4;
+}
+
+.privacy-intro h2 {
+  font-size: 25px;
+  margin: 0 0 12px;
+}
+
+.privacy-intro p,
+.privacy-section p,
+.privacy-contact p {
+  color: #59677d;
+  font-size: 14px;
+  line-height: 1.9;
+}
+
+.privacy-section {
+  padding: 26px 0;
+  border-bottom: 1px solid #edf0f5;
+}
+
+.privacy-section h3 {
+  color: #102b54;
+  font-size: 17px;
+  line-height: 1.5;
+  margin: 0 0 12px;
+}
+
+.privacy-section p {
+  margin: 9px 0;
+}
+
+.privacy-section ul {
+  padding-left: 22px;
+  margin: 12px 0;
+}
+
+.privacy-section li {
+  color: #59677d;
+  font-size: 14px;
+  line-height: 1.9;
+  padding-left: 5px;
+  margin-bottom: 5px;
+}
+
+.privacy-section li::marker {
+  color: #f28b32;
+}
+
+.privacy-contact {
+  margin-top: 30px;
+  padding: 25px;
+  background: #f2f6fc;
+  border-radius: 12px;
+}
+
+.privacy-contact h3 {
+  margin: 0 0 8px;
+  font-size: 18px;
+}
+
+.privacy-contact a {
+  color: #e87822;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.privacy-related {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 25px;
+  padding-top: 20px;
+  border-top: 1px solid #edf0f5;
+  font-size: 13px;
+}
+
+.privacy-related span {
+  color: #718096;
+}
+
+.privacy-related a {
+  color: #e87822;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.privacy-sidebar {
+  display: grid;
+  gap: 20px;
+  position: sticky;
+  top: 25px;
+}
+
+.privacy-sidebar-card {
+  padding: 25px;
+  background: #fff;
+  border: 1px solid #e8edf5;
+  border-radius: 16px;
+}
+
+.privacy-sidebar-icon {
+  font-size: 30px;
+}
+
+.privacy-sidebar-card h3 {
+  font-size: 20px;
+  line-height: 1.4;
+  margin: 15px 0 10px;
+}
+
+.privacy-sidebar-card p {
+  font-size: 13px;
+  line-height: 1.8;
+  color: #64748b;
+}
+
+.privacy-sidebar-card a {
+  display: inline-block;
+  margin-top: 12px;
+  color: #e87822;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.privacy-sidebar-dark {
+  background: #0b1b3a;
+  color: #fff;
+}
+
+.privacy-sidebar-dark p {
+  color: #c4d1e9;
+}
+
+.privacy-sidebar-dark a {
+  display: block;
+  padding: 12px;
+  background: #f28b32;
+  color: #fff;
+  text-align: center;
+  border-radius: 8px;
+}
+
+@media (max-width: 850px) {
+  .privacy-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .privacy-sidebar {
+    position: static;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .privacy-wrap {
+    width: min(100% - 28px, 1160px);
+  }
+
+  .privacy-hero {
+    padding: 45px 0 55px;
+  }
+
+  .privacy-content-section {
+    padding: 35px 0 50px;
+  }
+
+  .privacy-document {
+    padding: 23px 18px;
+    border-radius: 12px;
+  }
+
+  .privacy-sidebar {
+    grid-template-columns: 1fr;
+  }
+
+  .privacy-section h3 {
+    font-size: 16px;
+  }
+
+  .privacy-section p,
+  .privacy-section li {
+    font-size: 13px;
+  }
+}

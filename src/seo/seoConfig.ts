@@ -437,5 +437,25 @@ export const SEO_CONFIG: Record<string, SeoPage> = {
   ogTitle: "Enquiry Form | Nexila Technologies",
   type: "WebPage",
 },
+
+"/terms-and-conditions": {
+  title: "Terms & Conditions | Nexila Technologies",
+  description:
+    "Read the Terms and Conditions of Nexila Technologies covering IT courses, software training, internships, payments, website usage and educational services.",
+  keywords:
+    "Nexila Technologies terms and conditions, IT training terms, course terms, internship terms and conditions, software training Tambaram, Chennai",
+  ogTitle: "Terms & Conditions | Nexila Technologies",
+  type: "WebPage",
+},
+
+"/privacy-policy": {
+  title: "Privacy Policy | Nexila Technologies",
+  description:
+    "Learn how Nexila Technologies collects, uses, stores and protects your personal information when you visit our website, enquire about courses or register for training and internships.",
+  keywords:
+    "Nexila Technologies privacy policy, data protection, personal information policy, IT course registration privacy, internship privacy policy, Chennai",
+  ogTitle: "Privacy Policy | Nexila Technologies",
+  type: "WebPage",
+},
   // Add the remaining course entries from your SEO spreadsheet here.
 };

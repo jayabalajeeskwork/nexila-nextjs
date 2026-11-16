@@ -3691,12 +3691,12 @@ function Header({ route }) {
                         width: "290px"
                     }, void 0, false, {
                         fileName: "[project]/src/pages/Home.tsx",
-                        lineNumber: 429,
+                        lineNumber: 431,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 428,
+                    lineNumber: 430,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -3706,7 +3706,7 @@ function Header({ route }) {
                     children: o ? "✕" : "☰"
                 }, void 0, false, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 436,
+                    lineNumber: 438,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -3721,7 +3721,7 @@ function Header({ route }) {
                                 children: n
                             }, n, false, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 468,
+                                lineNumber: 470,
                                 columnNumber: 13
                             }, this)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -3744,24 +3744,24 @@ function Header({ route }) {
                             children: "Enroll Now!"
                         }, void 0, false, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 491,
+                            lineNumber: 493,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 466,
+                    lineNumber: 468,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/pages/Home.tsx",
-            lineNumber: 427,
+            lineNumber: 429,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/pages/Home.tsx",
-        lineNumber: 426,
+        lineNumber: 428,
         columnNumber: 5
     }, this);
 }
@@ -3787,7 +3787,7 @@ function Hero() {
                                     children: "Software Training Institute · Tambaram, Chennai"
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 527,
+                                    lineNumber: 529,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -3800,20 +3800,20 @@ function Hero() {
                                             children: "Get Hired."
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 532,
+                                            lineNumber: 534,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 531,
+                                    lineNumber: 533,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     children: "Job-focused software training with live projects, internships and dedicated placement support, taught by working industry mentors."
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 535,
+                                    lineNumber: 537,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3826,7 +3826,7 @@ function Hero() {
                                             children: "Book Free Demo"
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 541,
+                                            lineNumber: 543,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -3835,19 +3835,19 @@ function Hero() {
                                             children: "Explore Courses"
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 545,
+                                            lineNumber: 547,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 540,
+                                    lineNumber: 542,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 526,
+                            lineNumber: 528,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3858,23 +3858,23 @@ function Hero() {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {}, void 0, false, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 553,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {}, void 0, false, {
-                                            fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 554,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {}, void 0, false, {
-                                            fileName: "[project]/src/pages/Home.tsx",
                                             lineNumber: 555,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {}, void 0, false, {
+                                            fileName: "[project]/src/pages/Home.tsx",
+                                            lineNumber: 556,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {}, void 0, false, {
+                                            fileName: "[project]/src/pages/Home.tsx",
+                                            lineNumber: 557,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 552,
+                                    lineNumber: 554,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3883,7 +3883,7 @@ function Hero() {
                                             children: "const"
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 559,
+                                            lineNumber: 561,
                                             columnNumber: 15
                                         }, this),
                                         " career = ",
@@ -3891,7 +3891,7 @@ function Hero() {
                                             children: "await"
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 559,
+                                            lineNumber: 561,
                                             columnNumber: 37
                                         }, this),
                                         " nexila.",
@@ -3899,7 +3899,7 @@ function Hero() {
                                             children: "train"
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 560,
+                                            lineNumber: 562,
                                             columnNumber: 15
                                         }, this),
                                         "(",
@@ -3907,7 +3907,7 @@ function Hero() {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 558,
+                                    lineNumber: 560,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3917,7 +3917,7 @@ function Hero() {
                                             children: '"React"'
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 564,
+                                            lineNumber: 566,
                                             columnNumber: 30
                                         }, this),
                                         ", ",
@@ -3925,7 +3925,7 @@ function Hero() {
                                             children: '"Cloud"'
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 564,
+                                            lineNumber: 566,
                                             columnNumber: 48
                                         }, this),
                                         ", ",
@@ -3933,14 +3933,14 @@ function Hero() {
                                             children: '"AI"'
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 564,
+                                            lineNumber: 566,
                                             columnNumber: 66
                                         }, this),
                                         "],"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 563,
+                                    lineNumber: 565,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3950,7 +3950,7 @@ function Hero() {
                                             children: '"live"'
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 568,
+                                            lineNumber: 570,
                                             columnNumber: 31
                                         }, this),
                                         ", mentors: ",
@@ -3958,13 +3958,13 @@ function Hero() {
                                             children: '"industry"'
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 568,
+                                            lineNumber: 570,
                                             columnNumber: 57
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 567,
+                                    lineNumber: 569,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3974,7 +3974,7 @@ function Hero() {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 571,
+                                    lineNumber: 573,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3986,7 +3986,7 @@ function Hero() {
                                             children: "if"
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 574,
+                                            lineNumber: 576,
                                             columnNumber: 15
                                         }, this),
                                         " (career.ready) ",
@@ -3994,26 +3994,26 @@ function Hero() {
                                             children: "getHired"
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 574,
+                                            lineNumber: 576,
                                             columnNumber: 40
                                         }, this),
                                         "();"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 573,
+                                    lineNumber: 575,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 551,
+                            lineNumber: 553,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 525,
+                    lineNumber: 527,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4027,36 +4027,36 @@ function Hero() {
                                     dec: d
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 582,
+                                    lineNumber: 584,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     children: l
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 583,
+                                    lineNumber: 585,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, l, true, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 581,
+                            lineNumber: 583,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 579,
+                    lineNumber: 581,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/pages/Home.tsx",
-            lineNumber: 524,
+            lineNumber: 526,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/pages/Home.tsx",
-        lineNumber: 523,
+        lineNumber: 525,
         columnNumber: 5
     }, this);
 }
@@ -4078,17 +4078,17 @@ function Partners() {
                 children: "Trusted by 100+ hiring partners"
             }, void 0, false, {
                 fileName: "[project]/src/pages/Home.tsx",
-                lineNumber: 596,
+                lineNumber: 598,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/pages/Home.tsx",
-            lineNumber: 595,
+            lineNumber: 597,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/pages/Home.tsx",
-        lineNumber: 594,
+        lineNumber: 596,
         columnNumber: 5
     }, this);
 }
@@ -4119,7 +4119,7 @@ function Courses() {
                     sub: "Beginner-friendly programs that end with projects, interview prep and placement support."
                 }, void 0, false, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 635,
+                    lineNumber: 637,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4130,12 +4130,12 @@ function Courses() {
                             children: x
                         }, x, false, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 643,
+                            lineNumber: 645,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 641,
+                    lineNumber: 643,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4148,21 +4148,21 @@ function Courses() {
                                     children: x.i
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 656,
+                                    lineNumber: 658,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                     children: x.t
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 658,
+                                    lineNumber: 660,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     children: x.x
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 660,
+                                    lineNumber: 662,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4172,27 +4172,27 @@ function Courses() {
                                             children: x.d
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 663,
+                                            lineNumber: 665,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             children: x.l
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 664,
+                                            lineNumber: 666,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             children: x.m
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 665,
+                                            lineNumber: 667,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 662,
+                                    lineNumber: 664,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -4201,18 +4201,18 @@ function Courses() {
                                     children: "View course →"
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 668,
+                                    lineNumber: 670,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, x.t, true, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 655,
+                            lineNumber: 657,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 653,
+                    lineNumber: 655,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4226,23 +4226,23 @@ function Courses() {
                         children: "View all courses →"
                     }, void 0, false, {
                         fileName: "[project]/src/pages/Home.tsx",
-                        lineNumber: 681,
+                        lineNumber: 683,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 675,
+                    lineNumber: 677,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/pages/Home.tsx",
-            lineNumber: 634,
+            lineNumber: 636,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/pages/Home.tsx",
-        lineNumber: 633,
+        lineNumber: 635,
         columnNumber: 5
     }, this);
 }
@@ -4271,25 +4271,25 @@ function Viz({ i }) {
                             children: k + 1
                         }, void 0, false, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 704,
+                            lineNumber: 706,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                             children: t
                         }, void 0, false, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 705,
+                            lineNumber: 707,
                             columnNumber: 13
                         }, this)
                     ]
                 }, t, true, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 703,
+                    lineNumber: 705,
                     columnNumber: 11
                 }, this))
         }, void 0, false, {
             fileName: "[project]/src/pages/Home.tsx",
-            lineNumber: 701,
+            lineNumber: 703,
             columnNumber: 7
         }, this);
     }
@@ -4307,14 +4307,14 @@ function Viz({ i }) {
                                     children: "trainer"
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 717,
+                                    lineNumber: 719,
                                     columnNumber: 13
                                 }, this),
                                 "$ demo --live"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 716,
+                            lineNumber: 718,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4322,7 +4322,7 @@ function Viz({ i }) {
                             children: "› explain(concept)"
                         }, void 0, false, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 720,
+                            lineNumber: 722,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4330,7 +4330,7 @@ function Viz({ i }) {
                             children: "› show(example)"
                         }, void 0, false, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 722,
+                            lineNumber: 724,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4339,13 +4339,13 @@ function Viz({ i }) {
                             children: "▍"
                         }, void 0, false, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 724,
+                            lineNumber: 726,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 715,
+                    lineNumber: 717,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4353,13 +4353,13 @@ function Viz({ i }) {
                     children: "👨‍🏫 “Let’s try it together.”"
                 }, void 0, false, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 729,
+                    lineNumber: 731,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/pages/Home.tsx",
-            lineNumber: 714,
+            lineNumber: 716,
             columnNumber: 7
         }, this);
     }
@@ -4390,24 +4390,24 @@ function Viz({ i }) {
                                 children: c
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 744,
+                                lineNumber: 746,
                                 columnNumber: 15
                             }, this),
                             t
                         ]
                     }, t, true, {
                         fileName: "[project]/src/pages/Home.tsx",
-                        lineNumber: 743,
+                        lineNumber: 745,
                         columnNumber: 13
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/src/pages/Home.tsx",
-                lineNumber: 737,
+                lineNumber: 739,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/pages/Home.tsx",
-            lineNumber: 736,
+            lineNumber: 738,
             columnNumber: 7
         }, this);
     }
@@ -4428,12 +4428,12 @@ function Viz({ i }) {
                             children: a
                         }, k, false, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 758,
+                            lineNumber: 760,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 756,
+                    lineNumber: 758,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4441,7 +4441,7 @@ function Viz({ i }) {
                     children: "🙋 “Can you explain this again?”"
                 }, void 0, false, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 764,
+                    lineNumber: 766,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4452,13 +4452,13 @@ function Viz({ i }) {
                     children: "👨‍🏫 “Sure, here’s feedback.”"
                 }, void 0, false, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 766,
+                    lineNumber: 768,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/pages/Home.tsx",
-            lineNumber: 755,
+            lineNumber: 757,
             columnNumber: 7
         }, this);
     }
@@ -4490,7 +4490,7 @@ function Viz({ i }) {
                                 children: h
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 783,
+                                lineNumber: 785,
                                 columnNumber: 15
                             }, this),
                             Array.from({
@@ -4500,23 +4500,23 @@ function Viz({ i }) {
                                     style: d(k + j).style
                                 }, j, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 786,
+                                    lineNumber: 788,
                                     columnNumber: 17
                                 }, this))
                         ]
                     }, h, true, {
                         fileName: "[project]/src/pages/Home.tsx",
-                        lineNumber: 782,
+                        lineNumber: 784,
                         columnNumber: 13
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/src/pages/Home.tsx",
-                lineNumber: 776,
+                lineNumber: 778,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/pages/Home.tsx",
-            lineNumber: 775,
+            lineNumber: 777,
             columnNumber: 7
         }, this);
     }
@@ -4543,24 +4543,24 @@ function Viz({ i }) {
                                 children: "✓"
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 809,
+                                lineNumber: 811,
                                 columnNumber: 17
                             }, this),
                             t
                         ]
                     }, t, true, {
                         fileName: "[project]/src/pages/Home.tsx",
-                        lineNumber: 808,
+                        lineNumber: 810,
                         columnNumber: 15
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/src/pages/Home.tsx",
-                lineNumber: 798,
+                lineNumber: 800,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/pages/Home.tsx",
-            lineNumber: 797,
+            lineNumber: 799,
             columnNumber: 7
         }, this);
     }
@@ -4583,12 +4583,12 @@ function Viz({ i }) {
                             children: t
                         }, t, false, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 830,
+                            lineNumber: 832,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 828,
+                    lineNumber: 830,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4599,13 +4599,13 @@ function Viz({ i }) {
                     children: m === 0 ? "📍 Learn in person at our Tambaram centre" : "💻 Join live sessions from anywhere"
                 }, m, false, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 840,
+                    lineNumber: 842,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/pages/Home.tsx",
-            lineNumber: 821,
+            lineNumber: 823,
             columnNumber: 7
         }, this);
     }
@@ -4622,7 +4622,7 @@ function Viz({ i }) {
                         children: "→"
                     }, void 0, false, {
                         fileName: "[project]/src/pages/Home.tsx",
-                        lineNumber: 853,
+                        lineNumber: 855,
                         columnNumber: 21
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4631,18 +4631,18 @@ function Viz({ i }) {
                         children: t
                     }, void 0, false, {
                         fileName: "[project]/src/pages/Home.tsx",
-                        lineNumber: 855,
+                        lineNumber: 857,
                         columnNumber: 11
                     }, this)
                 ]
             }, t, true, {
                 fileName: "[project]/src/pages/Home.tsx",
-                lineNumber: 852,
+                lineNumber: 854,
                 columnNumber: 9
             }, this))
     }, void 0, false, {
         fileName: "[project]/src/pages/Home.tsx",
-        lineNumber: 850,
+        lineNumber: 852,
         columnNumber: 5
     }, this);
 }
@@ -4763,7 +4763,7 @@ function Why() {
                     sub: "Select a point to explore it, or let it play."
                 }, void 0, false, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 933,
+                    lineNumber: 935,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4782,24 +4782,24 @@ function Why() {
                                             children: w[0]
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 951,
+                                            lineNumber: 953,
                                             columnNumber: 17
                                         }, this),
                                         w[1],
                                         i === a && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {}, "p" + a, false, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 953,
+                                            lineNumber: 955,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, w[1], true, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 946,
+                                    lineNumber: 948,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 940,
+                            lineNumber: 942,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4812,7 +4812,7 @@ function Why() {
                                     children: String(a + 1).padStart(2, "0")
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 963,
+                                    lineNumber: 965,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4823,28 +4823,28 @@ function Why() {
                                             children: cur[0]
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 966,
+                                            lineNumber: 968,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                             children: cur[1]
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 968,
+                                            lineNumber: 970,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: cur[2]
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 970,
+                                            lineNumber: 972,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Viz, {
                                             i: a
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 972,
+                                            lineNumber: 974,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4853,18 +4853,18 @@ function Why() {
                                                     children: c
                                                 }, c, false, {
                                                     fileName: "[project]/src/pages/Home.tsx",
-                                                    lineNumber: 976,
+                                                    lineNumber: 978,
                                                     columnNumber: 19
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 974,
+                                            lineNumber: 976,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, a, true, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 965,
+                                    lineNumber: 967,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4876,7 +4876,7 @@ function Why() {
                                             children: "←"
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 982,
+                                            lineNumber: 984,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -4885,7 +4885,7 @@ function Why() {
                                             children: "→"
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 989,
+                                            lineNumber: 991,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("small", {
@@ -4896,25 +4896,25 @@ function Why() {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 993,
+                                            lineNumber: 995,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 981,
+                                    lineNumber: 983,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 958,
+                            lineNumber: 960,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 939,
+                    lineNumber: 941,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4943,36 +4943,36 @@ function Why() {
                                     children: t
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 1008,
+                                    lineNumber: 1010,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     children: d
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 1009,
+                                    lineNumber: 1011,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, t, true, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 1007,
+                            lineNumber: 1009,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 1000,
+                    lineNumber: 1002,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/pages/Home.tsx",
-            lineNumber: 932,
+            lineNumber: 934,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/pages/Home.tsx",
-        lineNumber: 931,
+        lineNumber: 933,
         columnNumber: 5
     }, this);
 }
@@ -5107,7 +5107,7 @@ function Paths() {
                     sub: "Whether you are starting out, moving up or changing direction, Nexila helps you choose a course and pace that fit where you are today and where you want to go."
                 }, void 0, false, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 1098,
+                    lineNumber: 1100,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5131,7 +5131,7 @@ function Paths() {
                                     children: LPSC[i]
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 1126,
+                                    lineNumber: 1128,
                                     columnNumber: 26
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5142,7 +5142,7 @@ function Paths() {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 1128,
+                                    lineNumber: 1130,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5150,7 +5150,7 @@ function Paths() {
                                     children: x.t
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 1130,
+                                    lineNumber: 1132,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5160,14 +5160,14 @@ function Paths() {
                                             children: x.t
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 1133,
+                                            lineNumber: 1135,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: x.d
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 1135,
+                                            lineNumber: 1137,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5178,25 +5178,25 @@ function Paths() {
                                                             children: "→"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/pages/Home.tsx",
-                                                            lineNumber: 1140,
+                                                            lineNumber: 1142,
                                                             columnNumber: 33
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             children: t
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/pages/Home.tsx",
-                                                            lineNumber: 1141,
+                                                            lineNumber: 1143,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, t, true, {
                                                     fileName: "[project]/src/pages/Home.tsx",
-                                                    lineNumber: 1139,
+                                                    lineNumber: 1141,
                                                     columnNumber: 21
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 1137,
+                                            lineNumber: 1139,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5207,7 +5207,7 @@ function Paths() {
                                                         children: c
                                                     }, c, false, {
                                                         fileName: "[project]/src/pages/Home.tsx",
-                                                        lineNumber: 1148,
+                                                        lineNumber: 1150,
                                                         columnNumber: 21
                                                     }, this)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -5220,41 +5220,41 @@ function Paths() {
                                                     children: "Get guidance →"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/Home.tsx",
-                                                    lineNumber: 1153,
+                                                    lineNumber: 1155,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 1146,
+                                            lineNumber: 1148,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 1132,
+                                    lineNumber: 1134,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, x.t, true, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 1106,
+                            lineNumber: 1108,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 1104,
+                    lineNumber: 1106,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/pages/Home.tsx",
-            lineNumber: 1097,
+            lineNumber: 1099,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/pages/Home.tsx",
-        lineNumber: 1096,
+        lineNumber: 1098,
         columnNumber: 5
     }, this);
 }
@@ -5390,7 +5390,7 @@ function Match() {
                     sub: "Select the things you like doing. We will highlight the courses that fit your interests and strengths best."
                 }, void 0, false, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 1253,
+                    lineNumber: 1255,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5405,12 +5405,12 @@ function Match() {
                             ]
                         }, k, true, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 1261,
+                            lineNumber: 1263,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 1259,
+                    lineNumber: 1261,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5426,7 +5426,7 @@ function Match() {
                                     children: "Best match"
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 1284,
+                                    lineNumber: 1286,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5434,21 +5434,21 @@ function Match() {
                                     children: r.i
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 1286,
+                                    lineNumber: 1288,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                     children: r.t
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 1288,
+                                    lineNumber: 1290,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     children: r.x
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 1290,
+                                    lineNumber: 1292,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5460,24 +5460,24 @@ function Match() {
                                             ]
                                         }, k, true, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 1294,
+                                            lineNumber: 1296,
                                             columnNumber: 21
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 1292,
+                                    lineNumber: 1294,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, r.t, true, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 1277,
+                            lineNumber: 1279,
                             columnNumber: 15
                         }, this);
                     })
                 }, void 0, false, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 1271,
+                    lineNumber: 1273,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5489,7 +5489,7 @@ function Match() {
                                 children: best.t
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 1305,
+                                lineNumber: 1307,
                                 columnNumber: 33
                             }, this),
                             " · matches ",
@@ -5501,12 +5501,12 @@ function Match() {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/pages/Home.tsx",
-                        lineNumber: 1304,
+                        lineNumber: 1306,
                         columnNumber: 13
                     }, this) : "Choose one or more interests above to see your matches."
                 }, void 0, false, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 1302,
+                    lineNumber: 1304,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5514,7 +5514,7 @@ function Match() {
                     children: "The right course depends on your education, current skills, interests and the role you are aiming for. Talk to a counsellor before you enrol to understand course suitability, duration and career paths."
                 }, void 0, false, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 1313,
+                    lineNumber: 1315,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5528,23 +5528,23 @@ function Match() {
                         children: "Talk to a Career Counsellor"
                     }, void 0, false, {
                         fileName: "[project]/src/pages/Home.tsx",
-                        lineNumber: 1320,
+                        lineNumber: 1322,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 1319,
+                    lineNumber: 1321,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/pages/Home.tsx",
-            lineNumber: 1252,
+            lineNumber: 1254,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/pages/Home.tsx",
-        lineNumber: 1251,
+        lineNumber: 1253,
         columnNumber: 5
     }, this);
 }
@@ -5569,7 +5569,7 @@ function Hackathon() {
                                 children: "Nexila Hackathon 2026"
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 1335,
+                                lineNumber: 1337,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -5579,14 +5579,14 @@ function Hackathon() {
                                 children: "Build. Innovate. Compete."
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 1339,
+                                lineNumber: 1341,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: "Open to college students in teams of 2 to 4. Turn your idea into a real project and win."
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 1341,
+                                lineNumber: 1343,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -5598,13 +5598,13 @@ function Hackathon() {
                                 children: "Register Now →"
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 1346,
+                                lineNumber: 1348,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/pages/Home.tsx",
-                        lineNumber: 1334,
+                        lineNumber: 1336,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5614,43 +5614,43 @@ function Hackathon() {
                                 children: "Prize pool"
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 1356,
+                                lineNumber: 1358,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
                                 children: "₹50K"
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 1357,
+                                lineNumber: 1359,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 children: "AI and programming tracks"
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 1358,
+                                lineNumber: 1360,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/pages/Home.tsx",
-                        lineNumber: 1355,
+                        lineNumber: 1357,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/pages/Home.tsx",
-                lineNumber: 1333,
+                lineNumber: 1335,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/pages/Home.tsx",
-            lineNumber: 1332,
+            lineNumber: 1334,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/pages/Home.tsx",
-        lineNumber: 1331,
+        lineNumber: 1333,
         columnNumber: 5
     }, this);
 }
@@ -5670,7 +5670,7 @@ function Reviews() {
                             title: "What our students say on Google"
                         }, void 0, false, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 1371,
+                            lineNumber: 1373,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5678,13 +5678,13 @@ function Reviews() {
                             children: "Live from Google Reviews · preview data"
                         }, void 0, false, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 1373,
+                            lineNumber: 1375,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 1370,
+                    lineNumber: 1372,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5700,7 +5700,7 @@ function Reviews() {
                                             children: r.n[0]
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 1380,
+                                            lineNumber: 1382,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5709,7 +5709,7 @@ function Reviews() {
                                                     children: r.n
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/Home.tsx",
-                                                    lineNumber: 1383,
+                                                    lineNumber: 1385,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5720,19 +5720,19 @@ function Reviews() {
                                                     children: "Google review"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/Home.tsx",
-                                                    lineNumber: 1385,
+                                                    lineNumber: 1387,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 1382,
+                                            lineNumber: 1384,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 1379,
+                                    lineNumber: 1381,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5740,7 +5740,7 @@ function Reviews() {
                                     children: "★".repeat(r.s)
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 1395,
+                                    lineNumber: 1397,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5750,29 +5750,29 @@ function Reviews() {
                                     children: r.t
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 1397,
+                                    lineNumber: 1399,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, i, true, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 1378,
+                            lineNumber: 1380,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 1376,
+                    lineNumber: 1378,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/pages/Home.tsx",
-            lineNumber: 1369,
+            lineNumber: 1371,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/pages/Home.tsx",
-        lineNumber: 1368,
+        lineNumber: 1370,
         columnNumber: 5
     }, this);
 }
@@ -5793,26 +5793,26 @@ function Faq() {
                             children: o === i ? "−" : "+"
                         }, void 0, false, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 1414,
+                            lineNumber: 1416,
                             columnNumber: 9
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 1412,
+                    lineNumber: 1414,
                     columnNumber: 7
                 }, this),
                 o === i && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     children: f[1]
                 }, void 0, false, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 1417,
+                    lineNumber: 1419,
                     columnNumber: 19
                 }, this)
             ]
         }, i, true, {
             fileName: "[project]/src/pages/Home.tsx",
-            lineNumber: 1411,
+            lineNumber: 1413,
             columnNumber: 5
         }, this);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -5825,7 +5825,7 @@ function Faq() {
                     title: "Common questions"
                 }, void 0, false, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 1424,
+                    lineNumber: 1426,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5835,20 +5835,20 @@ function Faq() {
                             children: FAQ.slice(0, half).map((f, i)=>item(f, i))
                         }, void 0, false, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 1427,
+                            lineNumber: 1429,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: FAQ.slice(half).map((f, i)=>item(f, i + half))
                         }, void 0, false, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 1429,
+                            lineNumber: 1431,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 1426,
+                    lineNumber: 1428,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5865,7 +5865,7 @@ function Faq() {
                             children: "Still have questions? Our team is happy to help."
                         }, void 0, false, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 1438,
+                            lineNumber: 1440,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -5875,24 +5875,24 @@ function Faq() {
                             children: "Talk to a Counsellor"
                         }, void 0, false, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 1447,
+                            lineNumber: 1449,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 1432,
+                    lineNumber: 1434,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/pages/Home.tsx",
-            lineNumber: 1423,
+            lineNumber: 1425,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/pages/Home.tsx",
-        lineNumber: 1422,
+        lineNumber: 1424,
         columnNumber: 5
     }, this);
 }
@@ -6036,7 +6036,7 @@ function Lead() {
                                 children: "Free consultation"
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 1624,
+                                lineNumber: 1626,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -6047,20 +6047,20 @@ function Lead() {
                                 children: "Book your free demo class"
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 1628,
+                                lineNumber: 1630,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: "Tell us what you want to learn and our team will call you back. You can also reach us on +91 980 306 1234."
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 1637,
+                                lineNumber: 1639,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/pages/Home.tsx",
-                        lineNumber: 1623,
+                        lineNumber: 1625,
                         columnNumber: 11
                     }, this),
                     ok ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6072,20 +6072,20 @@ function Lead() {
                                 children: "Thank you! ✅"
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 1645,
+                                lineNumber: 1647,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: "We will contact you shortly."
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 1647,
+                                lineNumber: 1649,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/pages/Home.tsx",
-                        lineNumber: 1644,
+                        lineNumber: 1646,
                         columnNumber: 13
                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
                         onSubmit: handleLeadSubmit,
@@ -6097,7 +6097,7 @@ function Lead() {
                                 onChange: (e)=>setDemoName(e.target.value.replace(/[^A-Za-z\s]/g, "").replace(/\s+/g, " ").split(" ").map((word)=>word ? word.charAt(0).toUpperCase() + word.slice(1).toLowerCase() : "").join(" "))
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 1652,
+                                lineNumber: 1654,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -6110,7 +6110,7 @@ function Lead() {
                                 onChange: (e)=>setDemoPhone(e.target.value.replace(/\D/g, "").slice(0, 10))
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 1674,
+                                lineNumber: 1676,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -6120,7 +6120,7 @@ function Lead() {
                                 onChange: (e)=>setDemoEmail(e.target.value)
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 1687,
+                                lineNumber: 1689,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -6134,7 +6134,7 @@ function Lead() {
                                         children: "Interested course"
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/Home.tsx",
-                                        lineNumber: 1700,
+                                        lineNumber: 1702,
                                         columnNumber: 17
                                     }, this),
                                     COURSES.map((c)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -6142,13 +6142,13 @@ function Lead() {
                                             children: c.t
                                         }, c.t, false, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 1705,
+                                            lineNumber: 1707,
                                             columnNumber: 19
                                         }, this))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 1695,
+                                lineNumber: 1697,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -6158,29 +6158,29 @@ function Lead() {
                                 children: demoLoading ? "Submitting..." : "Request Callback"
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 1711,
+                                lineNumber: 1713,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/pages/Home.tsx",
-                        lineNumber: 1650,
+                        lineNumber: 1652,
                         columnNumber: 13
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/pages/Home.tsx",
-                lineNumber: 1622,
+                lineNumber: 1624,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/pages/Home.tsx",
-            lineNumber: 1621,
+            lineNumber: 1623,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/pages/Home.tsx",
-        lineNumber: 1620,
+        lineNumber: 1622,
         columnNumber: 5
     }, this);
 }
@@ -6227,7 +6227,7 @@ function Footer() {
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 1753,
+                                    lineNumber: 1755,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -6239,19 +6239,19 @@ function Footer() {
                                         width: "270px"
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/Home.tsx",
-                                        lineNumber: 1767,
+                                        lineNumber: 1769,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 1766,
+                                    lineNumber: 1768,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     children: "Software training and placement institute in Tambaram, Chennai."
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 1770,
+                                    lineNumber: 1772,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6270,23 +6270,23 @@ function Footer() {
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/Home.tsx",
-                                                lineNumber: 1784,
+                                                lineNumber: 1786,
                                                 columnNumber: 19
                                             }, this)
                                         }, n, false, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 1776,
+                                            lineNumber: 1778,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 1774,
+                                    lineNumber: 1776,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 1752,
+                            lineNumber: 1754,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6295,7 +6295,7 @@ function Footer() {
                                     children: "Company"
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 1847,
+                                    lineNumber: 1849,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -6303,7 +6303,7 @@ function Footer() {
                                     children: "About"
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 1849,
+                                    lineNumber: 1851,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -6311,7 +6311,7 @@ function Footer() {
                                     children: "Courses"
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 1851,
+                                    lineNumber: 1853,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -6327,7 +6327,7 @@ function Footer() {
                                     children: "Reviews"
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 1853,
+                                    lineNumber: 1855,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -6335,13 +6335,29 @@ function Footer() {
                                     children: "Blog"
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 1868,
+                                    lineNumber: 1870,
                                     columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                    href: "/terms-and-conditions",
+                                    children: "Terms & Conditions"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/pages/Home.tsx",
+                                    lineNumber: 1871,
+                                    columnNumber: 16
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                    href: "/privacy-policy",
+                                    children: "Privacy Policy"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/pages/Home.tsx",
+                                    lineNumber: 1875,
+                                    columnNumber: 3
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 1846,
+                            lineNumber: 1848,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6350,7 +6366,7 @@ function Footer() {
                                     children: "Programs"
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 1872,
+                                    lineNumber: 1881,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -6358,7 +6374,7 @@ function Footer() {
                                     children: "Full Stack"
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 1874,
+                                    lineNumber: 1883,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -6366,7 +6382,7 @@ function Footer() {
                                     children: "Internship"
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 1876,
+                                    lineNumber: 1885,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -6374,7 +6390,7 @@ function Footer() {
                                     children: "Hackathon 2026"
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 1880,
+                                    lineNumber: 1889,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -6382,13 +6398,13 @@ function Footer() {
                                     children: "Corporate Training"
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 1882,
+                                    lineNumber: 1891,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 1871,
+                            lineNumber: 1880,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6397,7 +6413,7 @@ function Footer() {
                                     children: "Get in touch"
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 1885,
+                                    lineNumber: 1894,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -6405,7 +6421,7 @@ function Footer() {
                                     children: "info@nexilatechnologies.com"
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 1887,
+                                    lineNumber: 1896,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -6413,7 +6429,7 @@ function Footer() {
                                     children: "+91 980 306 1234"
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 1891,
+                                    lineNumber: 1900,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -6421,19 +6437,19 @@ function Footer() {
                                     children: "+91 96 29 173 443"
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 1893,
+                                    lineNumber: 1902,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 1884,
+                            lineNumber: 1893,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 1751,
+                    lineNumber: 1753,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6441,18 +6457,18 @@ function Footer() {
                     children: "© 2026 Nexila Technologies. All rights reserved."
                 }, void 0, false, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 1897,
+                    lineNumber: 1906,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/pages/Home.tsx",
-            lineNumber: 1750,
+            lineNumber: 1752,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/pages/Home.tsx",
-        lineNumber: 1749,
+        lineNumber: 1751,
         columnNumber: 5
     }, this);
 }
@@ -6808,7 +6824,7 @@ function DemoPopup() {
                     children: "✕"
                 }, void 0, false, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 2355,
+                    lineNumber: 2364,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6822,21 +6838,21 @@ function DemoPopup() {
                             children: hack ? "Nexila Hackathon 2026" : "Free demo class"
                         }, void 0, false, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 2364,
+                            lineNumber: 2373,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                             children: hack ? "Register for the hackathon" : "Book your free demo class"
                         }, void 0, false, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 2368,
+                            lineNumber: 2377,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             children: hack ? "Build. Innovate. Compete." : "See how we teach before you enrol."
                         }, void 0, false, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 2372,
+                            lineNumber: 2381,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -6844,18 +6860,18 @@ function DemoPopup() {
                                     children: t
                                 }, t, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 2380,
+                                    lineNumber: 2389,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 2378,
+                            lineNumber: 2387,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 2363,
+                    lineNumber: 2372,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6873,7 +6889,7 @@ function DemoPopup() {
                                 children: hack ? "You are registered! ✅" : "Thank you! ✅"
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 2393,
+                                lineNumber: 2402,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6883,7 +6899,7 @@ function DemoPopup() {
                                 children: hack ? "Our team will contact you with the next steps." : "Our team will call you shortly to confirm your demo slot."
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 2397,
+                                lineNumber: 2406,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -6892,13 +6908,13 @@ function DemoPopup() {
                                 children: "Continue browsing"
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 2407,
+                                lineNumber: 2416,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/pages/Home.tsx",
-                        lineNumber: 2387,
+                        lineNumber: 2396,
                         columnNumber: 13
                     }, this) : hack ? // =================================================
                     // HACKATHON FORM
@@ -6913,7 +6929,7 @@ function DemoPopup() {
                                 onChange: (e)=>setHackName(e.target.value.replace(/[^A-Za-z\s]/g, "").replace(/\s+/g, " ").toUpperCase())
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 2416,
+                                lineNumber: 2425,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -6926,7 +6942,7 @@ function DemoPopup() {
                                 onChange: (e)=>setHackPhone(e.target.value.replace(/\D/g, "").slice(0, 10))
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 2430,
+                                lineNumber: 2439,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -6937,7 +6953,7 @@ function DemoPopup() {
                                 onChange: (e)=>setHackEmail(e.target.value)
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 2442,
+                                lineNumber: 2451,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -6947,20 +6963,20 @@ function DemoPopup() {
                                 children: hackLoading ? "Registering..." : "Register Now"
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 2450,
+                                lineNumber: 2459,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("small", {
                                 children: "You can also call us on +91 980 306 1234."
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 2454,
+                                lineNumber: 2463,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/pages/Home.tsx",
-                        lineNumber: 2415,
+                        lineNumber: 2424,
                         columnNumber: 13
                     }, this) : // =================================================
                     // DEMO FORM
@@ -6975,7 +6991,7 @@ function DemoPopup() {
                                 onChange: (e)=>setDemoName(e.target.value.replace(/[^A-Za-z\s]/g, "").replace(/\s+/g, " ").split(" ").map((word)=>word ? word.charAt(0).toUpperCase() + word.slice(1).toLowerCase() : "").join(" "))
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 2461,
+                                lineNumber: 2470,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -6988,7 +7004,7 @@ function DemoPopup() {
                                 onChange: (e)=>setDemoPhone(e.target.value.replace(/\D/g, "").slice(0, 10))
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 2482,
+                                lineNumber: 2491,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -6998,7 +7014,7 @@ function DemoPopup() {
                                 onChange: (e)=>setDemoEmail(e.target.value)
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 2494,
+                                lineNumber: 2503,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -7012,7 +7028,7 @@ function DemoPopup() {
                                         children: "Interested course"
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/Home.tsx",
-                                        lineNumber: 2502,
+                                        lineNumber: 2511,
                                         columnNumber: 17
                                     }, this),
                                     COURSES.map((c)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -7020,13 +7036,13 @@ function DemoPopup() {
                                             children: c.t
                                         }, c.t, false, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 2507,
+                                            lineNumber: 2516,
                                             columnNumber: 19
                                         }, this))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 2501,
+                                lineNumber: 2510,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -7036,7 +7052,7 @@ function DemoPopup() {
                                 children: demoLoading ? "Submitting..." : "Book My Free Demo"
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 2523,
+                                lineNumber: 2532,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("small", {
@@ -7045,36 +7061,36 @@ function DemoPopup() {
                                     " ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/src/pages/Home.tsx",
-                                        lineNumber: 2529,
+                                        lineNumber: 2538,
                                         columnNumber: 17
                                     }, this),
                                     "You can also call us on +91 980 306 1234."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 2527,
+                                lineNumber: 2536,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/pages/Home.tsx",
-                        lineNumber: 2460,
+                        lineNumber: 2469,
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 2385,
+                    lineNumber: 2394,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/pages/Home.tsx",
-            lineNumber: 2345,
+            lineNumber: 2354,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/pages/Home.tsx",
-        lineNumber: 2341,
+        lineNumber: 2350,
         columnNumber: 5
     }, this);
 }
@@ -7129,7 +7145,7 @@ function Testi() {
                     sub: "Watch real testimonials from our successful graduates."
                 }, void 0, false, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 2584,
+                    lineNumber: 2593,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7145,7 +7161,7 @@ function Testi() {
                                 allowFullScreen: true
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 2593,
+                                lineNumber: 2602,
                                 columnNumber: 15
                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
                                 children: [
@@ -7154,7 +7170,7 @@ function Testi() {
                                         children: v.e
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/Home.tsx",
-                                        lineNumber: 2605,
+                                        lineNumber: 2614,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -7164,7 +7180,7 @@ function Testi() {
                                         children: "▶"
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/Home.tsx",
-                                        lineNumber: 2607,
+                                        lineNumber: 2616,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7174,20 +7190,20 @@ function Testi() {
                                                 children: v.n
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/Home.tsx",
-                                                lineNumber: 2616,
+                                                lineNumber: 2625,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 children: v.c
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/Home.tsx",
-                                                lineNumber: 2617,
+                                                lineNumber: 2626,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/pages/Home.tsx",
-                                        lineNumber: 2615,
+                                        lineNumber: 2624,
                                         columnNumber: 17
                                     }, this),
                                     pl && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7195,18 +7211,18 @@ function Testi() {
                                         children: "Video coming soon"
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/Home.tsx",
-                                        lineNumber: 2620,
+                                        lineNumber: 2629,
                                         columnNumber: 24
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 2604,
+                                lineNumber: 2613,
                                 columnNumber: 15
                             }, this)
                         }, a, false, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 2591,
+                            lineNumber: 2600,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7227,13 +7243,13 @@ function Testi() {
                                                     children: "▶ Watch"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/Home.tsx",
-                                                    lineNumber: 2638,
+                                                    lineNumber: 2647,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 2636,
+                                            lineNumber: 2645,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -7242,37 +7258,37 @@ function Testi() {
                                                     children: x.n
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/Home.tsx",
-                                                    lineNumber: 2642,
+                                                    lineNumber: 2651,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("small", {
                                                     children: x.c
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/Home.tsx",
-                                                    lineNumber: 2643,
+                                                    lineNumber: 2652,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 2641,
+                                            lineNumber: 2650,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, i, true, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 2627,
+                                    lineNumber: 2636,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 2625,
+                            lineNumber: 2634,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 2590,
+                    lineNumber: 2599,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7287,23 +7303,23 @@ function Testi() {
                         children: "Read our Google reviews →"
                     }, void 0, false, {
                         fileName: "[project]/src/pages/Home.tsx",
-                        lineNumber: 2656,
+                        lineNumber: 2665,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 2650,
+                    lineNumber: 2659,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/pages/Home.tsx",
-            lineNumber: 2583,
+            lineNumber: 2592,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/pages/Home.tsx",
-        lineNumber: 2582,
+        lineNumber: 2591,
         columnNumber: 5
     }, this);
 }
@@ -7422,7 +7438,7 @@ function About() {
                                                 children: "Home"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/Home.tsx",
-                                                lineNumber: 2721,
+                                                lineNumber: 2730,
                                                 columnNumber: 17
                                             }, this),
                                             " ",
@@ -7430,7 +7446,7 @@ function About() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/pages/Home.tsx",
-                                        lineNumber: 2720,
+                                        lineNumber: 2729,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -7443,21 +7459,21 @@ function About() {
                                                 children: "Nexila"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/Home.tsx",
-                                                lineNumber: 2728,
+                                                lineNumber: 2737,
                                                 columnNumber: 23
                                             }, this),
                                             " Technologies"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/pages/Home.tsx",
-                                        lineNumber: 2727,
+                                        lineNumber: 2736,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         children: "A software training and development company in Tambaram, Chennai, helping learners and organisations build the skills for a fast-moving digital world."
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/Home.tsx",
-                                        lineNumber: 2731,
+                                        lineNumber: 2740,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7470,7 +7486,7 @@ function About() {
                                                 children: "Enroll Now!"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/Home.tsx",
-                                                lineNumber: 2738,
+                                                lineNumber: 2747,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -7480,19 +7496,19 @@ function About() {
                                                 children: "Explore Courses"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/Home.tsx",
-                                                lineNumber: 2742,
+                                                lineNumber: 2751,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/pages/Home.tsx",
-                                        lineNumber: 2737,
+                                        lineNumber: 2746,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 2719,
+                                lineNumber: 2728,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7502,28 +7518,28 @@ function About() {
                                     alt: "Nexila Technologies training centre"
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 2753,
+                                    lineNumber: 2762,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 2752,
+                                lineNumber: 2761,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/pages/Home.tsx",
-                        lineNumber: 2718,
+                        lineNumber: 2727,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 2717,
+                    lineNumber: 2726,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/pages/Home.tsx",
-                lineNumber: 2716,
+                lineNumber: 2725,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -7536,7 +7552,7 @@ function About() {
                             title: "Where learning meets real-world skills"
                         }, void 0, false, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 2764,
+                            lineNumber: 2773,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7548,21 +7564,21 @@ function About() {
                                             children: "Nexila Technologies is a software training and development company based in Tambaram, Chennai. We help students, graduates and working professionals build the skills the IT industry looks for, and we support organisations through training and software solutions."
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 2771,
+                                            lineNumber: 2780,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: "Our aim is simple: bridge the gap between learning and practical application. That is why our classes lean on hands-on practice, guided projects and trainers who explain concepts clearly, so you can keep pace with a rapidly changing technology landscape."
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 2779,
+                                            lineNumber: 2788,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: "Whether you want to upskill, move ahead in your career or start one, we are here to support you at every step, from choosing the right course to getting interview-ready."
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 2786,
+                                            lineNumber: 2795,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7574,18 +7590,18 @@ function About() {
                                                 children: "Book a Free Demo"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/Home.tsx",
-                                                lineNumber: 2793,
+                                                lineNumber: 2802,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 2792,
+                                            lineNumber: 2801,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 2770,
+                                    lineNumber: 2779,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7615,7 +7631,7 @@ function About() {
                                                         children: i
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/pages/Home.tsx",
-                                                        lineNumber: 2819,
+                                                        lineNumber: 2828,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7624,53 +7640,53 @@ function About() {
                                                                 children: t
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/pages/Home.tsx",
-                                                                lineNumber: 2822,
+                                                                lineNumber: 2831,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                 children: d
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/pages/Home.tsx",
-                                                                lineNumber: 2823,
+                                                                lineNumber: 2832,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/pages/Home.tsx",
-                                                        lineNumber: 2821,
+                                                        lineNumber: 2830,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/pages/Home.tsx",
-                                                lineNumber: 2818,
+                                                lineNumber: 2827,
                                                 columnNumber: 19
                                             }, this)
                                         }, t, false, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 2817,
+                                            lineNumber: 2826,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 2799,
+                                    lineNumber: 2808,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 2769,
+                            lineNumber: 2778,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 2763,
+                    lineNumber: 2772,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/pages/Home.tsx",
-                lineNumber: 2762,
+                lineNumber: 2771,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -7691,35 +7707,35 @@ function About() {
                                         dec: d
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/Home.tsx",
-                                        lineNumber: 2838,
+                                        lineNumber: 2847,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         children: l
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/Home.tsx",
-                                        lineNumber: 2839,
+                                        lineNumber: 2848,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, l, true, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 2837,
+                                lineNumber: 2846,
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/pages/Home.tsx",
-                        lineNumber: 2835,
+                        lineNumber: 2844,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 2834,
+                    lineNumber: 2843,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/pages/Home.tsx",
-                lineNumber: 2833,
+                lineNumber: 2842,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -7733,7 +7749,7 @@ function About() {
                             sub: "From programming and cloud to data, testing and AI, choose the track that fits your goals."
                         }, void 0, false, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 2848,
+                            lineNumber: 2857,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7747,53 +7763,53 @@ function About() {
                                                 children: i
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/Home.tsx",
-                                                lineNumber: 2858,
+                                                lineNumber: 2867,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                 children: t
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/Home.tsx",
-                                                lineNumber: 2859,
+                                                lineNumber: 2868,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 children: d
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/Home.tsx",
-                                                lineNumber: 2860,
+                                                lineNumber: 2869,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/pages/Home.tsx",
-                                        lineNumber: 2857,
+                                        lineNumber: 2866,
                                         columnNumber: 17
                                     }, this)
                                 }, t, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 2856,
+                                    lineNumber: 2865,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 2854,
+                            lineNumber: 2863,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 2847,
+                    lineNumber: 2856,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/pages/Home.tsx",
-                lineNumber: 2846,
+                lineNumber: 2855,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Testi, {}, void 0, false, {
                 fileName: "[project]/src/pages/Home.tsx",
-                lineNumber: 2868,
+                lineNumber: 2877,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -7806,7 +7822,7 @@ function About() {
                             title: "Programs that build real experience"
                         }, void 0, false, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 2872,
+                            lineNumber: 2881,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7842,14 +7858,14 @@ function About() {
                                                 children: i
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/Home.tsx",
-                                                lineNumber: 2903,
+                                                lineNumber: 2912,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                 children: t
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/Home.tsx",
-                                                lineNumber: 2905,
+                                                lineNumber: 2914,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -7859,7 +7875,7 @@ function About() {
                                                 children: d
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/Home.tsx",
-                                                lineNumber: 2907,
+                                                lineNumber: 2916,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -7872,34 +7888,34 @@ function About() {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/pages/Home.tsx",
-                                                lineNumber: 2909,
+                                                lineNumber: 2918,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/pages/Home.tsx",
-                                        lineNumber: 2902,
+                                        lineNumber: 2911,
                                         columnNumber: 17
                                     }, this)
                                 }, t, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 2901,
+                                    lineNumber: 2910,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 2877,
+                            lineNumber: 2886,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 2871,
+                    lineNumber: 2880,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/pages/Home.tsx",
-                lineNumber: 2870,
+                lineNumber: 2879,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -7916,7 +7932,7 @@ function About() {
                             sub: "Our centre is in Tambaram, and learners join us from across the city, or online from anywhere."
                         }, void 0, false, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 2921,
+                            lineNumber: 2930,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7928,34 +7944,34 @@ function About() {
                                     children: a
                                 }, a, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 2929,
+                                    lineNumber: 2938,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 2927,
+                            lineNumber: 2936,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 2920,
+                    lineNumber: 2929,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/pages/Home.tsx",
-                lineNumber: 2919,
+                lineNumber: 2928,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Lead, {}, void 0, false, {
                 fileName: "[project]/src/pages/Home.tsx",
-                lineNumber: 2935,
+                lineNumber: 2944,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/pages/Home.tsx",
-        lineNumber: 2715,
+        lineNumber: 2724,
         columnNumber: 5
     }, this);
 }
@@ -8221,31 +8237,31 @@ function Acc({ items }) {
                                 children: o === i ? "−" : "+"
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 3017,
+                                lineNumber: 3026,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/pages/Home.tsx",
-                        lineNumber: 3011,
+                        lineNumber: 3020,
                         columnNumber: 11
                     }, this),
                     o === i && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         children: f[1]
                     }, void 0, false, {
                         fileName: "[project]/src/pages/Home.tsx",
-                        lineNumber: 3020,
+                        lineNumber: 3029,
                         columnNumber: 23
                     }, this)
                 ]
             }, i, true, {
                 fileName: "[project]/src/pages/Home.tsx",
-                lineNumber: 3010,
+                lineNumber: 3019,
                 columnNumber: 9
             }, this))
     }, void 0, false, {
         fileName: "[project]/src/pages/Home.tsx",
-        lineNumber: 3008,
+        lineNumber: 3017,
         columnNumber: 5
     }, this);
 }
@@ -8269,14 +8285,14 @@ function CourseCard({ c }) {
                         children: cc[0]
                     }, void 0, false, {
                         fileName: "[project]/src/pages/Home.tsx",
-                        lineNumber: 3040,
+                        lineNumber: 3049,
                         columnNumber: 9
                     }, this),
                     cc[1]
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/pages/Home.tsx",
-                lineNumber: 3039,
+                lineNumber: 3048,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8286,7 +8302,7 @@ function CourseCard({ c }) {
                         children: c.name
                     }, void 0, false, {
                         fileName: "[project]/src/pages/Home.tsx",
-                        lineNumber: 3045,
+                        lineNumber: 3054,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8296,20 +8312,20 @@ function CourseCard({ c }) {
                                 children: "Classroom + Live online"
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 3048,
+                                lineNumber: 3057,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 children: "Free demo"
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 3049,
+                                lineNumber: 3058,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/pages/Home.tsx",
-                        lineNumber: 3047,
+                        lineNumber: 3056,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -8317,19 +8333,19 @@ function CourseCard({ c }) {
                         children: "View details →"
                     }, void 0, false, {
                         fileName: "[project]/src/pages/Home.tsx",
-                        lineNumber: 3052,
+                        lineNumber: 3061,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/pages/Home.tsx",
-                lineNumber: 3044,
+                lineNumber: 3053,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/pages/Home.tsx",
-        lineNumber: 3031,
+        lineNumber: 3040,
         columnNumber: 5
     }, this);
 }
@@ -8355,7 +8371,7 @@ function CoursesPage() {
                                     children: "Home"
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 3073,
+                                    lineNumber: 3082,
                                     columnNumber: 13
                                 }, this),
                                 " ",
@@ -8363,7 +8379,7 @@ function CoursesPage() {
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 3072,
+                            lineNumber: 3081,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -8376,20 +8392,20 @@ function CoursesPage() {
                                     children: "Courses"
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 3080,
+                                    lineNumber: 3089,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 3079,
+                            lineNumber: 3088,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             children: "Courses for every level, from beginners to advanced learners. Pick a track, attend a free demo and start learning."
                         }, void 0, false, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 3083,
+                            lineNumber: 3092,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8399,7 +8415,7 @@ function CoursesPage() {
                                     children: "🔍"
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 3089,
+                                    lineNumber: 3098,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -8409,24 +8425,24 @@ function CoursesPage() {
                                     "aria-label": "Search courses"
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 3091,
+                                    lineNumber: 3100,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 3088,
+                            lineNumber: 3097,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 3071,
+                    lineNumber: 3080,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/pages/Home.tsx",
-                lineNumber: 3070,
+                lineNumber: 3079,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -8453,7 +8469,7 @@ function CoursesPage() {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 3104,
+                                    lineNumber: 3113,
                                     columnNumber: 13
                                 }, this),
                                 CCATS.map((c, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -8466,13 +8482,13 @@ function CoursesPage() {
                                         ]
                                     }, c[0], true, {
                                         fileName: "[project]/src/pages/Home.tsx",
-                                        lineNumber: 3112,
+                                        lineNumber: 3121,
                                         columnNumber: 15
                                     }, this))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 3103,
+                            lineNumber: 3112,
                             columnNumber: 11
                         }, this),
                         cat >= 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -8483,7 +8499,7 @@ function CoursesPage() {
                             children: CBLURB[cat]
                         }, void 0, false, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 3123,
+                            lineNumber: 3132,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8492,12 +8508,12 @@ function CoursesPage() {
                                     c: c
                                 }, c.slug, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 3130,
+                                    lineNumber: 3139,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 3128,
+                            lineNumber: 3137,
                             columnNumber: 11
                         }, this),
                         !list.length && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -8516,24 +8532,24 @@ function CoursesPage() {
                                     children: "Ask our counsellor"
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 3143,
+                                    lineNumber: 3152,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 3135,
+                            lineNumber: 3144,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 3102,
+                    lineNumber: 3111,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/pages/Home.tsx",
-                lineNumber: 3101,
+                lineNumber: 3110,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -8552,20 +8568,20 @@ function CoursesPage() {
                                         children: "Not sure which course to choose?"
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/Home.tsx",
-                                        lineNumber: 3155,
+                                        lineNumber: 3164,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         children: "Tell us your background and goals. We will suggest a path and explain duration and career options."
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/Home.tsx",
-                                        lineNumber: 3157,
+                                        lineNumber: 3166,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 3154,
+                                lineNumber: 3163,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8578,7 +8594,7 @@ function CoursesPage() {
                                         children: "Try the interest matcher"
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/Home.tsx",
-                                        lineNumber: 3164,
+                                        lineNumber: 3173,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -8588,40 +8604,40 @@ function CoursesPage() {
                                         children: "Talk to a Counsellor"
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/Home.tsx",
-                                        lineNumber: 3172,
+                                        lineNumber: 3181,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 3163,
+                                lineNumber: 3172,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/pages/Home.tsx",
-                        lineNumber: 3153,
+                        lineNumber: 3162,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 3152,
+                    lineNumber: 3161,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/pages/Home.tsx",
-                lineNumber: 3151,
+                lineNumber: 3160,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Lead, {}, void 0, false, {
                 fileName: "[project]/src/pages/Home.tsx",
-                lineNumber: 3180,
+                lineNumber: 3189,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/pages/Home.tsx",
-        lineNumber: 3069,
+        lineNumber: 3078,
         columnNumber: 5
     }, this);
 }
@@ -8708,7 +8724,7 @@ function JourneyTrack() {
                     sub: "Four stages that take you from fundamentals to the interview room."
                 }, void 0, false, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 3240,
+                    lineNumber: 3249,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8718,7 +8734,7 @@ function JourneyTrack() {
                             className: "fl"
                         }, void 0, false, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 3247,
+                            lineNumber: 3256,
                             columnNumber: 11
                         }, this),
                         S.map(([i, t, d], k)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -8733,7 +8749,7 @@ function JourneyTrack() {
                                         children: i
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/Home.tsx",
-                                        lineNumber: 3258,
+                                        lineNumber: 3267,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8745,39 +8761,39 @@ function JourneyTrack() {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/pages/Home.tsx",
-                                                lineNumber: 3261,
+                                                lineNumber: 3270,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                 children: t
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/Home.tsx",
-                                                lineNumber: 3262,
+                                                lineNumber: 3271,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 children: d
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/Home.tsx",
-                                                lineNumber: 3263,
+                                                lineNumber: 3272,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/pages/Home.tsx",
-                                        lineNumber: 3260,
+                                        lineNumber: 3269,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, t, true, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 3250,
+                                lineNumber: 3259,
                                 columnNumber: 13
                             }, this))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 3246,
+                    lineNumber: 3255,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8792,23 +8808,23 @@ function JourneyTrack() {
                         children: "Start Your Journey"
                     }, void 0, false, {
                         fileName: "[project]/src/pages/Home.tsx",
-                        lineNumber: 3275,
+                        lineNumber: 3284,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 3269,
+                    lineNumber: 3278,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/pages/Home.tsx",
-            lineNumber: 3239,
+            lineNumber: 3248,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/pages/Home.tsx",
-        lineNumber: 3238,
+        lineNumber: 3247,
         columnNumber: 5
     }, this);
 }
@@ -8863,7 +8879,7 @@ function CourseDetail({ slug }) {
                         children: "Course not found"
                     }, void 0, false, {
                         fileName: "[project]/src/pages/Home.tsx",
-                        lineNumber: 3315,
+                        lineNumber: 3324,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -8873,18 +8889,18 @@ function CourseDetail({ slug }) {
                         children: "Browse all courses"
                     }, void 0, false, {
                         fileName: "[project]/src/pages/Home.tsx",
-                        lineNumber: 3317,
+                        lineNumber: 3326,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/pages/Home.tsx",
-                lineNumber: 3314,
+                lineNumber: 3323,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/pages/Home.tsx",
-            lineNumber: 3313,
+            lineNumber: 3322,
             columnNumber: 7
         }, this);
     }
@@ -8952,7 +8968,7 @@ function CourseDetail({ slug }) {
                                                 children: "Home"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/Home.tsx",
-                                                lineNumber: 3380,
+                                                lineNumber: 3389,
                                                 columnNumber: 17
                                             }, this),
                                             " ",
@@ -8964,7 +8980,7 @@ function CourseDetail({ slug }) {
                                                 children: "Courses"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/Home.tsx",
-                                                lineNumber: 3384,
+                                                lineNumber: 3393,
                                                 columnNumber: 17
                                             }, this),
                                             " ",
@@ -8973,7 +8989,7 @@ function CourseDetail({ slug }) {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/pages/Home.tsx",
-                                        lineNumber: 3379,
+                                        lineNumber: 3388,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8981,7 +8997,7 @@ function CourseDetail({ slug }) {
                                         children: cc[0]
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/Home.tsx",
-                                        lineNumber: 3390,
+                                        lineNumber: 3399,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -8996,13 +9012,13 @@ function CourseDetail({ slug }) {
                                                 children: "Training"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/Home.tsx",
-                                                lineNumber: 3398,
+                                                lineNumber: 3407,
                                                 columnNumber: 26
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/pages/Home.tsx",
-                                        lineNumber: 3392,
+                                        lineNumber: 3401,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -9012,7 +9028,7 @@ function CourseDetail({ slug }) {
                                         children: desc
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/Home.tsx",
-                                        lineNumber: 3401,
+                                        lineNumber: 3410,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -9025,7 +9041,7 @@ function CourseDetail({ slug }) {
                                                 children: "Enroll Now!"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/Home.tsx",
-                                                lineNumber: 3404,
+                                                lineNumber: 3413,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -9035,19 +9051,19 @@ function CourseDetail({ slug }) {
                                                 children: "Request Syllabus"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/Home.tsx",
-                                                lineNumber: 3408,
+                                                lineNumber: 3417,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/pages/Home.tsx",
-                                        lineNumber: 3403,
+                                        lineNumber: 3412,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 3378,
+                                lineNumber: 3387,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -9058,23 +9074,23 @@ function CourseDetail({ slug }) {
                                 children: cc[1]
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 3414,
+                                lineNumber: 3423,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/pages/Home.tsx",
-                        lineNumber: 3377,
+                        lineNumber: 3386,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 3376,
+                    lineNumber: 3385,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/pages/Home.tsx",
-                lineNumber: 3375,
+                lineNumber: 3384,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -9104,17 +9120,17 @@ function CourseDetail({ slug }) {
                             children: l
                         }, i, false, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 3434,
+                            lineNumber: 3443,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 3427,
+                    lineNumber: 3436,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/pages/Home.tsx",
-                lineNumber: 3426,
+                lineNumber: 3435,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -9138,14 +9154,14 @@ function CourseDetail({ slug }) {
                                                     children: "About the course"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/Home.tsx",
-                                                    lineNumber: 3450,
+                                                    lineNumber: 3459,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     children: desc
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/Home.tsx",
-                                                    lineNumber: 3452,
+                                                    lineNumber: 3461,
                                                     columnNumber: 17
                                                 }, this),
                                                 d ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
@@ -9159,25 +9175,25 @@ function CourseDetail({ slug }) {
                                                                             children: t
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/pages/Home.tsx",
-                                                                            lineNumber: 3459,
+                                                                            lineNumber: 3468,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                             children: x
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/pages/Home.tsx",
-                                                                            lineNumber: 3460,
+                                                                            lineNumber: 3469,
                                                                             columnNumber: 27
                                                                         }, this)
                                                                     ]
                                                                 }, t, true, {
                                                                     fileName: "[project]/src/pages/Home.tsx",
-                                                                    lineNumber: 3458,
+                                                                    lineNumber: 3467,
                                                                     columnNumber: 25
                                                                 }, this))
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/pages/Home.tsx",
-                                                            lineNumber: 3456,
+                                                            lineNumber: 3465,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -9187,7 +9203,7 @@ function CourseDetail({ slug }) {
                                                             children: "What the course covers"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/pages/Home.tsx",
-                                                            lineNumber: 3465,
+                                                            lineNumber: 3474,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -9196,18 +9212,18 @@ function CourseDetail({ slug }) {
                                                                     children: t
                                                                 }, t, false, {
                                                                     fileName: "[project]/src/pages/Home.tsx",
-                                                                    lineNumber: 3475,
+                                                                    lineNumber: 3484,
                                                                     columnNumber: 25
                                                                 }, this))
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/pages/Home.tsx",
-                                                            lineNumber: 3473,
+                                                            lineNumber: 3482,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/pages/Home.tsx",
-                                                    lineNumber: 3455,
+                                                    lineNumber: 3464,
                                                     columnNumber: 19
                                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
                                                     children: [
@@ -9218,7 +9234,7 @@ function CourseDetail({ slug }) {
                                                             children: "What you will get"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/pages/Home.tsx",
-                                                            lineNumber: 3481,
+                                                            lineNumber: 3490,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -9228,53 +9244,53 @@ function CourseDetail({ slug }) {
                                                                     children: "Trainer-led sessions with practical explanations and demonstrations"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/Home.tsx",
-                                                                    lineNumber: 3490,
+                                                                    lineNumber: 3499,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                     children: "Hands-on exercises and guided assignments"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/Home.tsx",
-                                                                    lineNumber: 3494,
+                                                                    lineNumber: 3503,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                     children: "Role-relevant projects in selected courses"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/Home.tsx",
-                                                                    lineNumber: 3495,
+                                                                    lineNumber: 3504,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                     children: "Resume, LinkedIn and mock interview support"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/Home.tsx",
-                                                                    lineNumber: 3496,
+                                                                    lineNumber: 3505,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                     children: "Classroom or live online learning"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/Home.tsx",
-                                                                    lineNumber: 3497,
+                                                                    lineNumber: 3506,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/pages/Home.tsx",
-                                                            lineNumber: 3489,
+                                                            lineNumber: 3498,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/pages/Home.tsx",
-                                                    lineNumber: 3480,
+                                                    lineNumber: 3489,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 3449,
+                                            lineNumber: 3458,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -9285,7 +9301,7 @@ function CourseDetail({ slug }) {
                                                     children: "Syllabus"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/Home.tsx",
-                                                    lineNumber: 3504,
+                                                    lineNumber: 3513,
                                                     columnNumber: 17
                                                 }, this),
                                                 d ? d.mods.map((m, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -9302,14 +9318,14 @@ function CourseDetail({ slug }) {
                                                                                 children: i + 1
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/pages/Home.tsx",
-                                                                                lineNumber: 3514,
+                                                                                lineNumber: 3523,
                                                                                 columnNumber: 27
                                                                             }, this),
                                                                             m.t
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/src/pages/Home.tsx",
-                                                                        lineNumber: 3513,
+                                                                        lineNumber: 3522,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -9319,13 +9335,13 @@ function CourseDetail({ slug }) {
                                                                         children: open === i ? "−" : "+"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/pages/Home.tsx",
-                                                                        lineNumber: 3518,
+                                                                        lineNumber: 3527,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/pages/Home.tsx",
-                                                                lineNumber: 3509,
+                                                                lineNumber: 3518,
                                                                 columnNumber: 23
                                                             }, this),
                                                             open === i && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -9337,7 +9353,7 @@ function CourseDetail({ slug }) {
                                                                                 children: h
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/pages/Home.tsx",
-                                                                                lineNumber: 3532,
+                                                                                lineNumber: 3541,
                                                                                 columnNumber: 33
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -9346,18 +9362,18 @@ function CourseDetail({ slug }) {
                                                                                         children: t
                                                                                     }, t, false, {
                                                                                         fileName: "[project]/src/pages/Home.tsx",
-                                                                                        lineNumber: 3536,
+                                                                                        lineNumber: 3545,
                                                                                         columnNumber: 37
                                                                                     }, this))
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/pages/Home.tsx",
-                                                                                lineNumber: 3534,
+                                                                                lineNumber: 3543,
                                                                                 columnNumber: 33
                                                                             }, this)
                                                                         ]
                                                                     }, h, true, {
                                                                         fileName: "[project]/src/pages/Home.tsx",
-                                                                        lineNumber: 3531,
+                                                                        lineNumber: 3540,
                                                                         columnNumber: 31
                                                                     }, this)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                     className: "tp",
@@ -9368,23 +9384,23 @@ function CourseDetail({ slug }) {
                                                                             children: t
                                                                         }, t, false, {
                                                                             fileName: "[project]/src/pages/Home.tsx",
-                                                                            lineNumber: 3549,
+                                                                            lineNumber: 3558,
                                                                             columnNumber: 33
                                                                         }, this))
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/Home.tsx",
-                                                                    lineNumber: 3542,
+                                                                    lineNumber: 3551,
                                                                     columnNumber: 29
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/pages/Home.tsx",
-                                                                lineNumber: 3528,
+                                                                lineNumber: 3537,
                                                                 columnNumber: 25
                                                             }, this)
                                                         ]
                                                     }, m.t, true, {
                                                         fileName: "[project]/src/pages/Home.tsx",
-                                                        lineNumber: 3508,
+                                                        lineNumber: 3517,
                                                         columnNumber: 21
                                                     }, this)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "card",
@@ -9397,7 +9413,7 @@ function CourseDetail({ slug }) {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/pages/Home.tsx",
-                                                            lineNumber: 3559,
+                                                            lineNumber: 3568,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -9407,7 +9423,7 @@ function CourseDetail({ slug }) {
                                                             children: "Our counsellor will share the module-wise syllabus, duration and schedule for this course."
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/pages/Home.tsx",
-                                                            lineNumber: 3561,
+                                                            lineNumber: 3570,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -9417,19 +9433,19 @@ function CourseDetail({ slug }) {
                                                             children: "Request Syllabus"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/pages/Home.tsx",
-                                                            lineNumber: 3570,
+                                                            lineNumber: 3579,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/pages/Home.tsx",
-                                                    lineNumber: 3558,
+                                                    lineNumber: 3567,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 3503,
+                                            lineNumber: 3512,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -9440,7 +9456,7 @@ function CourseDetail({ slug }) {
                                                     children: "Trainer profile"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/Home.tsx",
-                                                    lineNumber: 3578,
+                                                    lineNumber: 3587,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -9451,7 +9467,7 @@ function CourseDetail({ slug }) {
                                                             children: "👨‍🏫"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/pages/Home.tsx",
-                                                            lineNumber: 3581,
+                                                            lineNumber: 3590,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -9460,7 +9476,7 @@ function CourseDetail({ slug }) {
                                                                     children: "Our trainers give you the freedom to explore the subject through real-time examples. They help you complete your projects, prepare you for interview questions and welcome your questions at any time."
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/Home.tsx",
-                                                                    lineNumber: 3584,
+                                                                    lineNumber: 3593,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -9474,12 +9490,12 @@ function CourseDetail({ slug }) {
                                                                             children: t
                                                                         }, t, false, {
                                                                             fileName: "[project]/src/pages/Home.tsx",
-                                                                            lineNumber: 3601,
+                                                                            lineNumber: 3610,
                                                                             columnNumber: 25
                                                                         }, this))
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/Home.tsx",
-                                                                    lineNumber: 3591,
+                                                                    lineNumber: 3600,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -9492,31 +9508,31 @@ function CourseDetail({ slug }) {
                                                                     children: "Let's Get Started"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/Home.tsx",
-                                                                    lineNumber: 3605,
+                                                                    lineNumber: 3614,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/pages/Home.tsx",
-                                                            lineNumber: 3583,
+                                                            lineNumber: 3592,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/pages/Home.tsx",
-                                                    lineNumber: 3580,
+                                                    lineNumber: 3589,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 3577,
+                                            lineNumber: 3586,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 3448,
+                                    lineNumber: 3457,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -9527,26 +9543,26 @@ function CourseDetail({ slug }) {
                                             children: "Frequently asked questions"
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 3621,
+                                            lineNumber: 3630,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Acc, {
                                             items: faqs
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 3623,
+                                            lineNumber: 3632,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 3620,
+                                    lineNumber: 3629,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 3447,
+                            lineNumber: 3456,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("aside", {
@@ -9558,7 +9574,7 @@ function CourseDetail({ slug }) {
                                         children: "Course snapshot"
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/Home.tsx",
-                                        lineNumber: 3629,
+                                        lineNumber: 3638,
                                         columnNumber: 15
                                     }, this),
                                     facts.map(([k, v])=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -9568,20 +9584,20 @@ function CourseDetail({ slug }) {
                                                     children: k
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/Home.tsx",
-                                                    lineNumber: 3633,
+                                                    lineNumber: 3642,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
                                                     children: v
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/Home.tsx",
-                                                    lineNumber: 3634,
+                                                    lineNumber: 3643,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, k, true, {
                                             fileName: "[project]/src/pages/Home.tsx",
-                                            lineNumber: 3632,
+                                            lineNumber: 3641,
                                             columnNumber: 17
                                         }, this)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -9596,7 +9612,7 @@ function CourseDetail({ slug }) {
                                         children: "Enroll Now!"
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/Home.tsx",
-                                        lineNumber: 3638,
+                                        lineNumber: 3647,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -9611,7 +9627,7 @@ function CourseDetail({ slug }) {
                                         children: "Book a Free Demo"
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/Home.tsx",
-                                        lineNumber: 3651,
+                                        lineNumber: 3660,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -9630,40 +9646,40 @@ function CourseDetail({ slug }) {
                                                 children: "+91 980 306 1234"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/Home.tsx",
-                                                lineNumber: 3673,
+                                                lineNumber: 3682,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/pages/Home.tsx",
-                                        lineNumber: 3664,
+                                        lineNumber: 3673,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/pages/Home.tsx",
-                                lineNumber: 3628,
+                                lineNumber: 3637,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 3627,
+                            lineNumber: 3636,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 3446,
+                    lineNumber: 3455,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/pages/Home.tsx",
-                lineNumber: 3445,
+                lineNumber: 3454,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(JourneyTrack, {}, void 0, false, {
                 fileName: "[project]/src/pages/Home.tsx",
-                lineNumber: 3682,
+                lineNumber: 3691,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -9676,7 +9692,7 @@ function CourseDetail({ slug }) {
                             title: "You may also like"
                         }, void 0, false, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 3686,
+                            lineNumber: 3695,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -9685,23 +9701,23 @@ function CourseDetail({ slug }) {
                                     c: x
                                 }, x.slug, false, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 3690,
+                                    lineNumber: 3699,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 3688,
+                            lineNumber: 3697,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 3685,
+                    lineNumber: 3694,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/pages/Home.tsx",
-                lineNumber: 3684,
+                lineNumber: 3693,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -9714,7 +9730,7 @@ function CourseDetail({ slug }) {
                             title: c.name + " training near you"
                         }, void 0, false, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 3698,
+                            lineNumber: 3707,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -9727,34 +9743,34 @@ function CourseDetail({ slug }) {
                                     ]
                                 }, a, true, {
                                     fileName: "[project]/src/pages/Home.tsx",
-                                    lineNumber: 3705,
+                                    lineNumber: 3714,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/pages/Home.tsx",
-                            lineNumber: 3703,
+                            lineNumber: 3712,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/pages/Home.tsx",
-                    lineNumber: 3697,
+                    lineNumber: 3706,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/pages/Home.tsx",
-                lineNumber: 3696,
+                lineNumber: 3705,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Lead, {}, void 0, false, {
                 fileName: "[project]/src/pages/Home.tsx",
-                lineNumber: 3713,
+                lineNumber: 3722,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/pages/Home.tsx",
-        lineNumber: 3374,
+        lineNumber: 3383,
         columnNumber: 5
     }, this);
 }
@@ -9805,91 +9821,91 @@ function App() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Topbar, {}, void 0, false, {
                 fileName: "[project]/src/pages/Home.tsx",
-                lineNumber: 3765,
+                lineNumber: 3774,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Header, {
                 route: rt.r
             }, void 0, false, {
                 fileName: "[project]/src/pages/Home.tsx",
-                lineNumber: 3767,
+                lineNumber: 3776,
                 columnNumber: 7
             }, this),
             rt.r === "about" ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(About, {}, void 0, false, {
                 fileName: "[project]/src/pages/Home.tsx",
-                lineNumber: 3770,
+                lineNumber: 3779,
                 columnNumber: 9
             }, this) : rt.r === "courses" ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(CoursesPage, {}, void 0, false, {
                 fileName: "[project]/src/pages/Home.tsx",
-                lineNumber: 3772,
+                lineNumber: 3781,
                 columnNumber: 9
             }, this) : rt.r === "course" ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(CourseDetail, {
                 slug: rt.slug
             }, rt.slug, false, {
                 fileName: "[project]/src/pages/Home.tsx",
-                lineNumber: 3774,
+                lineNumber: 3783,
                 columnNumber: 9
             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Hero, {}, void 0, false, {
                         fileName: "[project]/src/pages/Home.tsx",
-                        lineNumber: 3777,
+                        lineNumber: 3786,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Partners, {}, void 0, false, {
                         fileName: "[project]/src/pages/Home.tsx",
-                        lineNumber: 3778,
+                        lineNumber: 3787,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Courses, {}, void 0, false, {
                         fileName: "[project]/src/pages/Home.tsx",
-                        lineNumber: 3779,
+                        lineNumber: 3788,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Why, {}, void 0, false, {
                         fileName: "[project]/src/pages/Home.tsx",
-                        lineNumber: 3780,
+                        lineNumber: 3789,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Paths, {}, void 0, false, {
                         fileName: "[project]/src/pages/Home.tsx",
-                        lineNumber: 3781,
+                        lineNumber: 3790,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Match, {}, void 0, false, {
                         fileName: "[project]/src/pages/Home.tsx",
-                        lineNumber: 3782,
+                        lineNumber: 3791,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Hackathon, {}, void 0, false, {
                         fileName: "[project]/src/pages/Home.tsx",
-                        lineNumber: 3783,
+                        lineNumber: 3792,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Reviews, {}, void 0, false, {
                         fileName: "[project]/src/pages/Home.tsx",
-                        lineNumber: 3784,
+                        lineNumber: 3793,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Faq, {}, void 0, false, {
                         fileName: "[project]/src/pages/Home.tsx",
-                        lineNumber: 3785,
+                        lineNumber: 3794,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Lead, {}, void 0, false, {
                         fileName: "[project]/src/pages/Home.tsx",
-                        lineNumber: 3786,
+                        lineNumber: 3795,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/pages/Home.tsx",
-                lineNumber: 3776,
+                lineNumber: 3785,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Footer, {}, void 0, false, {
                 fileName: "[project]/src/pages/Home.tsx",
-                lineNumber: 3790,
+                lineNumber: 3799,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -9900,18 +9916,18 @@ function App() {
                 children: "💬 WhatsApp"
             }, void 0, false, {
                 fileName: "[project]/src/pages/Home.tsx",
-                lineNumber: 3792,
+                lineNumber: 3801,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(DemoPopup, {}, void 0, false, {
                 fileName: "[project]/src/pages/Home.tsx",
-                lineNumber: 3801,
+                lineNumber: 3810,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/pages/Home.tsx",
-        lineNumber: 3764,
+        lineNumber: 3773,
         columnNumber: 5
     }, this);
 }

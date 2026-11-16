@@ -353,6 +353,8 @@ export function Header({ route }: { route?: string }) {
     // ["Blog", "https://www.nexilatechnologies.com/author/admin_nexila/"],
     ["Blog", "/blogs"],
     ["Contact", "/contact-us"],
+        // ["Terms & Conditions","/terms-and-conditions"],
+    // ["Privacy Policy","/terms-and-conditions"]
   ];
   const click = (e, n, h) => {
     setO(false);
@@ -1866,6 +1868,13 @@ export function Footer() {
             </a>
 
             <a href="/blogs">Blog</a>
+               <a href="/terms-and-conditions">
+    Terms & Conditions
+  </a>
+
+  <a href="/privacy-policy">
+    Privacy Policy
+  </a>
           </div>
 
           <div>
