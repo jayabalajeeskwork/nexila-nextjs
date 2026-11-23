@@ -457,5 +457,15 @@ export const SEO_CONFIG: Record<string, SeoPage> = {
   ogTitle: "Privacy Policy | Nexila Technologies",
   type: "WebPage",
 },
+
+"/college-students-internship-chennai": {
+    title: "IT Internship for Students in Tambaram, Chennai | Nexila",
+    description:
+      "Software internship for college students in Tambaram, Chennai. 2 to 8 weeks, live projects, mentor guidance, certificate and recommendation letter. Apply now.",
+    keywords:
+      "IT internship in Tambaram, internship for students in Chennai, software development internship, internship for engineering students, full stack internship, python internship, AI ML internship Chennai, DevOps internship",
+    ogTitle: "IT Internship for Students in Chennai",
+    type: "WebPage",
+  },
   // Add the remaining course entries from your SEO spreadsheet here.
 };

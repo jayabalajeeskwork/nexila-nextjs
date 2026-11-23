@@ -1,6 +1,7 @@
 {
   "app": {
-    "[project]/src/app/college-students-internship-chennai/page": []
+    "[project]/src/app/college-students-internship-chennai/page": [],
+    "[project]/src/app/page": []
   },
   "appUsingSizeAdjust": false,
   "pages": {},
